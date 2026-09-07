@@ -1,0 +1,3460 @@
+{
+  "build": "passed",
+  "checked_theorems": 688,
+  "transitive_axioms": {
+    "GMZP0.cubic_lag_difference": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lag_target_coordinate": [
+      "propext"
+    ],
+    "GMZP0.double_phase_reroot": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fourth_difference_cubic": [
+      "propext"
+    ],
+    "GMZP0.linear_collision_eight": [
+      "propext"
+    ],
+    "GMZP0.norm_cubicPhase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicPhase_coe_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistanceSq_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_response_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mean_le_root_mean_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_response_sub_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.aligned_response_transfer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_response_transfer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_ge_mean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_response_selection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_response_of_finite_capture": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_response_le_mean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.captured_response_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.small_scale_selection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_response_alignment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.thresholdWeight_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.thresholdWeight_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.thresholdWeight_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_admissible_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.p0_of_weightedCapture": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.root_sum_square_add_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_self": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_triangle": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_le_of_label_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_nearest_frequency_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicPhase_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicPhase_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_cubicPhase_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.real_cubicPhase_chord_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicPhase_chord_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_le_circle_scale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicDistance_le_of_scaled_circle_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.integer_cast_frequency": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.zero_branch_division_counterexample": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circle_root_decomposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circle_root_with_real_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circle_approx_root_decomposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circle_approx_root_fullLabel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.real_grid_rounding": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubic_scale_grid_rounding": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.grid_index_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.gridIndices_nonempty": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.majorArc_grid_approximation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.majorArc_universal_list": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_mass_le_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.retained_mass_from_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.assigned_weighted_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.assigned_minor_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.major_mass_of_minor_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.endpoint_eq_inputPoint": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_inputBox": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.inputEnergy_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteResponse_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.profileMinorEnergy_of_finite_estimate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_estimates_assigned_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.freezing_energy_budget": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_capture_from_model_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_capture_from_model_operators": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.inputPoint_injective": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.endpointIndex_label_injective": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.endpointIndex_base_injective": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.endpointIndex_same_horizontal": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.integer_parabola_collision": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.collision_lag_displacement": [
+      "propext"
+    ],
+    "GMZP0.kernel_adjoint_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.kernel_comp_adjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.gramKernel_conjugate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.responseKernel_action": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteResponse_adjoint_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.responseKernel_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.responseKernel_gram_same_horizontal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.responseKernel_horizontal_block": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteEnergy_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finitePairing_self": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finitePairing_norm_sq_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_original_pairing": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_original_adjoint_sq_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_original_adjoint_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.alignedWeightVector_energy_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteAdjoint_energy_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_original_response_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.gram_same_horizontal_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteAdjoint_energy_split": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_offHorizontal_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalScaledWeight_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalScaledWeight_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalScaledWeight_support": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalScaledWeight_response": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_window_response_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.offHorizontalEnergy_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.offBlockNormSum_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.offHorizontalEnergy_le_blocks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_first_tt_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_window_first_tt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalPairing_adjoint_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalPairing_zero_left": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalPairing_zero_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.offBlockNormSum_restrict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.secondAdjointEnergy_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.offBlockNormSum_sq_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.offBlockNormSum_second_adjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_window_second_adjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.endpointIndex_collision_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.nonparallel_collision_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.collision_target_unique": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalKernel_of_collision": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalKernel_no_collision": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalKernel_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontal_collision_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalKernel_row_energy_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.kernelAdjoint_energy_gram": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.gram_diagonal_interaction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.gram_interaction_original_weights": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.zero_pairing_nonzero_adjoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.kernelAdjoint_energy_split": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_signed_original_weights": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.secondDiagonalEnergy_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.secondAdjointEnergy_split": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.secondDiagonalEnergy_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_window_second_diagonal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_window_finite_signed_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parabola_shift_abs_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safe_vertical_shift": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safe_parabola_target": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safe_lag_target": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_original_vertical_point": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safe_original_target_exists": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontal_interval_gap": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.vertical_lag_zero_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fin_initial_strip_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fin_final_strip_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fin_boundary_strips_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_safeRows_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boundaryBaseSet_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boundary_original_mass_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safe_boundary_mass_partition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safe_original_mass_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontal_partition_cover": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalChunk_interval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_horizontalChunk_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalChunk_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.chunkWindow_geometry": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.chunkWindow_mass_partition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_mean_chunk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_heavy_chunk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.windowModulus_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safeWindowMass_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.window_boundary_budget": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_original_safe_chunk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_safe_window": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.safe_chunk_target_exists": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weight_mass_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.positive_from_signed_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteStatisticThreshold_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_from_signed_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_safe_statistic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circleCharacter_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circleCharacter_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circleCharacter_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circleCharacter_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicPhase_integer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.double_phase_character": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.doublePhaseCoefficient_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.integer_label_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalGap_ne_zero": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_blockLabels_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_lagLabels_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lag_labels_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lag_domain_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.double_collision_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.double_collision_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.double_collision_zero_lag_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.double_kernel_original_phase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.double_kernel_original_weighted_phase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.oneBasedIndex_label": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.shiftedBlockLabel_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.blockTarget_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.blockTarget_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.blockTarget_collision": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.collision_in_blockTargets": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.blockFinLabels_membership": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalKernel_label_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalBlock_action_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.blockCoefficient_character": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.oneBasedIndex_of_label": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.blockLabelEquiv_symm_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalBlock_action_integer_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.label_difference_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagSource_coordinate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagSource_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagSource_self": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagSource_eq_self_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagSource_collision": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.collision_in_lagSources": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalKernel_lag_weighted_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalGram_action_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalGram_offDiagonal_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalGram_offDiagonal_original_phase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagLabels_empty_of_large_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_lagPairDomain_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.integer_label_pair_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_blockFinLabels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.label_difference_ne_zero_iff": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.distinct_label_pair_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalFieldExtension_vertical_outside": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalFieldExtension_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalFieldExtension_lagSource": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalFieldExtension_blockTarget": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalLagSummand_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalGram_offDiagonal_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.secondOffDiagonalEnergy_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteSignedDoubleStatistic_eq_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_window_statistic_eq_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_safe_lag_statistic": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_rerootLabels_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.reroot_lag_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_rerootPairDomain_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lag_sum_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalLagSummand_zero_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalLagSummand_zero_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lag_sum_split_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fullLagNumerator_split": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fullLagStatistic_split": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagDiagonalStatistic_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagSigned_le_full": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagLabels_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.blockLabels_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.zero_lag_row_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.zeroLagNumerator_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagDiagonalStatistic_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_window_lag_diagonal_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalLagSummand_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rerooted_inner_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fullLagNumerator_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fullLagStatistic_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.signed_plus_diagonal_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.originalFieldExtension_property": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_circleCharacter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rerootedOuterPhase_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rerootedLagG_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagInnerInterval_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rerootedLagB_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rerootedWeightedSum_le_normSum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagSigned_le_rerootedNormSum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_original_integer_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_rerootLabels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteRerootedNormAverage_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_rerooted_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicRow_value": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicRow_injective": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicField_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicRow_range_iff": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicField_outside_range": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicField_shift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_original_weighted_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicField_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicField_reroot_target": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagG_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagP_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagB_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_weighted_B_norm_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalGap_bound": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontalShiftLabels_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.horizontal_shift_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicShiftLagP_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicShiftLagB_gap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicPairNormNumerator_original": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicPairNormNumerator_shift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicModulusAverage_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_to_cyclic_modulus_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_average_positive_of_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicField_property": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagG_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicShiftLagB_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_cyclic_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_cyclicSamplingSpace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicWeight_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicModulusAverage_as_uniform_mean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_prime_cyclic_modulus": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_sum_bounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_sum_sub_sum_le_sdiff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_Icc_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_Icc_translate_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_Icc_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagInnerInterval_eq_Icc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_lag_sum_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_const": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_complexUniformMean_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_complexUniformMean_sub_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_sum_div": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_norm_mean_stability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_smoothingShiftLabels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_fourShiftSpace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fourShiftSum_abs_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fourShiftSmoothedAverage_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_fourShiftSmoothedAverage_sub_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.smoothingRadius_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagSequence_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicSmoothedLagB_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_smoothed_average_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_smoothed_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicFaceCoefficient_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_cubicFaceCoefficient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicFacePhase_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicFacePhase_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicPhase_four_faces": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicShiftLagP_four_faces": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagSequence_four_faces": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicSmoothedLagB_four_faces": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_const": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_const_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_mul_const": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_const_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_conj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_re": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_prod": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_prod": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_comm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_cons": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_complexUniformMean_le_mean_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_sq_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.norm_complexUniformMean_sq_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_pow_two_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_pair_mul_conj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_pair_norm_sq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mean_inner_norm_sq_eq_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.box_remove_unit_face": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.box_remove_unit_face_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxDoubledFaces_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxDoubledFaces_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxTailIntegrand_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxCorrelation_split_head": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxCorrelation_sq_le_doubled": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxMoment_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.faceIndependent_one_const": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxCorrelation_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.box_cauchy_schwarz": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxMoment_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.iteratedSqrt_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.iteratedSqrt_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxNorm_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxNorm_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxCorrelation_le_boxNorm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxNorm_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.shiftCubicFaces_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.shiftCubicFaces_independent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagBoxNorm_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagBoxNorm_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagBoxNorm_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicShiftMean_le_boxNorm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicSmoothedLagB_le_boxSum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fullLagLabels_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lagInnerInterval_subset_full": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fullLag_sum_eq_card_mean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_lag_sum_le_three_mean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_cyclicBoxSamplingSpace": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicSmoothedModulusAverage_le_three_boxMean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicBoxNormAverage_pow_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.positive_cyclic_box_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_box_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeConj_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeConj_conj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeConj_ofReal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeConj_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeSign_eq_parity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeConj_character": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_booleanVertices": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_ofReal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.prod_boolean_cons": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeVertex_cons": [
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeProduct_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeProduct_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeMean_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeMean_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeMean_eq_boxMoment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxMoment_eq_cubeMean_re": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeMean_nonneg_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circleCharacter_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.alternating_weighted_character_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circle_cubic_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circle_cubic_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_cubeShiftPairs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_cube_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeAverage_re": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLagG_shift_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeProduct_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeAverage_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicRerootedCubeAverage_eq_moment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicRerootedCubeProduct_factorized": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubePhase_polynomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeCoefficients_top": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeWeight_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeAlignment_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicRerootedCubeProduct_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_cube_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_cubeWeylParameters": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicRerootedCubeAverage_split_time": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeTimeAverage_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeAverage_le_weightedTimeNorm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeWeight_ne_zero_vertices": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCube_original_vertices": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_weighted_time_average": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circleCharacter_nsmul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circle_norm_le_chord": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.linearPhaseMean_geometric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.linearPhaseMean_chord_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.linear_weyl_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_fin_labels": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.integerIntervalMean_eq_fin": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.interval_pair_difference_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weyl_correlation_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weyl_mean_square_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weylCorrelation_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weyl_nonzero_correlation_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_le_large_card_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.many_large_weyl_correlations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.largeWeylShifts_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weyl_small_scale_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.sum_Icc_as_fin": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.linear_phase_sum_geometric": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.linear_phase_sum_chord_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.linear_interval_sum_chord_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.linear_interval_weyl_inverse": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.quadraticCirclePolynomial_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubicCirclePolynomial_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weylCorrelation_phase_interval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.quadratic_weyl_correlation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubic_weyl_correlation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.quadratic_large_shift_control": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.quadratic_many_returns": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.close_integer_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.affine_return_small_multiple": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.integer_card_le_diameter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.affine_fiber_spread": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.affine_slope_from_rounded_returns": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_returnRoundTargets": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rounded_affine_target_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.multiplied_affine_return_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.affine_return_amplification": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.dense_returns_seed_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_affine_dense_returns": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_quadratic_weyl_large": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_quadratic_weyl": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.interval_length_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.interval_mean_rescale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.interval_large_rescaling": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.quadraticCirclePolynomial_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_quadratic_interval_weyl": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weylOverlap_card_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_positive_denominator_fiber": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_cubic_dense_returns": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_cubic_weyl_large": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_cubic_weyl": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_cubic_common_denominator": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeTimeAverage_as_polynomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_original_cube_weyl": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_condition_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_weighted_cube_weyl": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_original_cube_capture": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeVertex_zero_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cube_pair_collision_zero_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cube_pair_collision_zero_step_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_resample": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_event_le_one_over_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_event_le_of_update_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_ascendingCubeLabelPairs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cube_collision_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.positive_cube_collision_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_cubeSpatialParameters": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeNearMass_remove_lag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeNearWeight_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeShiftSum_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeVertex_neg_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeCubicCoeff_neg_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeWeight_neg_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeNearWeight_neg_reflect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeNearWeight_mean_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_event_union_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeShiftSum_flat": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.flatCubeShiftSum_update_sub": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.flatCubeShiftSum_update_other": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cube_collision_update_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cube_pair_collision_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_prod_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_positiveCubeParameters": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicSpatialCubeNearMass_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeNearMass_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.smoothingShift_cast_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.positive_cube_step_ne_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.signedHorizontalLabel_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.signedHorizontalLabel_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.real_signed_mean_eq_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_collision_scale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicDistinctCubeNearWeight_pos_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_distinct_original_cube_capture": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_positive_original_cube_capture": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_event_removal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.positive_cube_total_collision_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicDistinctPositiveCubeNearMass_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cube_choice_sum_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_cube_integer_correction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_cube_lift_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequency_coe_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeRoundedSum_abs_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeRoundedSum_real_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeUnitRep_sum_coe": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeRoundedSum_circle_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cube_rounding_branch": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cubeSign_one_or_neg_one": [
+      "propext"
+    ],
+    "GMZP0.cubeSign_abs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_positiveCubeVertices": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_negativeCubeVertices": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.bounded_integer_cube_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_cyclic_lift_choice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_cyclic_real_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCube_scaled_frequency_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicCubeWeight_pos_vertices": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_lift_cube_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicDistinctCubeNearWeight_eq_ite_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLiftValue_grid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLiftValue_abs_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLiftValue_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLiftValue_circle_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLiftValue_original_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.separate_witnesses_not_one_global_witness": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_ge_realUniformMean": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mean_constant_event_weight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_global_weighted_success": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_restrict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_singleton_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_restricted_assignment_probability": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_restricted_event_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realUniformMean_comm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.card_liftChoice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftChoice_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftChoiceValue_grid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftChoiceValue_abs_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftChoiceValue_circle_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftGridSize_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_lift_grid_scale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequencyUnitRep_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequencyUnitRep_coe": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.round_monotone_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.round_between_integers": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftRound_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftRound_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.liftRound_div_error": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_original_real_lift": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.circleCharacter_eq_one_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.completeCharacterMean_torsion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.short_rational_frequency_zero_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_character_orthogonality": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realSignedCubeSum_grid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realSignedCubeSum_abs_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realSignedCubeSum_abs_le_384": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realSignedCubeSum_grid_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.meshFrequency_mul_grid": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequencyMeshMean_grid_integer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequencyMeshMean_real_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequencyMeshMean_realCube": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.integer_frequency_alias_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequencyMeshMean_period": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.frequency_mesh_size_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeNorm_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeNorm_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeNorm_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_complex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_real_cube_character": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_frequency_cube_exact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_frequency_cube_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localBoxFunction_cyclic_vertex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLocalMoment_expand": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.modulatedCyclicField_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.modulatedCyclicField_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_weighted_frequency_cube": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_local_frequency_row": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLocalFourMoment_eq_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLocalFourthNormAverage_eq_moment": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLocalFourthNormAverage_eq_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_original_local_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.bounded_moment_good_fibres": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLocalFourFiber_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclic_local_good_fibres": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_original_local_fibres": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.complexUniformMean_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_character_pair_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteFourier_inversion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteFourier_inner": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteFourier_parseval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_character_mul_conj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.correlation_character_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteFourier_correlation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realDifferenceDensity_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteCorrelation_ofReal": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fourierEnergyWeight_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fourierEnergyWeight_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realDifferenceDensity_fourier": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.positive_product_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.positive_product_mixture_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.differenceDensity_product_fourier": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.differenceWeightedCubeMean_fourier": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.differenceWeightedCubeMean_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDensity_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDensity_card": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDensity_pushforward": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDensity_mean_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDensity_le_multiplicity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDensity_energy_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.realDifferenceDensity_weighted": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDifference_pushforward": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.box_remove_bounded_face": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxDoubledFaces_norm_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxCorrelation_sq_le_doubled_bounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxCorrelation_one_bounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.box_cauchy_schwarz_bounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.boxCorrelation_le_boxNorm_bounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_product_pushforward": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localBoxFunction_additive_vertex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.local_cube_mean_reroot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDifference_product_pushforward": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_eq_differenceWeighted": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_fourier": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_bound_of_twisted": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.parameterDensity_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_const_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.raw_probability_density_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeMoment_additive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finite_self_correlation_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.additiveCubeVertex_cons": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.additiveCubeProduct_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.additiveCubeProduct_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.additiveCubeProduct_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.crossCorrelation_character_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteFourier_crossCorrelation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.finiteFourier_modulation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.derivativeFourier_crossCorrelation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.derivativeFourier_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.derivativeFourier_energy_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalTwistedCubeMean_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalTwistedCubeMean_zero_twist": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalTwistedCubeMean_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeMoment_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeMoment_succ": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeMoment_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeMoment_two_fourier": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalTwistedCubeMean_two_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalTwistedCubeMean_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeMoment_le_global": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeNorm_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeNorm_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.localCubeNorm_le_global": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeMoment_lower_from_local": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.character_first_cube_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.dimension_one_twist_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.globalCubeMoment_real_expansion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.global_frequency_moment_exact": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicGlobalSeventhMoment_eq_mass": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.exists_good_large_value": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicPairLocalSeven_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_scale_parameter_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.shrunk_radius_short": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.nat_floor_ge_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.shrunk_radius_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.pair_shift_integer_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.bounded_pair_values_no_wrap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.uniform_shrunk_radius_threshold": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.cyclicLocalFourthNormAverage_le_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_scale_bound_of_local_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "main_P0": "NOT_proved",
+  "weighted_capture": "NOT_proved",
+  "conditional_P0_reduction": "checked: WeightedCapture -> P0",
+  "conditional_terminal_capture": "checked: explicit model approximation and finite minor-arc operator estimates imply original-weight finite capture",
+  "original_first_adjoint": "checked: exact finite adjoint, endpoint Gram expansion, I/N same-horizontal block, original-weight energy lower bound and first grouped TT* inequality",
+  "second_adjoint_statistic": "checked with explicit horizontal window X; normalized second diagonal <= mu(D)/N; complete original-label reindexing proves equality to the finite lag-indexed signed statistic at total scale N^(-6)",
+  "safe_window": "checked: M=ceil(64/kappa), c=kappa/(4M), exact interval partition, original mass and supported original targets",
+  "positive_safe_statistic": "checked: constants and scale threshold precede all original data; exact finite and lag statistics are equal and >= 2*zeta > 0, with original responses retained",
+  "lag_reindexing": "checked: single block, full double-label sum, (r1,r2) to (k,r) and t=r+k-h finite-sum bijections; k=0 contribution explicit, nonnegative and <= mu(D)/N; original targets and weights preserved",
+  "rerooted_average": "checked: exact g(k)e(P(k)) factorization, B normalized by N, S_lag+D_lag equals N^(-5) outer weighted sum, |g| and |B| <= 1, uniform positive finite modulus average",
+  "cyclic_average": "checked: original supported field values and B survive cyclic embedding; complete horizontal reindexing has 2N shifts; exact finite modulus average = (2q/N^2) * cyclic modulus average; constants precede N, q and all original data; cyclic mean >= zeta/128, with weights in [0,1] on a 2qN^3-point sample space",
+  "prime_modulus": "checked from Mathlib Bertrand: for every N>0 there is a prime 64N^2<q<128N^2",
+  "smoothing": "checked: interval translation error for all signed shifts and empty intervals; four independent shifts on exactly (2*ell+1)^4 points; N-normalized error <= 8*ell/N <= a/8; the smoothed original weighted mean is >=7*a/8 with all constants preceding N, q and original data",
+  "cubic_faces": "checked: explicit four unit circle-phase factors, each independent of its own coordinate; exact factorization of the actual cyclic smoothed sequence",
+  "box_cauchy_schwarz": "checked for every dimension: coordinate doubling preserves unit face factors and independence; nonnegative recursively defined box moments and exact root-power identity; actual four-shift sequence is bounded by its box norm",
+  "positive_box_average": "checked: weights removed only from a nonnegative box norm; full lag extension costs (2N+1)/N<=3; finite moment Jensen gives average box moment >=(a/4)^16 on 2qN^3(2N+1) outer samples; constants precede N, q and original data, original mass and complete response retained",
+  "cube_expansion": "checked in every dimension: exact complex equality of recursive moment and full Boolean-vertex product with multiplicities and parity conjugation; four-dimensional shift pairs have (2*ell+1)^8 points",
+  "cube_rerooting": "checked: full cyclic average reindexed by Y=y+2hk with explicit inverse; sixteen weights and alternating alignments factored; t-cubic coefficient is minus the signed original frequency sum and independent of k",
+  "weighted_time_average": "checked: full t average separated by an exact finite bijection; all sixteen weights remain in an average >=(a/4)^16 with constants before N, q and original data; each nonzero-weight cube vertex is an actual retained original base point with the original complete response",
+  "linear_weyl": "checked: inverse chord and geometric sums give ||a|| <= 1/(2*rho*N) for every affine phase and every integer interval with original N normalization",
+  "weyl_differencing": "checked: exact whole pair-sum identity, explicit zero shift <=1, at least N*rho^2/4 nonzero signed shifts above rho^2/8 when N*rho^2>=2; exact N=1 obstruction to dropping this threshold",
+  "polynomial_differences": "checked: exact circle-valued quadratic/cubic derivatives on actual overlap intervals; quadratic large shifts satisfy ||2*h*a2|| <= 4/(rho^2*N), without changing N normalization",
+  "affine_recurrence_seed": "checked: explicit pigeonhole cardinality condition gives two nearby actual returns and a nonzero bounded multiple",
+  "affine_recurrence": "checked: bounded actual rounding fibers amplify epsilon to E*epsilon/N when epsilon*N<=C; positive denominator bound, error factor and threshold precede N, a, b, epsilon and the retained set",
+  "quadratic_weyl": "checked at every N>0: uniform bounded positive denominator and N^(-2) leading-coefficient error; actual shorter intervals retain their original N normalization",
+  "cubic_weyl": "checked at every N>0: exact differencing, actual quadratic denominator fiber and affine recurrence give uniform bounded positive denominator and N^(-3) leading-coefficient error",
+  "common_denominator": "checked: factorial of the uniform denominator bound yields one positive denominator fixed before N and all polynomial/original data",
+  "weighted_cube_capture": "checked: actual original cubic time sum has the checked leading coefficient; successful N^(-3) cube coefficients retain original weighted mean >=(a/4)^16/2, all constants before N,q and original data, with original safe mass and complete responses preserved",
+  "lag_and_sign_reduction": "checked: unused k average removed exactly; simultaneous h/shift reflection fixes every actual vertex and preserves all weights; positive-h mean equals the original signed mean",
+  "cube_collisions": "checked: short shift interval embeds, 2h is nonzero for positive labels at the chosen scale, coordinate resampling gives pair probability <=1/(2*ell+1), all 120 unordered pairs give total <=120/(2*ell+1); zero modular step obstruction proved",
+  "distinct_original_cube_capture": "checked: one scale threshold fixed before q and all original data ensures weighted distinct-vertex cube mass >=(a/4)^16/4 for prime q in the original range, while original safe mass and complete responses remain",
+  "real_lift_rounding": "checked: one [0,1) representative, actual nearest integer, eight positive and eight negative signs, S=l*M+r with |l|<=8 and |r|<=9, and one allowed local correction makes the real cube sum exactly zero",
+  "global_assignment": "checked: restriction of the full point-choice product to any injective vertex family is uniform; local success has probability >=57^(-16); finite weighted expectation produces one choice shared by all cubes without independence between cubes",
+  "simultaneous_real_lift": "checked: M_lift=floor(N^3/E)>=9, all point values lie in M_lift^(-1)Z, |F|<=3, zero original weight gives F=0, supported circle error to d*theta is <=19*E/N^3, and original weighted real-zero cube mass is >=(a/4)^16/(4*57^16); all constants precede N,q and original data, original complete responses retained",
+  "exact_frequency_mesh": "checked: all dimensions d<=7, grid differences k/M with |k|<=384M<1024M, complete j/1024 character orthogonality detects exact real zero; integer-frequency and missing-size-bound obstructions are proved",
+  "local_four_average": "checked: generic finite multiset local moments are nonnegative, local norms have the exact 2^s power and are <=1 for bounded fields; the actual weighted mesh average equals the original real-zero four-cube mass with every multiplicity retained",
+  "original_local_fibres": "checked: uniform original-data theorem gives local fourth-norm sixteenth moment >=beta=(a/4)^16/(4*57^16) and proportion >=beta/2 of actual (x,j) fibres with mean_h local norm >=beta/2; one fixed F, prior constants, original safe mass and full responses preserved",
+  "finite_fourier": "checked: probability-normalized coefficients, unnormalized character synthesis, finite inversion and Parseval; difference correlation has coefficients |nu_hat|^2 with sum exactly E nu^2",
+  "parameter_difference_density": "checked: actual parameter multiplicities give density |G|*count/|A| relative to uniform measure; exact weighted pushforward, independent pair differences, full product law, and density L2 <= |G|*K/|A| from representation multiplicity K",
+  "local_fourier_expansion": "checked: local paired-shift moment equals the global additive cube mean weighted by the actual difference density; explicit nonnegative Fourier expansion retains all multiplicities and yields a bound conditional on every character-twisted global cube average",
+  "local_global_comparison": "checked for every s>=2: all character-twisted global cube averages are bounded by the untwisted moment; actual multiset local moment <= C^s times global moment whenever the original uniform density energy <=C; no unproved twist or mixed-CS premise remains; exact norm and positive lower-moment consequences checked; family concatenation remains unproved",
+  "global_frequency_average": "checked for every 1<=s<=7: the complete finite mesh mean of the global s-moment equals the weighted real-zero cube mass of the same F; actual cyclic seventh-moment identity preserves all original weights, without asserting an unproved positive lower bound",
+  "twisted_cube": "checked: exact derivative recurrence, two-dimensional Fourier energy base, translation square-sum estimate and induction; exact one-dimensional nontrivial-character obstruction also checked",
+  "pair_geometry": "PARTIAL: checked elementary paired-shift prerequisites, including a<=256 from the actual local-four bound, uniform shrink threshold, integer range and modular no-wrap; gcd representation multiplicity and exceptional-pair count remain unproved",
+  "bounded_box_faces": "checked in every dimension: the face-factor Cauchy-Schwarz estimate allows norm <=1, with independence and all finite means retained; this is not being asserted as a full mixed Gowers inequality",
+  "density_normalization_obstruction": "checked: on ZMod 2 a constant function disproves use of raw probability masses in place of density relative to the uniform mean",
+  "cube_extraction": "PARTIAL overall: original weighted circle cubes, one simultaneous real lift, local fourth moments, positive good-fibre density, full local-to-global comparison and exact global seventh-moment frequency averaging are checked; uniform family concatenation, actual pair geometry and deeper value extraction remain open",
+  "proof_scope": "Phase algebra, exact original input geometry and two weighted finite adjoints with separate diagonals, response comparison, full-label metric and scaling, complete circle roots, universal major-arc grid, weighted energy and mass, and conditional reductions to capture and P0"
+}

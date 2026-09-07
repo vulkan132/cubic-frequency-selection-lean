@@ -1,0 +1,14 @@
+✖ [2246/2246] Building GMZP0.VerticalStrips (14s)
+error: build failed
+trace: .> LEAN_PATH=D:\AAAAA\new\GMZ_P0_Lean\vendor\mathlib4-4.33.0\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\plausible\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\LeanSearchClient\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\importGraph\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\proofwidgets\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\aesop\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Qq\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\batteries\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Cli\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean c:\Users\孙\AppData\Local\Microsoft\WinGet\Packages\Lean.Lean_Microsoft.Winget.Source_8wekyb3d8bbwe\lean-4.33.0-windows\bin\lean.exe D:\AAAAA\new\GMZ_P0_Lean\GMZP0\VerticalStrips.lean -o D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\VerticalStrips.olean -i D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\VerticalStrips.ilean -c D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\VerticalStrips.c --setup D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\VerticalStrips.setup.json --json
+error: GMZP0/VerticalStrips.lean:18:27: Application type mismatch: The argument
+  h
+has type
+  f v = f w
+but is expected to have type
+  ↑v = ↑w
+in the application
+  congrArg Fin.val h
+error: Lean exited with code 1
+Some required targets logged failures:
+- GMZP0.VerticalStrips

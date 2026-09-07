@@ -1,0 +1,60 @@
+✖ [2246/2246] Building GMZP0.IntegerBlockFormula (12s)
+error: build failed
+trace: .> LEAN_PATH=D:\AAAAA\new\GMZ_P0_Lean\vendor\mathlib4-4.33.0\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\plausible\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\LeanSearchClient\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\importGraph\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\proofwidgets\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\aesop\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Qq\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\batteries\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Cli\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean c:\Users\孙\AppData\Local\Microsoft\WinGet\Packages\Lean.Lean_Microsoft.Winget.Source_8wekyb3d8bbwe\lean-4.33.0-windows\bin\lean.exe D:\AAAAA\new\GMZ_P0_Lean\GMZP0\IntegerBlockFormula.lean -o D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\IntegerBlockFormula.olean -i D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\IntegerBlockFormula.ilean -c D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\IntegerBlockFormula.c --setup D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\IntegerBlockFormula.setup.json --json
+error: GMZP0/IntegerBlockFormula.lean:15:2: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  b ≥ 0
+  b - c ≥ 1
+  b - d ≥ 1
+  a ≥ 1
+  a - b ≤ 0
+where
+ a := ↑(label r)
+ b := ↑n
+ c := ↑↑r
+ d := ↑↑(oneBasedIndex n (↑(label r)) hr0 hrn)
+error: GMZP0/IntegerBlockFormula.lean:26:37: don't know how to synthesize placeholder for argument `hrn`
+context:
+N : ℕ
+h : ℤ
+r : ↥(blockFinLabels N h)
+⊢ ↑(label ↑r) ≤ ↑N
+error: GMZP0/IntegerBlockFormula.lean:26:35: don't know how to synthesize placeholder for argument `hr0`
+context:
+N : ℕ
+h : ℤ
+r : ↥(blockFinLabels N h)
+⊢ 1 ≤ ↑(label ↑r)
+error: GMZP0/IntegerBlockFormula.lean:24:16: unsolved goals
+N : ℕ
+h : ℤ
+r : ↥(blockFinLabels N h)
+⊢ ↑((fun q => ⟨oneBasedIndex N ↑q ⋯ ⋯, ⋯⟩) ((fun r => ⟨↑(label ↑r), ⋯⟩) r)) = ↑r
+error: GMZP0/IntegerBlockFormula.lean:27:17: unsolved goals
+N : ℕ
+h : ℤ
+q : ↥(blockLabels N h)
+⊢ ↑((fun r => ⟨↑(label ↑r), ⋯⟩) ((fun q => ⟨oneBasedIndex N ↑q ⋯ ⋯, ⋯⟩) q)) = ↑q
+error: GMZP0/IntegerBlockFormula.lean:33:34: don't know how to synthesize placeholder for argument `hun`
+context:
+N : ℕ
+h : ℤ
+q : ↥(blockLabels N h)
+⊢ ↑q ≤ ↑N
+error: GMZP0/IntegerBlockFormula.lean:33:32: don't know how to synthesize placeholder for argument `hu0`
+context:
+N : ℕ
+h : ℤ
+q : ↥(blockLabels N h)
+⊢ 1 ≤ ↑q
+error: GMZP0/IntegerBlockFormula.lean:32:62: unsolved goals
+N : ℕ
+h : ℤ
+q : ↥(blockLabels N h)
+⊢ ↑(label ↑((blockLabelEquiv N h).symm q)) = ↑q
+error: Lean exited with code 1
+Some required targets logged failures:
+- GMZP0.IntegerBlockFormula

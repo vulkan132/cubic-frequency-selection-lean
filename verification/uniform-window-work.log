@@ -1,0 +1,12 @@
+✔ [2248/2249] Built GMZP0.HorizontalPartition (16s)
+✖ [2249/2249] Building GMZP0.UniformSafeWindow (10s)
+trace: .> LEAN_PATH=D:\AAAAA\new\GMZ_P0_Lean\vendor\mathlib4-4.33.0\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\plausible\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\LeanSearchClient\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\importGraph\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\proofwidgets\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\aesop\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Qq\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\batteries\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Cli\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean c:\Users\孙\AppData\Local\Microsoft\WinGet\Packages\Lean.Lean_Microsoft.Winget.Source_8wekyb3d8bbwe\lean-4.33.0-windows\bin\lean.exe D:\AAAAA\new\GMZ_P0_Lean\GMZP0\UniformSafeWindow.lean -o D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\UniformSafeWindow.olean -i D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\UniformSafeWindow.ilean -c D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\UniformSafeWindow.c --setup D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\UniformSafeWindow.setup.json --json
+error: GMZP0/UniformSafeWindow.lean:35:51: Invalid argument name `R` for function `Nat.cast_nonneg`
+
+Hint: Perhaps you meant one of the following parameter names:
+  • `α`: R̵α̲
+  • `n`: R̵n̲
+error: Lean exited with code 1
+Some required targets logged failures:
+- GMZP0.UniformSafeWindow
+error: build failed

@@ -1,0 +1,1281 @@
+ℹ [3072/3072] Replayed GMZP0.Audit
+info: GMZP0/Audit.lean:5:0: 'GMZP0.cubic_lag_difference' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:6:0: 'GMZP0.lag_target_coordinate' depends on axioms: [propext]
+info: GMZP0/Audit.lean:7:0: 'GMZP0.double_phase_reroot' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:8:0: 'GMZP0.fourth_difference_cubic' depends on axioms: [propext]
+info: GMZP0/Audit.lean:9:0: 'GMZP0.linear_collision_eight' depends on axioms: [propext]
+info: GMZP0/Audit.lean:10:0: 'GMZP0.norm_cubicPhase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:11:0: 'GMZP0.card_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:12:0: 'GMZP0.cubicPhase_coe_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:13:0: 'GMZP0.cubicDistanceSq_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:14:0: 'GMZP0.cubicDistance_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:15:0: 'GMZP0.cubicDistance_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:16:0: 'GMZP0.norm_response_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:17:0: 'GMZP0.mean_le_root_mean_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:18:0: 'GMZP0.norm_response_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:19:0: 'GMZP0.aligned_response_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:20:0: 'GMZP0.norm_response_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:21:0: 'GMZP0.exists_ge_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:22:0: 'GMZP0.finite_response_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:23:0: 'GMZP0.original_response_of_finite_capture' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:24:0: 'GMZP0.weighted_response_le_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:25:0: 'GMZP0.captured_response_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:26:0: 'GMZP0.small_scale_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:27:0: 'GMZP0.exists_response_alignment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:28:0: 'GMZP0.thresholdWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:29:0: 'GMZP0.thresholdWeight_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:30:0: 'GMZP0.thresholdWeight_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:31:0: 'GMZP0.original_admissible_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:32:0: 'GMZP0.p0_of_weightedCapture' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:33:0: 'GMZP0.root_sum_square_add_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:34:0: 'GMZP0.cubicDistance_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:35:0: 'GMZP0.cubicDistance_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:36:0: 'GMZP0.cubicDistance_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:37:0: 'GMZP0.cubicDistance_le_of_label_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:38:0: 'GMZP0.exists_nearest_frequency_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:39:0: 'GMZP0.cubicPhase_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:40:0: 'GMZP0.cubicPhase_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:41:0: 'GMZP0.norm_cubicPhase_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:42:0: 'GMZP0.real_cubicPhase_chord_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:43:0: 'GMZP0.cubicPhase_chord_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:44:0: 'GMZP0.cubicDistance_le_circle_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:45:0: 'GMZP0.cubicDistance_le_of_scaled_circle_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:46:0: 'GMZP0.integer_cast_frequency' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:47:0: 'GMZP0.zero_branch_division_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:48:0: 'GMZP0.circle_root_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:49:0: 'GMZP0.circle_root_with_real_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:50:0: 'GMZP0.circle_approx_root_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:51:0: 'GMZP0.circle_approx_root_fullLabel' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:52:0: 'GMZP0.real_grid_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:53:0: 'GMZP0.cubic_scale_grid_rounding' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:54:0: 'GMZP0.grid_index_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:55:0: 'GMZP0.gridIndices_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:56:0: 'GMZP0.majorArc_grid_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:57:0: 'GMZP0.majorArc_universal_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:58:0: 'GMZP0.weighted_mass_le_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:59:0: 'GMZP0.retained_mass_from_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:60:0: 'GMZP0.assigned_weighted_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:61:0: 'GMZP0.assigned_minor_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:62:0: 'GMZP0.major_mass_of_minor_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:63:0: 'GMZP0.endpoint_eq_inputPoint' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:64:0: 'GMZP0.card_inputBox' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:65:0: 'GMZP0.inputEnergy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:66:0: 'GMZP0.finiteResponse_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:67:0: 'GMZP0.profileMinorEnergy_of_finite_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:68:0: 'GMZP0.finite_estimates_assigned_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:69:0: 'GMZP0.freezing_energy_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:70:0: 'GMZP0.finite_capture_from_model_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:71:0: 'GMZP0.finite_capture_from_model_operators' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:72:0: 'GMZP0.inputPoint_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:73:0: 'GMZP0.endpointIndex_label_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:74:0: 'GMZP0.endpointIndex_base_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:75:0: 'GMZP0.endpointIndex_same_horizontal' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:76:0: 'GMZP0.integer_parabola_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:77:0: 'GMZP0.collision_lag_displacement' depends on axioms: [propext]
+info: GMZP0/Audit.lean:78:0: 'GMZP0.kernel_adjoint_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:79:0: 'GMZP0.kernel_comp_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:80:0: 'GMZP0.gramKernel_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:81:0: 'GMZP0.responseKernel_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:82:0: 'GMZP0.finiteResponse_adjoint_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:83:0: 'GMZP0.responseKernel_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:84:0: 'GMZP0.responseKernel_gram_same_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:85:0: 'GMZP0.responseKernel_horizontal_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:86:0: 'GMZP0.finiteEnergy_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:87:0: 'GMZP0.finitePairing_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:88:0: 'GMZP0.finitePairing_norm_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:89:0: 'GMZP0.weighted_original_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:90:0: 'GMZP0.weighted_original_adjoint_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:91:0: 'GMZP0.weighted_original_adjoint_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:92:0: 'GMZP0.alignedWeightVector_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:93:0: 'GMZP0.finiteAdjoint_energy_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:94:0: 'GMZP0.weighted_original_response_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:95:0: 'GMZP0.gram_same_horizontal_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:96:0: 'GMZP0.finiteAdjoint_energy_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:97:0: 'GMZP0.weighted_offHorizontal_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:98:0: 'GMZP0.originalScaledWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:99:0: 'GMZP0.originalScaledWeight_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:100:0: 'GMZP0.originalScaledWeight_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:101:0: 'GMZP0.originalScaledWeight_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:102:0: 'GMZP0.original_window_response_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:103:0: 'GMZP0.offHorizontalEnergy_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:104:0: 'GMZP0.offBlockNormSum_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:105:0: 'GMZP0.offHorizontalEnergy_le_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:106:0: 'GMZP0.weighted_first_tt_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:107:0: 'GMZP0.original_window_first_tt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:108:0: 'GMZP0.horizontalPairing_adjoint_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:109:0: 'GMZP0.horizontalPairing_zero_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:110:0: 'GMZP0.horizontalPairing_zero_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:111:0: 'GMZP0.offBlockNormSum_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:112:0: 'GMZP0.secondAdjointEnergy_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:113:0: 'GMZP0.offBlockNormSum_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:114:0: 'GMZP0.offBlockNormSum_second_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:115:0: 'GMZP0.original_window_second_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:116:0: 'GMZP0.endpointIndex_collision_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:117:0: 'GMZP0.nonparallel_collision_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:118:0: 'GMZP0.collision_target_unique' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:119:0: 'GMZP0.horizontalKernel_of_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:120:0: 'GMZP0.horizontalKernel_no_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:121:0: 'GMZP0.horizontalKernel_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:122:0: 'GMZP0.horizontal_collision_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:123:0: 'GMZP0.horizontalKernel_row_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:124:0: 'GMZP0.kernelAdjoint_energy_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:125:0: 'GMZP0.gram_diagonal_interaction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:126:0: 'GMZP0.gram_interaction_original_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:127:0: 'GMZP0.zero_pairing_nonzero_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:128:0: 'GMZP0.kernelAdjoint_energy_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:129:0: 'GMZP0.finite_signed_original_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:130:0: 'GMZP0.secondDiagonalEnergy_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:131:0: 'GMZP0.secondAdjointEnergy_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:132:0: 'GMZP0.secondDiagonalEnergy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:133:0: 'GMZP0.original_window_second_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:134:0: 'GMZP0.original_window_finite_signed_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:135:0: 'GMZP0.parabola_shift_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:136:0: 'GMZP0.safe_vertical_shift' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:137:0: 'GMZP0.safe_parabola_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:138:0: 'GMZP0.safe_lag_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:139:0: 'GMZP0.exists_original_vertical_point' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:140:0: 'GMZP0.safe_original_target_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:141:0: 'GMZP0.horizontal_interval_gap' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:142:0: 'GMZP0.vertical_lag_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:143:0: 'GMZP0.fin_initial_strip_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:144:0: 'GMZP0.fin_final_strip_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:145:0: 'GMZP0.fin_boundary_strips_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:146:0: 'GMZP0.mem_safeRows_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:147:0: 'GMZP0.boundaryBaseSet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:148:0: 'GMZP0.boundary_original_mass_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:149:0: 'GMZP0.safe_boundary_mass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:150:0: 'GMZP0.safe_original_mass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:151:0: 'GMZP0.horizontal_partition_cover' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:152:0: 'GMZP0.horizontalChunk_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:153:0: 'GMZP0.mem_horizontalChunk_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:154:0: 'GMZP0.horizontalChunk_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:155:0: 'GMZP0.chunkWindow_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:156:0: 'GMZP0.chunkWindow_mass_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:157:0: 'GMZP0.exists_mean_chunk' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:158:0: 'GMZP0.exists_heavy_chunk' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:159:0: 'GMZP0.windowModulus_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:160:0: 'GMZP0.safeWindowMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:161:0: 'GMZP0.window_boundary_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:162:0: 'GMZP0.exists_original_safe_chunk' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:163:0: 'GMZP0.uniform_safe_window' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:164:0: 'GMZP0.safe_chunk_target_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:165:0: 'GMZP0.original_weight_mass_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:166:0: 'GMZP0.positive_from_signed_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:167:0: 'GMZP0.finiteStatisticThreshold_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:168:0: 'GMZP0.uniform_positive_from_signed_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:169:0: 'GMZP0.uniform_positive_safe_statistic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:170:0: 'GMZP0.circleCharacter_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:171:0: 'GMZP0.circleCharacter_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:172:0: 'GMZP0.circleCharacter_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:173:0: 'GMZP0.circleCharacter_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:174:0: 'GMZP0.cubicPhase_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:175:0: 'GMZP0.double_phase_character' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:176:0: 'GMZP0.doublePhaseCoefficient_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:177:0: 'GMZP0.integer_label_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:178:0: 'GMZP0.horizontalGap_ne_zero' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:179:0: 'GMZP0.mem_blockLabels_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:180:0: 'GMZP0.mem_lagLabels_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:181:0: 'GMZP0.lag_labels_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:182:0: 'GMZP0.lag_domain_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:183:0: 'GMZP0.double_collision_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:184:0: 'GMZP0.double_collision_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:185:0: 'GMZP0.double_collision_zero_lag_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:186:0: 'GMZP0.double_kernel_original_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:187:0: 'GMZP0.double_kernel_original_weighted_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:188:0: 'GMZP0.oneBasedIndex_label' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:189:0: 'GMZP0.shiftedBlockLabel_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:190:0: 'GMZP0.blockTarget_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:191:0: 'GMZP0.blockTarget_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:192:0: 'GMZP0.blockTarget_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:193:0: 'GMZP0.collision_in_blockTargets' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:194:0: 'GMZP0.blockFinLabels_membership' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:195:0: 'GMZP0.horizontalKernel_label_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:196:0: 'GMZP0.horizontalBlock_action_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:197:0: 'GMZP0.blockCoefficient_character' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:198:0: 'GMZP0.oneBasedIndex_of_label' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:199:0: 'GMZP0.blockLabelEquiv_symm_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:200:0: 'GMZP0.horizontalBlock_action_integer_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:201:0: 'GMZP0.label_difference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:202:0: 'GMZP0.lagSource_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:203:0: 'GMZP0.lagSource_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:204:0: 'GMZP0.lagSource_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:205:0: 'GMZP0.lagSource_eq_self_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:206:0: 'GMZP0.lagSource_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:207:0: 'GMZP0.collision_in_lagSources' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:208:0: 'GMZP0.horizontalKernel_lag_weighted_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:209:0: 'GMZP0.horizontalGram_action_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:210:0: 'GMZP0.horizontalGram_offDiagonal_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:211:0: 'GMZP0.horizontalGram_offDiagonal_original_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:212:0: 'GMZP0.lagLabels_empty_of_large_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:213:0: 'GMZP0.mem_lagPairDomain_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:214:0: 'GMZP0.integer_label_pair_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:215:0: 'GMZP0.sum_blockFinLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:216:0: 'GMZP0.label_difference_ne_zero_iff' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:217:0: 'GMZP0.distinct_label_pair_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:218:0: 'GMZP0.originalFieldExtension_vertical_outside' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:219:0: 'GMZP0.originalFieldExtension_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:220:0: 'GMZP0.originalFieldExtension_lagSource' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:221:0: 'GMZP0.originalFieldExtension_blockTarget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:222:0: 'GMZP0.originalLagSummand_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:223:0: 'GMZP0.horizontalGram_offDiagonal_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:224:0: 'GMZP0.secondOffDiagonalEnergy_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:225:0: 'GMZP0.finiteSignedDoubleStatistic_eq_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:226:0: 'GMZP0.original_window_statistic_eq_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:227:0: 'GMZP0.uniform_positive_safe_lag_statistic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:228:0: 'GMZP0.mem_rerootLabels_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:229:0: 'GMZP0.reroot_lag_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:230:0: 'GMZP0.mem_rerootPairDomain_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:231:0: 'GMZP0.lag_sum_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:232:0: 'GMZP0.originalLagSummand_zero_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:233:0: 'GMZP0.originalLagSummand_zero_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:234:0: 'GMZP0.lag_sum_split_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:235:0: 'GMZP0.fullLagNumerator_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:236:0: 'GMZP0.fullLagStatistic_split' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:237:0: 'GMZP0.lagDiagonalStatistic_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:238:0: 'GMZP0.lagSigned_le_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:239:0: 'GMZP0.lagLabels_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:240:0: 'GMZP0.blockLabels_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:241:0: 'GMZP0.zero_lag_row_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:242:0: 'GMZP0.zeroLagNumerator_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:243:0: 'GMZP0.lagDiagonalStatistic_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:244:0: 'GMZP0.original_window_lag_diagonal_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:245:0: 'GMZP0.originalLagSummand_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:246:0: 'GMZP0.rerooted_inner_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:247:0: 'GMZP0.fullLagNumerator_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:248:0: 'GMZP0.fullLagStatistic_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:249:0: 'GMZP0.signed_plus_diagonal_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:250:0: 'GMZP0.originalFieldExtension_property' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:251:0: 'GMZP0.norm_circleCharacter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:252:0: 'GMZP0.rerootedOuterPhase_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:253:0: 'GMZP0.rerootedLagG_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:254:0: 'GMZP0.lagInnerInterval_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:255:0: 'GMZP0.rerootedLagB_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:256:0: 'GMZP0.rerootedWeightedSum_le_normSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:257:0: 'GMZP0.lagSigned_le_rerootedNormSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:258:0: 'GMZP0.sum_original_integer_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:259:0: 'GMZP0.sum_rerootLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:260:0: 'GMZP0.finiteRerootedNormAverage_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:261:0: 'GMZP0.uniform_positive_rerooted_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:262:0: 'GMZP0.cyclicRow_value' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:263:0: 'GMZP0.cyclicRow_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:264:0: 'GMZP0.cyclicField_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:265:0: 'GMZP0.cyclicRow_range_iff' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:266:0: 'GMZP0.cyclicField_outside_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:267:0: 'GMZP0.cyclicField_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:268:0: 'GMZP0.cyclic_original_weighted_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:269:0: 'GMZP0.cyclicField_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:270:0: 'GMZP0.cyclicField_reroot_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:271:0: 'GMZP0.cyclicLagG_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:272:0: 'GMZP0.cyclicLagP_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:273:0: 'GMZP0.cyclicLagB_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:274:0: 'GMZP0.cyclic_weighted_B_norm_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:275:0: 'GMZP0.horizontalGap_bound' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:276:0: 'GMZP0.horizontalShiftLabels_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:277:0: 'GMZP0.horizontal_shift_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:278:0: 'GMZP0.cyclicShiftLagP_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:279:0: 'GMZP0.cyclicShiftLagB_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:280:0: 'GMZP0.cyclicPairNormNumerator_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:281:0: 'GMZP0.cyclicPairNormNumerator_shift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:282:0: 'GMZP0.cyclicModulusAverage_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:283:0: 'GMZP0.finite_to_cyclic_modulus_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:284:0: 'GMZP0.cyclic_average_positive_of_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:285:0: 'GMZP0.cyclicField_property' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:286:0: 'GMZP0.cyclicLagG_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:287:0: 'GMZP0.cyclicShiftLagB_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:288:0: 'GMZP0.uniform_positive_cyclic_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:289:0: 'GMZP0.card_cyclicSamplingSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:290:0: 'GMZP0.cyclicWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:291:0: 'GMZP0.cyclicModulusAverage_as_uniform_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:292:0: 'GMZP0.exists_prime_cyclic_modulus' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:293:0: 'GMZP0.norm_sum_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:294:0: 'GMZP0.norm_sum_sub_sum_le_sdiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:295:0: 'GMZP0.sum_Icc_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:296:0: 'GMZP0.norm_Icc_translate_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:297:0: 'GMZP0.norm_Icc_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:298:0: 'GMZP0.lagInnerInterval_eq_Icc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:299:0: 'GMZP0.norm_lag_sum_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:300:0: 'GMZP0.complexUniformMean_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:301:0: 'GMZP0.complexUniformMean_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:302:0: 'GMZP0.norm_complexUniformMean_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:303:0: 'GMZP0.norm_complexUniformMean_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:304:0: 'GMZP0.complexUniformMean_sum_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:305:0: 'GMZP0.weighted_norm_mean_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:306:0: 'GMZP0.card_smoothingShiftLabels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:307:0: 'GMZP0.card_fourShiftSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:308:0: 'GMZP0.fourShiftSum_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:309:0: 'GMZP0.fourShiftSmoothedAverage_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:310:0: 'GMZP0.norm_fourShiftSmoothedAverage_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:311:0: 'GMZP0.smoothingRadius_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:312:0: 'GMZP0.cyclicLagSequence_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:313:0: 'GMZP0.cyclicSmoothedLagB_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:314:0: 'GMZP0.cyclic_smoothed_average_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:315:0: 'GMZP0.uniform_positive_smoothed_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:316:0: 'GMZP0.cubicFaceCoefficient_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:317:0: 'GMZP0.sum_cubicFaceCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:318:0: 'GMZP0.cubicFacePhase_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:319:0: 'GMZP0.cubicFacePhase_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:320:0: 'GMZP0.cubicPhase_four_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:321:0: 'GMZP0.cyclicShiftLagP_four_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:322:0: 'GMZP0.cyclicLagSequence_four_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:323:0: 'GMZP0.cyclicSmoothedLagB_four_faces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:324:0: 'GMZP0.realUniformMean_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:325:0: 'GMZP0.realUniformMean_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:326:0: 'GMZP0.realUniformMean_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:327:0: 'GMZP0.realUniformMean_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:328:0: 'GMZP0.complexUniformMean_mul_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:329:0: 'GMZP0.complexUniformMean_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:330:0: 'GMZP0.complexUniformMean_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:331:0: 'GMZP0.complexUniformMean_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:332:0: 'GMZP0.complexUniformMean_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:333:0: 'GMZP0.realUniformMean_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:334:0: 'GMZP0.complexUniformMean_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:335:0: 'GMZP0.complexUniformMean_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:336:0: 'GMZP0.complexUniformMean_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:337:0: 'GMZP0.norm_complexUniformMean_le_mean_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:338:0: 'GMZP0.realUniformMean_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:339:0: 'GMZP0.norm_complexUniformMean_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:340:0: 'GMZP0.realUniformMean_pow_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:341:0: 'GMZP0.complexUniformMean_pair_mul_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:342:0: 'GMZP0.complexUniformMean_pair_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:343:0: 'GMZP0.mean_inner_norm_sq_eq_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:344:0: 'GMZP0.box_remove_unit_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:345:0: 'GMZP0.box_remove_unit_face_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:346:0: 'GMZP0.boxDoubledFaces_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:347:0: 'GMZP0.boxDoubledFaces_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:348:0: 'GMZP0.boxTailIntegrand_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:349:0: 'GMZP0.boxCorrelation_split_head' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:350:0: 'GMZP0.boxCorrelation_sq_le_doubled' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:351:0: 'GMZP0.boxMoment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:352:0: 'GMZP0.faceIndependent_one_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:353:0: 'GMZP0.boxCorrelation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:354:0: 'GMZP0.box_cauchy_schwarz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:355:0: 'GMZP0.boxMoment_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:356:0: 'GMZP0.iteratedSqrt_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:357:0: 'GMZP0.iteratedSqrt_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:358:0: 'GMZP0.boxNorm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:359:0: 'GMZP0.boxNorm_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:360:0: 'GMZP0.boxCorrelation_le_boxNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:361:0: 'GMZP0.boxNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:362:0: 'GMZP0.shiftCubicFaces_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:363:0: 'GMZP0.shiftCubicFaces_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:364:0: 'GMZP0.cyclicLagBoxNorm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:365:0: 'GMZP0.cyclicLagBoxNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:366:0: 'GMZP0.cyclicLagBoxNorm_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:367:0: 'GMZP0.cyclicShiftMean_le_boxNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:368:0: 'GMZP0.cyclicSmoothedLagB_le_boxSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:369:0: 'GMZP0.fullLagLabels_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:370:0: 'GMZP0.lagInnerInterval_subset_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:371:0: 'GMZP0.fullLag_sum_eq_card_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:372:0: 'GMZP0.weighted_lag_sum_le_three_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:373:0: 'GMZP0.card_cyclicBoxSamplingSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:374:0: 'GMZP0.cyclicSmoothedModulusAverage_le_three_boxMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:375:0: 'GMZP0.cyclicBoxNormAverage_pow_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:376:0: 'GMZP0.positive_cyclic_box_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:377:0: 'GMZP0.uniform_positive_box_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:378:0: 'GMZP0.cubeConj_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:379:0: 'GMZP0.cubeConj_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:380:0: 'GMZP0.cubeConj_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:381:0: 'GMZP0.cubeConj_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:382:0: 'GMZP0.cubeSign_eq_parity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:383:0: 'GMZP0.cubeConj_character' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:384:0: 'GMZP0.card_booleanVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:385:0: 'GMZP0.complexUniformMean_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:386:0: 'GMZP0.complexUniformMean_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:387:0: 'GMZP0.prod_boolean_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:388:0: 'GMZP0.cubeVertex_cons' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:389:0: 'GMZP0.cubeProduct_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:390:0: 'GMZP0.cubeProduct_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:391:0: 'GMZP0.cubeMean_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:392:0: 'GMZP0.cubeMean_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:393:0: 'GMZP0.cubeMean_eq_boxMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:394:0: 'GMZP0.boxMoment_eq_cubeMean_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:395:0: 'GMZP0.cubeMean_nonneg_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:396:0: 'GMZP0.circleCharacter_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:397:0: 'GMZP0.alternating_weighted_character_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:398:0: 'GMZP0.circle_cubic_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:399:0: 'GMZP0.circle_cubic_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:400:0: 'GMZP0.card_cubeShiftPairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:401:0: 'GMZP0.cyclic_cube_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:402:0: 'GMZP0.cyclicCubeAverage_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:403:0: 'GMZP0.cyclicLagG_shift_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:404:0: 'GMZP0.cyclicCubeProduct_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:405:0: 'GMZP0.cyclicCubeAverage_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:406:0: 'GMZP0.cyclicRerootedCubeAverage_eq_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:407:0: 'GMZP0.cyclicRerootedCubeProduct_factorized' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:408:0: 'GMZP0.cyclicCubePhase_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:409:0: 'GMZP0.cyclicCubeCoefficients_top' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:410:0: 'GMZP0.cyclicCubeWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:411:0: 'GMZP0.cyclicCubeAlignment_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:412:0: 'GMZP0.cyclicRerootedCubeProduct_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:413:0: 'GMZP0.uniform_positive_cube_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:414:0: 'GMZP0.card_cubeWeylParameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:415:0: 'GMZP0.cyclicRerootedCubeAverage_split_time' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:416:0: 'GMZP0.cyclicCubeTimeAverage_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:417:0: 'GMZP0.cyclicCubeAverage_le_weightedTimeNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:418:0: 'GMZP0.cyclicCubeWeight_ne_zero_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:419:0: 'GMZP0.cyclicCube_original_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:420:0: 'GMZP0.uniform_positive_weighted_time_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:421:0: 'GMZP0.circleCharacter_nsmul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:422:0: 'GMZP0.circle_norm_le_chord' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:423:0: 'GMZP0.linearPhaseMean_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:424:0: 'GMZP0.linearPhaseMean_chord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:425:0: 'GMZP0.linear_weyl_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:426:0: 'GMZP0.sum_fin_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:427:0: 'GMZP0.integerIntervalMean_eq_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:428:0: 'GMZP0.interval_pair_difference_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:429:0: 'GMZP0.weyl_correlation_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:430:0: 'GMZP0.weyl_mean_square_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:431:0: 'GMZP0.weylCorrelation_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:432:0: 'GMZP0.weyl_nonzero_correlation_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:433:0: 'GMZP0.sum_le_large_card_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:434:0: 'GMZP0.many_large_weyl_correlations' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:435:0: 'GMZP0.largeWeylShifts_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:436:0: 'GMZP0.weyl_small_scale_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:437:0: 'GMZP0.sum_Icc_as_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:438:0: 'GMZP0.linear_phase_sum_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:439:0: 'GMZP0.linear_phase_sum_chord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:440:0: 'GMZP0.linear_interval_sum_chord_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:441:0: 'GMZP0.linear_interval_weyl_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:442:0: 'GMZP0.quadraticCirclePolynomial_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:443:0: 'GMZP0.cubicCirclePolynomial_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:444:0: 'GMZP0.weylCorrelation_phase_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:445:0: 'GMZP0.quadratic_weyl_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:446:0: 'GMZP0.cubic_weyl_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:447:0: 'GMZP0.quadratic_large_shift_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:448:0: 'GMZP0.quadratic_many_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:449:0: 'GMZP0.close_integer_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:450:0: 'GMZP0.affine_return_small_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:451:0: 'GMZP0.integer_card_le_diameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:452:0: 'GMZP0.affine_fiber_spread' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:453:0: 'GMZP0.affine_slope_from_rounded_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:454:0: 'GMZP0.card_returnRoundTargets' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:455:0: 'GMZP0.rounded_affine_target_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:456:0: 'GMZP0.multiplied_affine_return_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:457:0: 'GMZP0.affine_return_amplification' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:458:0: 'GMZP0.dense_returns_seed_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:459:0: 'GMZP0.uniform_affine_dense_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:460:0: 'GMZP0.uniform_quadratic_weyl_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:461:0: 'GMZP0.uniform_quadratic_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:462:0: 'GMZP0.interval_length_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:463:0: 'GMZP0.interval_mean_rescale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:464:0: 'GMZP0.interval_large_rescaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:465:0: 'GMZP0.quadraticCirclePolynomial_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:466:0: 'GMZP0.uniform_quadratic_interval_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:467:0: 'GMZP0.weylOverlap_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:468:0: 'GMZP0.finite_positive_denominator_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:469:0: 'GMZP0.uniform_cubic_dense_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:470:0: 'GMZP0.uniform_cubic_weyl_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:471:0: 'GMZP0.uniform_cubic_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:472:0: 'GMZP0.uniform_cubic_common_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:473:0: 'GMZP0.cyclicCubeTimeAverage_as_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:474:0: 'GMZP0.uniform_original_cube_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:475:0: 'GMZP0.weighted_condition_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:476:0: 'GMZP0.uniform_weighted_cube_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:477:0: 'GMZP0.uniform_original_cube_capture' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:479:0: GMZP0.P0 : Prop
+info: GMZP0/Audit.lean:480:0: GMZP0.WeightedCapture : Prop
+info: GMZP0/Audit.lean:481:0: GMZP0.p0_of_weightedCapture (hcapture : GMZP0.WeightedCapture) : GMZP0.P0
+info: GMZP0/Audit.lean:482:0: GMZP0.FiniteMinorEstimate (Q N : ℕ) (s : ℝ) (p : GMZP0.Base N → GMZP0.Frequency) : Prop
+info: GMZP0/Audit.lean:483:0: GMZP0.finite_capture_from_model_operators (Q : ℕ) (hQ : 1 ≤ Q) (ε : ℝ) (hε : 0 < ε) :
+  ∃ L,
+    1 ≤ L ∧
+      ∀ (N : ℕ),
+        1 ≤ N →
+          ∃ β,
+            ∀ (J : ℕ),
+              1 ≤ J →
+                ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (p : Fin J → GMZP0.Base N → GMZP0.Frequency)
+                  (ι : GMZP0.Base N → Fin J) (lam : GMZP0.Base N → ℂ) (μ : GMZP0.Base N → ℝ) (A : Finset (GMZP0.Base N))
+                  (η c : ℝ),
+                  (∀ (w : ℤ × ℤ), ‖f w‖ ≤ 1) →
+                    0 < η →
+                      ε ≤ η →
+                        0 ≤ c →
+                          (∀ z ∈ A, 0 ≤ μ z ∧ μ z ≤ (↑N)⁻¹ ^ 3) →
+                            c ≤ ∑ z ∈ A, μ z →
+                              (∀ z ∈ A, ‖lam z‖ = 1) →
+                                (∀ z ∈ A, η ≤ (lam z * GMZP0.response N f z (θ z)).re) →
+                                  (∀ z ∈ A, GMZP0.cubicDistance N (θ z) (p (ι z) z) ≤ ε / 2) →
+                                    (∀ (i : Fin J), GMZP0.FiniteMinorEstimate Q N (η * √c / (8 * √↑J)) (p i)) →
+                                      ∃ A' j,
+                                        A' ⊆ A ∧
+                                          c / 2 ≤ ∑ z ∈ A', μ z ∧ ∀ z ∈ A', GMZP0.cubicDistance N (θ z) (β (j z)) ≤ ε
+info: GMZP0/Audit.lean:484:0: GMZP0.original_window_first_tt {N : ℕ} (hN : 0 < N) (f : ℤ × ℤ → ℂ) (hf : ∀ (v : ℤ × ℤ), ‖f v‖ ≤ 1)
+  (p : GMZP0.Base N → GMZP0.Frequency) (μ : GMZP0.Base N → ℝ) (D : Finset (GMZP0.Base N)) (lam : GMZP0.Base N → ℂ)
+  (hlam : ∀ (z : GMZP0.Base N), ‖lam z‖ = 1) (hμ : ∀ (z : GMZP0.Base N), 0 ≤ μ z ∧ μ z ≤ (↑N)⁻¹ ^ 3) :
+  ↑N ^ 3 *
+      max (‖GMZP0.weightedOriginalResponse N f p (GMZP0.originalScaledWeight N μ D) lam‖ ^ 2 / 4 - (∑ z ∈ D, μ z) / ↑N)
+        0 ≤
+    GMZP0.offBlockNormSum N p (GMZP0.alignedWeightVector (GMZP0.originalScaledWeight N μ D) lam)
+info: GMZP0/Audit.lean:485:0: GMZP0.original_window_finite_signed_lower {N : ℕ} (hN : 0 < N) (f : ℤ × ℤ → ℂ) (hf : ∀ (v : ℤ × ℤ), ‖f v‖ ≤ 1)
+  (p : GMZP0.Base N → GMZP0.Frequency) (μ : GMZP0.Base N → ℝ) (D : Finset (GMZP0.Base N)) (X : Finset (Fin N))
+  (hD : ∀ z ∈ D, z.1 ∈ X) (lam : GMZP0.Base N → ℂ) (hlam : ∀ (z : GMZP0.Base N), ‖lam z‖ = 1)
+  (hμ : ∀ (z : GMZP0.Base N), 0 ≤ μ z ∧ μ z ≤ (↑N)⁻¹ ^ 3) :
+  max (‖GMZP0.weightedOriginalResponse N f p (GMZP0.originalScaledWeight N μ D) lam‖ ^ 2 / 4 - (∑ z ∈ D, μ z) / ↑N) 0 ^
+      2 ≤
+    GMZP0.finiteSignedDoubleStatistic N p X (GMZP0.alignedWeightVector (GMZP0.originalScaledWeight N μ D) lam) +
+      (∑ z ∈ D, μ z) / ↑N
+info: GMZP0/Audit.lean:486:0: GMZP0.uniform_positive_safe_statistic (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c ζ N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < ζ ∧
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ) (μ : GMZP0.Base N → ℝ),
+                  GMZP0.Admissible N κ η f θ lam μ →
+                    ∃ X D a,
+                      D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                        (∀ (x : Fin N), x ∈ X ↔ a ≤ ↑x ∧ ↑x ≤ a + N / M) ∧
+                          c ≤ ∑ z ∈ D, μ z ∧
+                            (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                              (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                η * ∑ z ∈ D, μ z ≤
+                                    ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D) lam‖ ∧
+                                  2 * ζ ≤
+                                      GMZP0.finiteSignedDoubleStatistic N θ X
+                                        (GMZP0.alignedWeightVector (GMZP0.originalScaledWeight N μ D) lam) ∧
+                                    ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:487:0: GMZP0.finiteSignedDoubleStatistic_eq_lag {N : ℕ} (H : ℕ) (p : GMZP0.Base N → GMZP0.Frequency) (X : Finset (Fin N))
+  (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ) (hHN : H ≤ N)
+  (hX : ∀ x ∈ X, ∀ x' ∈ X, |GMZP0.horizontalGap x x'| ≤ ↑H)
+  (hσ : ∀ (x : Fin N) (y : Fin (N ^ 2)), σ (x, y) ≠ 0 → GMZP0.SafeVertical (↑N) (↑H) (↑↑y + 1)) :
+  GMZP0.finiteSignedDoubleStatistic N p X (GMZP0.alignedWeightVector σ lam) = GMZP0.lagSignedDoubleStatistic N p X σ lam
+info: GMZP0/Audit.lean:488:0: GMZP0.uniform_positive_safe_lag_statistic (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c ζ N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < ζ ∧
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ) (μ : GMZP0.Base N → ℝ),
+                  GMZP0.Admissible N κ η f θ lam μ →
+                    ∃ X D a,
+                      D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                        (∀ (x : Fin N), x ∈ X ↔ a ≤ ↑x ∧ ↑x ≤ a + N / M) ∧
+                          c ≤ ∑ z ∈ D, μ z ∧
+                            (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                              (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                η * ∑ z ∈ D, μ z ≤
+                                    ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D) lam‖ ∧
+                                  2 * ζ ≤ GMZP0.lagSignedDoubleStatistic N θ X (GMZP0.originalScaledWeight N μ D) lam ∧
+                                    ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:489:0: GMZP0.signed_plus_diagonal_reroot {N : ℕ} (hN : 0 < N) (p : GMZP0.Base N → GMZP0.Frequency) (X : Finset (Fin N))
+  (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ) :
+  GMZP0.lagSignedDoubleStatistic N p X σ lam + GMZP0.lagDiagonalStatistic N p X σ lam =
+    GMZP0.rerootedWeightedSum N p X σ lam / ↑N ^ 5
+info: GMZP0/Audit.lean:490:0: GMZP0.uniform_positive_rerooted_average (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c ζ N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < ζ ∧
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ) (μ : GMZP0.Base N → ℝ),
+                  GMZP0.Admissible N κ η f θ lam μ →
+                    ∃ X D a,
+                      D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                        (∀ (x : Fin N), x ∈ X ↔ a ≤ ↑x ∧ ↑x ≤ a + N / M) ∧
+                          c ≤ ∑ z ∈ D, μ z ∧
+                            (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                              (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                η * ∑ z ∈ D, μ z ≤
+                                    ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D) lam‖ ∧
+                                  2 * ζ ≤ GMZP0.finiteRerootedNormAverage N θ X (GMZP0.originalScaledWeight N μ D) lam ∧
+                                    ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:491:0: GMZP0.finite_to_cyclic_modulus_average {N q : ℕ} [NeZero q] (hN : 0 < N) (hq : N ^ 2 < q) (H : ℕ)
+  (p : GMZP0.Base N → GMZP0.Frequency) (X : Finset (Fin N)) (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ)
+  (hHN : H ≤ N) (hX : ∀ x ∈ X, ∀ x' ∈ X, |GMZP0.horizontalGap x x'| ≤ ↑H)
+  (hsafe : ∀ (x : Fin N) (y : Fin (N ^ 2)), σ (x, y) ≠ 0 → GMZP0.SafeVertical (↑N) (↑H) (↑↑y + 1)) :
+  GMZP0.finiteRerootedNormAverage N p X σ lam = 2 * ↑q / ↑N ^ 2 * GMZP0.cyclicModulusAverage N q p X σ lam
+info: GMZP0/Audit.lean:492:0: GMZP0.uniform_positive_cyclic_average (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c ζ N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < ζ ∧
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (q : ℕ) [inst : NeZero q],
+                  N ^ 2 < q →
+                    q ≤ 128 * N ^ 2 →
+                      ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                        (μ : GMZP0.Base N → ℝ),
+                        GMZP0.Admissible N κ η f θ lam μ →
+                          ∃ X D a,
+                            D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                              (∀ (x : Fin N), x ∈ X ↔ a ≤ ↑x ∧ ↑x ≤ a + N / M) ∧
+                                c ≤ ∑ z ∈ D, μ z ∧
+                                  (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                    (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                      η * ∑ z ∈ D, μ z ≤
+                                          ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                              lam‖ ∧
+                                        ζ / 128 ≤
+                                            GMZP0.cyclicModulusAverage N q θ X (GMZP0.originalScaledWeight N μ D) lam ∧
+                                          ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:493:0: GMZP0.cyclicModulusAverage_as_uniform_mean (N q : ℕ) [NeZero q] (p : GMZP0.Base N → GMZP0.Frequency)
+  (X : Finset (Fin N)) (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ) :
+  GMZP0.cyclicModulusAverage N q p X σ lam =
+    (∑ z,
+        GMZP0.cyclicWeight N q σ X z * ‖GMZP0.cyclicShiftLagB N q p σ lam z.1 z.2.2.1 ↑z.2.1 ↑(GMZP0.label z.2.2.2)‖) /
+      ↑(Fintype.card (GMZP0.CyclicSamplingSpace N q))
+info: GMZP0/Audit.lean:494:0: GMZP0.exists_prime_cyclic_modulus {N : ℕ} (hN : 0 < N) : ∃ q, Nat.Prime q ∧ 64 * N ^ 2 < q ∧ q < 128 * N ^ 2
+info: GMZP0/Audit.lean:495:0: GMZP0.norm_Icc_translate (a b d : ℤ) (f : ℤ → ℂ) (hf : ∀ (k : ℤ), ‖f k‖ ≤ 1) :
+  ‖∑ k ∈ Finset.Icc a b, f (k + d) - ∑ k ∈ Finset.Icc a b, f k‖ ≤ 2 * |↑d|
+info: GMZP0/Audit.lean:496:0: GMZP0.norm_fourShiftSmoothedAverage_sub_le {N : ℕ} (hN : 0 < N) (ℓ : ℕ) (h t : ℤ) (f : ℤ → ℂ)
+  (hf : ∀ (k : ℤ), ‖f k‖ ≤ 1) :
+  ‖GMZP0.fourShiftSmoothedAverage N ℓ h t f - (∑ k ∈ GMZP0.lagInnerInterval N h t, f k) / ↑N‖ ≤ 8 * ↑ℓ / ↑N
+info: GMZP0/Audit.lean:497:0: GMZP0.uniform_positive_smoothed_average (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (q : ℕ) [inst : NeZero q],
+                  N ^ 2 < q →
+                    q ≤ 128 * N ^ 2 →
+                      ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                        (μ : GMZP0.Base N → ℝ),
+                        GMZP0.Admissible N κ η f θ lam μ →
+                          ∃ X D b,
+                            D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                              (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                c ≤ ∑ z ∈ D, μ z ∧
+                                  (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                    (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                      η * ∑ z ∈ D, μ z ≤
+                                          ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                              lam‖ ∧
+                                        a ≤ GMZP0.cyclicModulusAverage N q θ X (GMZP0.originalScaledWeight N μ D) lam ∧
+                                          7 * a / 8 ≤
+                                              GMZP0.cyclicSmoothedModulusAverage N q (GMZP0.smoothingRadius N a) θ X
+                                                (GMZP0.originalScaledWeight N μ D) lam ∧
+                                            ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:498:0: GMZP0.cyclicSmoothedLagB_four_faces (N q ℓ : ℕ) (p : GMZP0.Base N → GMZP0.Frequency) (σ : GMZP0.Base N → ℝ)
+  (lam : GMZP0.Base N → ℂ) (x : Fin N) (v : ZMod q) (h t : ℤ) :
+  GMZP0.cyclicSmoothedLagB N q ℓ p σ lam x v h t =
+    (∑ k ∈ GMZP0.lagInnerInterval N h t,
+        GMZP0.complexUniformMean fun u =>
+          GMZP0.cyclicLagG N q p σ lam x v h t (k + GMZP0.fourShiftSum ℓ u) *
+            ∏ i,
+              GMZP0.cubicFacePhase t k
+                (GMZP0.originalFieldExtension N p 0 (↑↑x + 1 + h, ↑(v + ↑(h ^ 2 + 2 * h * t)).val)) (fun j => ↑(u j))
+                i) /
+      ↑N
+info: GMZP0/Audit.lean:499:0: GMZP0.box_cauchy_schwarz.{u_1} {A : Type u_1} [Fintype A] [Nonempty A] (n : ℕ) (F : (Fin (n + 1) → A) → ℂ)
+  (b : Fin (n + 1) → (Fin (n + 1) → A) → ℂ) :
+  (∀ (i : Fin (n + 1)) (u : Fin (n + 1) → A), ‖b i u‖ = 1) →
+    (∀ (i : Fin (n + 1)), GMZP0.FaceIndependent (b i) i) →
+      ‖GMZP0.boxCorrelation F b‖ ^ 2 ^ (n + 1) ≤ GMZP0.boxMoment n F
+info: GMZP0/Audit.lean:500:0: GMZP0.boxNorm_pow.{u_1} {A : Type u_1} [Fintype A] (n : ℕ) (F : (Fin (n + 1) → A) → ℂ) :
+  GMZP0.boxNorm n F ^ 2 ^ (n + 1) = GMZP0.boxMoment n F
+info: GMZP0/Audit.lean:501:0: GMZP0.cyclicSmoothedLagB_le_boxSum {N : ℕ} (hN : 0 < N) (q ℓ : ℕ) (p : GMZP0.Base N → GMZP0.Frequency)
+  (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ) (x : Fin N) (v : ZMod q) (h t : ℤ) :
+  ‖GMZP0.cyclicSmoothedLagB N q ℓ p σ lam x v h t‖ ≤
+    (∑ k ∈ GMZP0.lagInnerInterval N h t, GMZP0.cyclicLagBoxNorm N q ℓ p σ lam x v h t k) / ↑N
+info: GMZP0/Audit.lean:502:0: GMZP0.cyclicBoxNormAverage_pow_le {N : ℕ} (hN : 0 < N) (q ℓ : ℕ) [NeZero q] (p : GMZP0.Base N → GMZP0.Frequency)
+  (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ) :
+  GMZP0.cyclicBoxNormAverage N q ℓ p σ lam ^ 16 ≤ GMZP0.cyclicBoxMomentAverage N q ℓ p σ lam
+info: GMZP0/Audit.lean:503:0: GMZP0.uniform_positive_box_average (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (q : ℕ) [inst : NeZero q],
+                  N ^ 2 < q →
+                    q ≤ 128 * N ^ 2 →
+                      ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                        (μ : GMZP0.Base N → ℝ),
+                        GMZP0.Admissible N κ η f θ lam μ →
+                          ∃ X D b,
+                            D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                              (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                c ≤ ∑ z ∈ D, μ z ∧
+                                  (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                    (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                      η * ∑ z ∈ D, μ z ≤
+                                          ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                              lam‖ ∧
+                                        (a / 4) ^ 16 ≤
+                                            GMZP0.cyclicBoxMomentAverage N q (GMZP0.smoothingRadius N a) θ
+                                              (GMZP0.originalScaledWeight N μ D) lam ∧
+                                          ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:504:0: GMZP0.cubeMean_eq_boxMoment.{u_1} {A : Type u_1} [Fintype A] (n : ℕ) (F : (Fin (n + 1) → A) → ℂ) :
+  GMZP0.cubeMean (n + 1) F = ↑(GMZP0.boxMoment n F)
+info: GMZP0/Audit.lean:505:0: GMZP0.cyclicRerootedCubeAverage_eq_moment (N q ℓ : ℕ) [NeZero q] (p : GMZP0.Base N → GMZP0.Frequency)
+  (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ) :
+  GMZP0.cyclicRerootedCubeAverage N q ℓ p σ lam = ↑(GMZP0.cyclicBoxMomentAverage N q ℓ p σ lam)
+info: GMZP0/Audit.lean:506:0: GMZP0.cyclicCubePhase_polynomial (N q ℓ : ℕ) (p : GMZP0.Base N → GMZP0.Frequency) (x : Fin N) (Y : ZMod q) (h k t : ℤ)
+  (u : GMZP0.CubeShiftPairs ℓ) :
+  GMZP0.cyclicCubePhase N q ℓ p x Y h k u t =
+    t ^ 3 • GMZP0.cyclicCubeCoefficients N q ℓ p x Y h k u 3 +
+          t ^ 2 • GMZP0.cyclicCubeCoefficients N q ℓ p x Y h k u 2 +
+        t • GMZP0.cyclicCubeCoefficients N q ℓ p x Y h k u 1 +
+      GMZP0.cyclicCubeCoefficients N q ℓ p x Y h k u 0
+info: GMZP0/Audit.lean:507:0: GMZP0.cyclicRerootedCubeAverage_split_time (N q ℓ : ℕ) [NeZero q] (p : GMZP0.Base N → GMZP0.Frequency)
+  (σ : GMZP0.Base N → ℝ) (lam : GMZP0.Base N → ℂ) :
+  GMZP0.cyclicRerootedCubeAverage N q ℓ p σ lam =
+    GMZP0.complexUniformMean fun z =>
+      ↑(GMZP0.cyclicCubeWeight N q ℓ σ z.1 z.2.2.1 (↑z.2.1) z.2.2.2.2) *
+          GMZP0.cyclicCubeAlignment N q ℓ lam z.1 z.2.2.1 (↑z.2.1) z.2.2.2.2 *
+        GMZP0.cyclicCubeTimeAverage N q ℓ p z.1 z.2.2.1 (↑z.2.1) (↑z.2.2.2.1) z.2.2.2.2
+info: GMZP0/Audit.lean:508:0: GMZP0.cyclicCube_original_vertices {N q : ℕ} [NeZero q] (hq : N ^ 2 < q) (ℓ : ℕ) (f : ℤ × ℤ → ℂ)
+  (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ) (μ : GMZP0.Base N → ℝ) (D : Finset (GMZP0.Base N))
+  (η : ℝ) (hresponse : ∀ (z : GMZP0.Base N), μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re) (x : Fin N)
+  (Y : ZMod q) (h : ℤ) (u : GMZP0.CubeShiftPairs ℓ)
+  (hW : GMZP0.cyclicCubeWeight N q ℓ (GMZP0.originalScaledWeight N μ D) x Y h u ≠ 0) (ω : Fin 4 → Bool) :
+  ∃ y,
+    GMZP0.cyclicCubeVertex q ℓ h Y u ω = GMZP0.cyclicRow N q y ∧
+      (x, y) ∈ D ∧
+        μ (x, y) ≠ 0 ∧
+          GMZP0.cyclicField N q θ 0 x (GMZP0.cyclicCubeVertex q ℓ h Y u ω) = θ (x, y) ∧
+            GMZP0.cyclicField N q lam 1 x (GMZP0.cyclicCubeVertex q ℓ h Y u ω) = lam (x, y) ∧
+              GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x (GMZP0.cyclicCubeVertex q ℓ h Y u ω) =
+                  ↑N ^ 3 * μ (x, y) ∧
+                η ≤ (lam (x, y) * GMZP0.response N f (x, y) (θ (x, y))).re
+info: GMZP0/Audit.lean:509:0: GMZP0.uniform_positive_weighted_time_average (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (q : ℕ) [inst : NeZero q],
+                  N ^ 2 < q →
+                    q ≤ 128 * N ^ 2 →
+                      ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                        (μ : GMZP0.Base N → ℝ),
+                        GMZP0.Admissible N κ η f θ lam μ →
+                          ∃ X D b,
+                            D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                              (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                c ≤ ∑ z ∈ D, μ z ∧
+                                  (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                    (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                      η * ∑ z ∈ D, μ z ≤
+                                          ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                              lam‖ ∧
+                                        (a / 4) ^ 16 ≤
+                                            GMZP0.cyclicWeightedTimeNorm N q (GMZP0.smoothingRadius N a) θ
+                                              (GMZP0.originalScaledWeight N μ D) ∧
+                                          ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:510:0: GMZP0.linear_interval_weyl_inverse {N : ℕ} (hN : 0 < N) (L U : ℤ) (a b : GMZP0.Frequency) {ρ : ℝ} (hρ : 0 < ρ)
+  (hlarge : ρ ≤ ‖(∑ t ∈ Finset.Icc L U, GMZP0.circleCharacter (t • a + b)) / ↑N‖) : ‖a‖ ≤ 1 / (2 * ρ * ↑N)
+info: GMZP0/Audit.lean:511:0: GMZP0.many_large_weyl_correlations {N : ℕ} (hN : 0 < N) (F : ℤ → ℂ) (hF : ∀ (r : ℤ), ‖F r‖ ≤ 1) {ρ : ℝ} (hρ : 0 ≤ ρ)
+  (hlarge : ρ ≤ ‖GMZP0.integerIntervalMean N F‖) (hscale : 2 ≤ ↑N * ρ ^ 2) :
+  ↑N * ρ ^ 2 / 4 ≤ ↑(GMZP0.largeWeylShifts N F (ρ ^ 2 / 8)).card
+info: GMZP0/Audit.lean:512:0: GMZP0.quadratic_many_returns {N : ℕ} (hN : 0 < N) (a₂ a₁ a₀ : GMZP0.Frequency) {ρ : ℝ} (hρ : 0 < ρ)
+  (hlarge :
+    ρ ≤ ‖GMZP0.integerIntervalMean N fun t => GMZP0.circleCharacter (GMZP0.quadraticCirclePolynomial a₂ a₁ a₀ t)‖)
+  (hscale : 2 ≤ ↑N * ρ ^ 2) :
+  ∃ s ⊆ GMZP0.horizontalShiftLabels N, ↑N * ρ ^ 2 / 4 ≤ ↑s.card ∧ ∀ h ∈ s, ‖(2 * h) • a₂‖ ≤ 4 / (ρ ^ 2 * ↑N)
+info: GMZP0/Audit.lean:513:0: GMZP0.affine_return_small_multiple {N Q : ℕ} (hQ : 0 < Q) (s : Finset ℤ) (hs : s ⊆ Finset.Icc (-↑N) ↑N)
+  (hcard : 2 * N / Q + 1 < s.card) (a b : GMZP0.Frequency) {ε : ℝ} (hreturn : ∀ h ∈ s, ‖h • a + b‖ ≤ ε) :
+  ∃ q, 0 < q ∧ q < ↑Q ∧ ‖q • a‖ ≤ 2 * ε
+info: GMZP0/Audit.lean:514:0: GMZP0.uniform_affine_dense_returns (ρ C : ℝ) (hρ : 0 < ρ) (hC : 0 ≤ C) :
+  ∃ Q E N₀,
+    0 < Q ∧
+      0 < E ∧
+        0 < N₀ ∧
+          ∀ (N : ℕ),
+            N₀ ≤ N →
+              ∀ (a b : GMZP0.Frequency) (ε : ℝ) (s : Finset ℤ),
+                0 ≤ ε →
+                  ε * ↑N ≤ C →
+                    s ⊆ Finset.Icc (-↑N) ↑N →
+                      ρ * ↑N ≤ ↑s.card → (∀ h ∈ s, ‖h • a + b‖ ≤ ε) → ∃ q, 0 < q ∧ q ≤ Q ∧ ‖q • a‖ ≤ E * ε / ↑N
+info: GMZP0/Audit.lean:515:0: GMZP0.uniform_quadratic_weyl (ρ : ℝ) (hρ : 0 < ρ) :
+  ∃ Q E,
+    0 < Q ∧
+      0 < E ∧
+        ∀ (N : ℕ),
+          0 < N →
+            ∀ (a₂ a₁ a₀ : GMZP0.Frequency),
+              ρ ≤
+                  ‖GMZP0.integerIntervalMean N fun t =>
+                      GMZP0.circleCharacter (GMZP0.quadraticCirclePolynomial a₂ a₁ a₀ t)‖ →
+                ∃ q, 0 < q ∧ q ≤ Q ∧ ‖q • a₂‖ ≤ E / ↑N ^ 2
+info: GMZP0/Audit.lean:516:0: GMZP0.uniform_quadratic_interval_weyl (ρ : ℝ) (hρ : 0 < ρ) :
+  ∃ Q E,
+    0 < Q ∧
+      0 < E ∧
+        ∀ (N : ℕ),
+          0 < N →
+            ∀ (L U : ℤ),
+              (U - L + 1).toNat ≤ N →
+                ∀ (a₂ a₁ a₀ : GMZP0.Frequency),
+                  ρ ≤
+                      ‖(∑ t ∈ Finset.Icc L U, GMZP0.circleCharacter (GMZP0.quadraticCirclePolynomial a₂ a₁ a₀ t)) /
+                          ↑N‖ →
+                    ∃ q, 0 < q ∧ q ≤ Q ∧ ‖q • a₂‖ ≤ E / ↑N ^ 2
+info: GMZP0/Audit.lean:517:0: GMZP0.uniform_cubic_weyl (ρ : ℝ) (hρ : 0 < ρ) :
+  ∃ Q E,
+    0 < Q ∧
+      0 < E ∧
+        ∀ (N : ℕ),
+          0 < N →
+            ∀ (a₃ a₂ a₁ a₀ : GMZP0.Frequency),
+              ρ ≤
+                  ‖GMZP0.integerIntervalMean N fun t =>
+                      GMZP0.circleCharacter (GMZP0.cubicCirclePolynomial a₃ a₂ a₁ a₀ t)‖ →
+                ∃ q, 0 < q ∧ q ≤ Q ∧ ‖q • a₃‖ ≤ E / ↑N ^ 3
+info: GMZP0/Audit.lean:518:0: GMZP0.uniform_cubic_common_denominator (ρ : ℝ) (hρ : 0 < ρ) :
+  ∃ D E,
+    0 < D ∧
+      0 < E ∧
+        ∀ (N : ℕ),
+          0 < N →
+            ∀ (a₃ a₂ a₁ a₀ : GMZP0.Frequency),
+              ρ ≤
+                  ‖GMZP0.integerIntervalMean N fun t =>
+                      GMZP0.circleCharacter (GMZP0.cubicCirclePolynomial a₃ a₂ a₁ a₀ t)‖ →
+                ‖D • a₃‖ ≤ E / ↑N ^ 3
+info: GMZP0/Audit.lean:519:0: GMZP0.uniform_original_cube_capture (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a d E N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < d ∧
+            0 < E ∧
+              0 < N₀ ∧
+                ∀ (N : ℕ),
+                  N₀ ≤ N →
+                    ∀ (q : ℕ) [inst : NeZero q],
+                      N ^ 2 < q →
+                        q ≤ 128 * N ^ 2 →
+                          ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                            (μ : GMZP0.Base N → ℝ),
+                            GMZP0.Admissible N κ η f θ lam μ →
+                              ∃ X D b,
+                                D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                                  (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                    c ≤ ∑ z ∈ D, μ z ∧
+                                      (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                        (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                          η * ∑ z ∈ D, μ z ≤
+                                              ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                                  lam‖ ∧
+                                            (a / 4) ^ 16 / 2 ≤
+                                                GMZP0.cyclicCubeNearMass N q (GMZP0.smoothingRadius N a) θ
+                                                  (GMZP0.originalScaledWeight N μ D) d E ∧
+                                              ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:525:0: 'GMZP0.cyclicCubeVertex_zero_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:526:0: 'GMZP0.cube_pair_collision_zero_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:527:0: 'GMZP0.cube_pair_collision_zero_step_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:528:0: 'GMZP0.realUniformMean_resample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:529:0: 'GMZP0.uniform_event_le_one_over_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:530:0: 'GMZP0.uniform_event_le_of_update_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:531:0: 'GMZP0.card_ascendingCubeLabelPairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:532:0: 'GMZP0.cube_collision_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:533:0: 'GMZP0.positive_cube_collision_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:534:0: 'GMZP0.realUniformMean_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:535:0: 'GMZP0.card_cubeSpatialParameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:536:0: 'GMZP0.cyclicCubeNearMass_remove_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:537:0: 'GMZP0.cyclicCubeNearWeight_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:538:0: 'GMZP0.cubeShiftSum_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:539:0: 'GMZP0.cyclicCubeVertex_neg_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:540:0: 'GMZP0.cyclicCubeCubicCoeff_neg_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:541:0: 'GMZP0.cyclicCubeWeight_neg_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:542:0: 'GMZP0.cyclicCubeNearWeight_neg_reflect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:543:0: 'GMZP0.cubeNearWeight_mean_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:544:0: 'GMZP0.realUniformMean_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:545:0: 'GMZP0.uniform_event_union_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:546:0: 'GMZP0.cubeShiftSum_flat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:547:0: 'GMZP0.flatCubeShiftSum_update_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:548:0: 'GMZP0.flatCubeShiftSum_update_other' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:549:0: 'GMZP0.cube_collision_update_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:550:0: 'GMZP0.cube_pair_collision_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:551:0: 'GMZP0.realUniformMean_prod_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:552:0: 'GMZP0.card_positiveCubeParameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:553:0: 'GMZP0.cyclicSpatialCubeNearMass_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:554:0: 'GMZP0.cyclicCubeNearMass_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:555:0: 'GMZP0.smoothingShift_cast_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:556:0: 'GMZP0.positive_cube_step_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:557:0: 'GMZP0.signedHorizontalLabel_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:558:0: 'GMZP0.signedHorizontalLabel_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:559:0: 'GMZP0.real_signed_mean_eq_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:560:0: 'GMZP0.uniform_collision_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:561:0: 'GMZP0.cyclicDistinctCubeNearWeight_pos_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:562:0: 'GMZP0.uniform_distinct_original_cube_capture' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:563:0: 'GMZP0.uniform_positive_original_cube_capture' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:564:0: 'GMZP0.realUniformMean_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:565:0: 'GMZP0.weighted_event_removal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:566:0: 'GMZP0.positive_cube_total_collision_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:567:0: 'GMZP0.cyclicDistinctPositiveCubeNearMass_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:568:0: GMZP0.uniform_distinct_original_cube_capture (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a d E N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < d ∧
+            0 < E ∧
+              0 < N₀ ∧
+                ∀ (N : ℕ),
+                  N₀ ≤ N →
+                    ∀ (q : ℕ) [inst : Fact (Nat.Prime q)],
+                      N ^ 2 < q →
+                        q ≤ 128 * N ^ 2 →
+                          ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                            (μ : GMZP0.Base N → ℝ),
+                            GMZP0.Admissible N κ η f θ lam μ →
+                              ∃ X D b,
+                                D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                                  (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                    c ≤ ∑ z ∈ D, μ z ∧
+                                      (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                        (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                          η * ∑ z ∈ D, μ z ≤
+                                              ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                                  lam‖ ∧
+                                            (a / 4) ^ 16 / 4 ≤
+                                                GMZP0.cyclicDistinctPositiveCubeNearMass N q (GMZP0.smoothingRadius N a)
+                                                  θ (GMZP0.originalScaledWeight N μ D) d E ∧
+                                              ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:571:0: 'GMZP0.cube_choice_sum_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:572:0: 'GMZP0.exists_cube_integer_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:573:0: 'GMZP0.exists_cube_lift_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:574:0: 'GMZP0.frequency_coe_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:575:0: 'GMZP0.cubeRoundedSum_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:576:0: 'GMZP0.cubeRoundedSum_real_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:577:0: 'GMZP0.cubeUnitRep_sum_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:578:0: 'GMZP0.cubeRoundedSum_circle_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:579:0: 'GMZP0.cube_rounding_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:580:0: 'GMZP0.cubeSign_one_or_neg_one' depends on axioms: [propext]
+info: GMZP0/Audit.lean:581:0: 'GMZP0.cubeSign_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:582:0: 'GMZP0.card_positiveCubeVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:583:0: 'GMZP0.card_negativeCubeVertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:584:0: 'GMZP0.bounded_integer_cube_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:585:0: 'GMZP0.exists_cyclic_lift_choice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:586:0: 'GMZP0.exists_cyclic_real_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:587:0: 'GMZP0.cyclicCube_scaled_frequency_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:588:0: 'GMZP0.cyclicCubeWeight_pos_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:589:0: 'GMZP0.cyclic_lift_cube_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:590:0: 'GMZP0.cyclicDistinctCubeNearWeight_eq_ite_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:591:0: 'GMZP0.cyclicLiftValue_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:592:0: 'GMZP0.cyclicLiftValue_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:593:0: 'GMZP0.cyclicLiftValue_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:594:0: 'GMZP0.cyclicLiftValue_circle_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:595:0: 'GMZP0.cyclicLiftValue_original_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:596:0: 'GMZP0.separate_witnesses_not_one_global_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:597:0: 'GMZP0.exists_ge_realUniformMean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:598:0: 'GMZP0.mean_constant_event_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:599:0: 'GMZP0.exists_global_weighted_success' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:600:0: 'GMZP0.realUniformMean_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:601:0: 'GMZP0.uniform_singleton_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:602:0: 'GMZP0.uniform_restricted_assignment_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:603:0: 'GMZP0.uniform_restricted_event_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:604:0: 'GMZP0.realUniformMean_comm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:605:0: 'GMZP0.card_liftChoice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:606:0: 'GMZP0.liftChoice_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:607:0: 'GMZP0.liftChoiceValue_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:608:0: 'GMZP0.liftChoiceValue_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:609:0: 'GMZP0.liftChoiceValue_circle_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:610:0: 'GMZP0.liftGridSize_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:611:0: 'GMZP0.uniform_lift_grid_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:612:0: 'GMZP0.frequencyUnitRep_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:613:0: 'GMZP0.frequencyUnitRep_coe' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:614:0: 'GMZP0.round_monotone_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:615:0: 'GMZP0.round_between_integers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:616:0: 'GMZP0.liftRound_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:617:0: 'GMZP0.liftRound_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:618:0: 'GMZP0.liftRound_div_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:619:0: 'GMZP0.uniform_original_real_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:620:0: GMZP0.uniform_original_real_lift (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a d E N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < d ∧
+            0 < E ∧
+              0 < N₀ ∧
+                ∀ (N : ℕ),
+                  N₀ ≤ N →
+                    ∀ (q : ℕ) [inst : Fact (Nat.Prime q)],
+                      N ^ 2 < q →
+                        q ≤ 128 * N ^ 2 →
+                          ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                            (μ : GMZP0.Base N → ℝ),
+                            GMZP0.Admissible N κ η f θ lam μ →
+                              ∃ X D b F,
+                                D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                                  (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                    c ≤ ∑ z ∈ D, μ z ∧
+                                      (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                        (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                          η * ∑ z ∈ D, μ z ≤
+                                              ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                                  lam‖ ∧
+                                            9 ≤ GMZP0.liftGridSize N E ∧
+                                              (∀ (x : Fin N) (Y : ZMod q),
+                                                  ∃ k, F x Y = ↑k / ↑(GMZP0.liftGridSize N E)) ∧
+                                                (∀ (x : Fin N) (Y : ZMod q), |F x Y| ≤ 3) ∧
+                                                  (∀ (x : Fin N) (Y : ZMod q),
+                                                      GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x Y =
+                                                          0 →
+                                                        F x Y = 0) ∧
+                                                    (∀ (x : Fin N) (Y : ZMod q),
+                                                        0 <
+                                                            GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x
+                                                              Y →
+                                                          ‖↑(F x Y) - d • GMZP0.cyclicField N q θ 0 x Y‖ ≤
+                                                            19 * E / ↑N ^ 3) ∧
+                                                      (a / 4) ^ 16 / (4 * 57 ^ 16) ≤
+                                                          GMZP0.cyclicRealCubeMass N q (GMZP0.smoothingRadius N a)
+                                                            (GMZP0.originalScaledWeight N μ D) F ∧
+                                                        ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:623:0: 'GMZP0.circleCharacter_eq_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:624:0: 'GMZP0.completeCharacterMean_torsion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:625:0: 'GMZP0.short_rational_frequency_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:626:0: 'GMZP0.rational_character_orthogonality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:627:0: 'GMZP0.realSignedCubeSum_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:628:0: 'GMZP0.realSignedCubeSum_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:629:0: 'GMZP0.realSignedCubeSum_abs_le_384' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:630:0: 'GMZP0.realSignedCubeSum_grid_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:631:0: 'GMZP0.meshFrequency_mul_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:632:0: 'GMZP0.frequencyMeshMean_grid_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:633:0: 'GMZP0.frequencyMeshMean_real_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:634:0: 'GMZP0.frequencyMeshMean_realCube' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:635:0: 'GMZP0.integer_frequency_alias_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:636:0: 'GMZP0.frequencyMeshMean_period' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:637:0: 'GMZP0.frequency_mesh_size_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:638:0: 'GMZP0.localCubeMoment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:639:0: 'GMZP0.localCubeMoment_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:640:0: 'GMZP0.localCubeNorm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:641:0: 'GMZP0.localCubeNorm_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:642:0: 'GMZP0.localCubeNorm_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:643:0: 'GMZP0.localCubeMoment_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:644:0: 'GMZP0.weighted_real_cube_character' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:645:0: 'GMZP0.weighted_frequency_cube_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:646:0: 'GMZP0.weighted_frequency_cube_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:647:0: 'GMZP0.localBoxFunction_cyclic_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:648:0: 'GMZP0.cyclicLocalMoment_expand' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:649:0: 'GMZP0.modulatedCyclicField_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:650:0: 'GMZP0.modulatedCyclicField_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:651:0: 'GMZP0.cyclic_weighted_frequency_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:652:0: 'GMZP0.cyclic_local_frequency_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:653:0: 'GMZP0.cyclicLocalFourMoment_eq_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:654:0: 'GMZP0.cyclicLocalFourthNormAverage_eq_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:655:0: 'GMZP0.cyclicLocalFourthNormAverage_eq_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:656:0: 'GMZP0.uniform_original_local_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:657:0: 'GMZP0.bounded_moment_good_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:658:0: 'GMZP0.cyclicLocalFourFiber_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:659:0: 'GMZP0.cyclic_local_good_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:660:0: 'GMZP0.uniform_original_local_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:661:0: GMZP0.uniform_original_local_four (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a d E N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < d ∧
+            0 < E ∧
+              0 < N₀ ∧
+                ∀ (N : ℕ),
+                  N₀ ≤ N →
+                    ∀ (q : ℕ) [inst : Fact (Nat.Prime q)],
+                      N ^ 2 < q →
+                        q ≤ 128 * N ^ 2 →
+                          ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                            (μ : GMZP0.Base N → ℝ),
+                            GMZP0.Admissible N κ η f θ lam μ →
+                              ∃ X D b F,
+                                D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                                  (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                    c ≤ ∑ z ∈ D, μ z ∧
+                                      (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                        (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                          η * ∑ z ∈ D, μ z ≤
+                                              ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                                  lam‖ ∧
+                                            9 ≤ GMZP0.liftGridSize N E ∧
+                                              (∀ (x : Fin N) (Y : ZMod q),
+                                                  ∃ k, F x Y = ↑k / ↑(GMZP0.liftGridSize N E)) ∧
+                                                (∀ (x : Fin N) (Y : ZMod q), |F x Y| ≤ 3) ∧
+                                                  (∀ (x : Fin N) (Y : ZMod q),
+                                                      GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x Y =
+                                                          0 →
+                                                        F x Y = 0) ∧
+                                                    (∀ (x : Fin N) (Y : ZMod q),
+                                                        0 <
+                                                            GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x
+                                                              Y →
+                                                          ‖↑(F x Y) - d • GMZP0.cyclicField N q θ 0 x Y‖ ≤
+                                                            19 * E / ↑N ^ 3) ∧
+                                                      (a / 4) ^ 16 / (4 * 57 ^ 16) ≤
+                                                          GMZP0.cyclicLocalFourthNormAverage N q
+                                                            (GMZP0.smoothingRadius N a) (GMZP0.liftGridSize N E)
+                                                            (GMZP0.originalScaledWeight N μ D) F ∧
+                                                        ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:662:0: GMZP0.uniform_original_local_fibres (κ η : ℝ) (hκ : 0 < κ) (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c a d E N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < a ∧
+          0 < d ∧
+            0 < E ∧
+              0 < N₀ ∧
+                ∀ (N : ℕ),
+                  N₀ ≤ N →
+                    ∀ (q : ℕ) [inst : Fact (Nat.Prime q)],
+                      N ^ 2 < q →
+                        q ≤ 128 * N ^ 2 →
+                          ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                            (μ : GMZP0.Base N → ℝ),
+                            GMZP0.Admissible N κ η f θ lam μ →
+                              ∃ X D b F,
+                                D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                                  (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                    c ≤ ∑ z ∈ D, μ z ∧
+                                      (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                        (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                          η * ∑ z ∈ D, μ z ≤
+                                              ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                                  lam‖ ∧
+                                            9 ≤ GMZP0.liftGridSize N E ∧
+                                              (∀ (x : Fin N) (Y : ZMod q),
+                                                  ∃ k, F x Y = ↑k / ↑(GMZP0.liftGridSize N E)) ∧
+                                                (∀ (x : Fin N) (Y : ZMod q), |F x Y| ≤ 3) ∧
+                                                  (∀ (x : Fin N) (Y : ZMod q),
+                                                      GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x Y =
+                                                          0 →
+                                                        F x Y = 0) ∧
+                                                    (∀ (x : Fin N) (Y : ZMod q),
+                                                        0 <
+                                                            GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x
+                                                              Y →
+                                                          ‖↑(F x Y) - d • GMZP0.cyclicField N q θ 0 x Y‖ ≤
+                                                            19 * E / ↑N ^ 3) ∧
+                                                      (a / 4) ^ 16 / (4 * 57 ^ 16) ≤
+                                                          GMZP0.cyclicLocalFourthNormAverage N q
+                                                            (GMZP0.smoothingRadius N a) (GMZP0.liftGridSize N E)
+                                                            (GMZP0.originalScaledWeight N μ D) F ∧
+                                                        (a / 4) ^ 16 / (4 * 57 ^ 16) / 2 ≤
+                                                            GMZP0.cyclicLocalGoodFiberMass N q
+                                                              (GMZP0.smoothingRadius N a) (GMZP0.liftGridSize N E)
+                                                              (GMZP0.originalScaledWeight N μ D) F
+                                                              ((a / 4) ^ 16 / (4 * 57 ^ 16)) ∧
+                                                          ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:665:0: 'GMZP0.complexUniformMean_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:666:0: 'GMZP0.finite_character_pair_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:667:0: 'GMZP0.finiteFourier_inversion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:668:0: 'GMZP0.finiteFourier_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:669:0: 'GMZP0.finiteFourier_parseval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:670:0: 'GMZP0.finite_character_mul_conj' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:671:0: 'GMZP0.correlation_character_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:672:0: 'GMZP0.finiteFourier_correlation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:673:0: 'GMZP0.realDifferenceDensity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:674:0: 'GMZP0.finiteCorrelation_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:675:0: 'GMZP0.fourierEnergyWeight_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:676:0: 'GMZP0.fourierEnergyWeight_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:677:0: 'GMZP0.realDifferenceDensity_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:678:0: 'GMZP0.positive_product_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:679:0: 'GMZP0.positive_product_mixture_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:680:0: 'GMZP0.differenceDensity_product_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:681:0: 'GMZP0.differenceWeightedCubeMean_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:682:0: 'GMZP0.differenceWeightedCubeMean_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:683:0: 'GMZP0.parameterDensity_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:684:0: 'GMZP0.parameterDensity_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:685:0: 'GMZP0.parameterDensity_pushforward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:686:0: 'GMZP0.parameterDensity_mean_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:687:0: 'GMZP0.parameterDensity_le_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:688:0: 'GMZP0.parameterDensity_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:689:0: 'GMZP0.realDifferenceDensity_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:690:0: 'GMZP0.parameterDifference_pushforward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:691:0: 'GMZP0.box_remove_bounded_face' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:692:0: 'GMZP0.boxDoubledFaces_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:693:0: 'GMZP0.boxCorrelation_sq_le_doubled_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:694:0: 'GMZP0.boxCorrelation_one_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:695:0: 'GMZP0.box_cauchy_schwarz_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:696:0: 'GMZP0.boxCorrelation_le_boxNorm_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:697:0: 'GMZP0.uniform_product_pushforward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:698:0: 'GMZP0.localBoxFunction_additive_vertex' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:699:0: 'GMZP0.local_cube_mean_reroot' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:700:0: 'GMZP0.parameterDifference_product_pushforward' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:701:0: 'GMZP0.localCubeMoment_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:702:0: 'GMZP0.localCubeMoment_eq_differenceWeighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:703:0: 'GMZP0.localCubeMoment_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:704:0: 'GMZP0.localCubeMoment_bound_of_twisted' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:705:0: 'GMZP0.parameterDensity_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:706:0: 'GMZP0.localCubeMoment_const_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:707:0: 'GMZP0.raw_probability_density_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:708:0: 'GMZP0.globalCubeMoment_additive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:709:0: GMZP0.localCubeMoment_fourier.{u_1, u_2} {G : Type u_1} {A : Type u_2} [AddCommGroup G] [Fintype G] [Fintype A]
+  [DecidableEq G] (n : ℕ) (H : G → ℂ) (r : A → G) :
+  ↑(GMZP0.localCubeMoment n H r) =
+    ∑ ψ, ↑(∏ i, GMZP0.fourierEnergyWeight (GMZP0.parameterDensity r) (ψ i)) * GMZP0.globalTwistedCubeMean (n + 1) H ψ
+info: GMZP0/Audit.lean:710:0: GMZP0.localCubeMoment_bound_of_twisted.{u_1, u_2} {G : Type u_1} {A : Type u_2} [AddCommGroup G] [Fintype G] [Fintype A]
+  [DecidableEq G] (n : ℕ) (H : G → ℂ) (r : A → G) (C L : ℝ) (hL : 0 ≤ L)
+  (hν : (GMZP0.realUniformMean fun y => GMZP0.parameterDensity r y ^ 2) ≤ C)
+  (hTwist : ∀ (ψ : Fin (n + 1) → AddChar G ℂ), ‖GMZP0.globalTwistedCubeMean (n + 1) H ψ‖ ≤ L) :
+  GMZP0.localCubeMoment n H r ≤ C ^ (n + 1) * L
+info: GMZP0/Audit.lean:712:0: 'GMZP0.finite_self_correlation_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:714:0: 'GMZP0.additiveCubeVertex_cons' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:715:0: 'GMZP0.additiveCubeProduct_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:716:0: 'GMZP0.additiveCubeProduct_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:717:0: 'GMZP0.additiveCubeProduct_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:718:0: 'GMZP0.crossCorrelation_character_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:719:0: 'GMZP0.finiteFourier_crossCorrelation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:720:0: 'GMZP0.finiteFourier_modulation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:721:0: 'GMZP0.derivativeFourier_crossCorrelation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:722:0: 'GMZP0.derivativeFourier_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:723:0: 'GMZP0.derivativeFourier_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:724:0: 'GMZP0.globalTwistedCubeMean_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:725:0: 'GMZP0.globalTwistedCubeMean_zero_twist' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:726:0: 'GMZP0.globalTwistedCubeMean_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:727:0: 'GMZP0.globalCubeMoment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:728:0: 'GMZP0.globalCubeMoment_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:729:0: 'GMZP0.globalCubeMoment_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:730:0: 'GMZP0.globalCubeMoment_two_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:731:0: 'GMZP0.globalTwistedCubeMean_two_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:732:0: 'GMZP0.globalTwistedCubeMean_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:733:0: 'GMZP0.localCubeMoment_le_global' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:734:0: 'GMZP0.globalCubeNorm_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:735:0: 'GMZP0.globalCubeNorm_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:736:0: 'GMZP0.localCubeNorm_le_global' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:737:0: 'GMZP0.globalCubeMoment_lower_from_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:738:0: 'GMZP0.character_first_cube_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:739:0: 'GMZP0.dimension_one_twist_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:740:0: GMZP0.localCubeMoment_le_global.{u_1, u_2} {G : Type u_1} {A : Type u_2} [AddCommGroup G] [Fintype G] [Fintype A]
+  [DecidableEq G] (n : ℕ) (H : G → ℂ) (r : A → G) (C : ℝ)
+  (hν : (GMZP0.realUniformMean fun y => GMZP0.parameterDensity r y ^ 2) ≤ C) :
+  GMZP0.localCubeMoment (n + 1) H r ≤ C ^ (n + 2) * GMZP0.globalCubeMoment (n + 1) H
+info: GMZP0/Audit.lean:741:0: GMZP0.localCubeNorm_le_global.{u_1, u_2} {G : Type u_1} {A : Type u_2} [AddCommGroup G] [Fintype G] [Fintype A]
+  [DecidableEq G] (n : ℕ) (H : G → ℂ) (r : A → G) (C : ℝ)
+  (hν : (GMZP0.realUniformMean fun y => GMZP0.parameterDensity r y ^ 2) ≤ C) :
+  GMZP0.localCubeNorm (n + 1) H r ≤ GMZP0.iteratedSqrt (n + 2) (C ^ (n + 2)) * GMZP0.globalCubeNorm (n + 1) H
+info: GMZP0/Audit.lean:742:0: GMZP0.globalTwistedCubeMean_le.{u_1} {G : Type u_1} [AddCommGroup G] [Fintype G] (n : ℕ) (H : G → ℂ)
+  (ψ : Fin (n + 2) → AddChar G ℂ) : ‖GMZP0.globalTwistedCubeMean (n + 2) H ψ‖ ≤ GMZP0.globalCubeMoment (n + 1) H
+info: GMZP0/Audit.lean:744:0: 'GMZP0.globalCubeMoment_real_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:745:0: 'GMZP0.global_frequency_moment_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:746:0: 'GMZP0.cyclicGlobalSeventhMoment_eq_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:747:0: GMZP0.cyclicGlobalSeventhMoment_eq_mass {N q M : ℕ} [NeZero q] (hM : 0 < M) (σ : GMZP0.Base N → ℝ)
+  (F : Fin N → ZMod q → ℝ) (hgrid : ∀ (x : Fin N) (Y : ZMod q), ∃ k, F x Y = ↑k / ↑M)
+  (hF : ∀ (x : Fin N) (Y : ZMod q), |F x Y| ≤ 3) :
+  GMZP0.cyclicGlobalSeventhMoment N q M σ F = GMZP0.cyclicGlobalRealSevenMass N q σ F
+info: GMZP0/Audit.lean:749:0: 'GMZP0.exists_good_large_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:750:0: 'GMZP0.cyclicPairLocalSeven_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:751:0: 'GMZP0.original_scale_parameter_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:752:0: 'GMZP0.shrunk_radius_short' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:753:0: 'GMZP0.nat_floor_ge_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:754:0: 'GMZP0.shrunk_radius_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:755:0: 'GMZP0.pair_shift_integer_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:756:0: 'GMZP0.bounded_pair_values_no_wrap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:757:0: 'GMZP0.uniform_shrunk_radius_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:758:0: 'GMZP0.cyclicLocalFourthNormAverage_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:759:0: 'GMZP0.original_scale_bound_of_local_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:760:0: GMZP0.original_scale_bound_of_local_four {N q M : ℕ} [NeZero q] (hN : 0 < N) (hM : 0 < M) (μ : GMZP0.Base N → ℝ)
+  (D : Finset (GMZP0.Base N)) (hμ : ∀ (z : GMZP0.Base N), 0 ≤ μ z ∧ μ z ≤ (↑N)⁻¹ ^ 3) (F : Fin N → ZMod q → ℝ) (a : ℝ)
+  (hlarge :
+    (a / 4) ^ 16 / (4 * 57 ^ 16) ≤
+      GMZP0.cyclicLocalFourthNormAverage N q (GMZP0.smoothingRadius N a) M (GMZP0.originalScaledWeight N μ D) F) :
+  a ≤ 256
+Build completed successfully (3072 jobs).

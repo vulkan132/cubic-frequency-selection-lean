@@ -1,0 +1,16 @@
+⚠ [2235/2235] Built GMZP0.FiniteAdjoint (16s)
+warning: GMZP0/FiniteAdjoint.lean:99:19: This simp argument is unused:
+  Ne.symm he
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [he, if_false, zero_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GMZP0/FiniteAdjoint.lean:99:41: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [he, Ne.symm he, if_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (2235 jobs).

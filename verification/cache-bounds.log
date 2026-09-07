@@ -1,0 +1,67 @@
+Warning: failed to run Git to determine Mathlib's repository from origin remote
+Ensure Git is installed and the 'origin' remote points to its GitHub repository.
+Continuing to fetch the cache from leanprover-community/mathlib4.
+Using cache from leanprover-community/mathlib4.
+Attempting to download 189 file(s) from leanprover-community/mathlib4 cache at https://lakecache.blob.core.windows.net/mathlib4-master
+
+Downloaded: 1 file(s) [attempted 1/189 = 0%, 29 KB/s], Decompressed: 0[K
+Downloaded: 5 file(s) [attempted 5/189 = 2%, 1 KB/s], Decompressed: 1[K
+Downloaded: 8 file(s) [attempted 8/189 = 4%, 2 KB/s], Decompressed: 7[K
+Downloaded: 12 file(s) [attempted 12/189 = 6%, 4 KB/s], Decompressed: 9[K
+Downloaded: 13 file(s) [attempted 13/189 = 6%, 6 KB/s], Decompressed: 12[K
+Downloaded: 15 file(s) [attempted 15/189 = 7%, 12 KB/s], Decompressed: 14[K
+Downloaded: 18 file(s) [attempted 18/189 = 9%, 23 KB/s], Decompressed: 17[K
+Downloaded: 23 file(s) [attempted 23/189 = 12%, 2 KB/s], Decompressed: 20[K
+Downloaded: 25 file(s) [attempted 25/189 = 13%, 4 KB/s], Decompressed: 23[K
+Downloaded: 29 file(s) [attempted 29/189 = 15%, 28 KB/s], Decompressed: 25[K
+Downloaded: 34 file(s) [attempted 34/189 = 17%, 42 KB/s], Decompressed: 30[K
+Downloaded: 40 file(s) [attempted 40/189 = 21%, 5 KB/s], Decompressed: 34[K
+Downloaded: 42 file(s) [attempted 42/189 = 22%, 7 KB/s], Decompressed: 40[K
+Downloaded: 48 file(s) [attempted 48/189 = 25%, 2 KB/s], Decompressed: 47[K
+Downloaded: 50 file(s) [attempted 50/189 = 26%, 65 KB/s], Decompressed: 48[K
+Downloaded: 57 file(s) [attempted 57/189 = 30%, 18 KB/s], Decompressed: 50[K
+Downloaded: 62 file(s) [attempted 62/189 = 32%, 9 KB/s], Decompressed: 59[K
+Downloaded: 65 file(s) [attempted 65/189 = 34%, 50 KB/s], Decompressed: 62[K
+Downloaded: 70 file(s) [attempted 70/189 = 37%, 73 KB/s], Decompressed: 65[K
+Downloaded: 75 file(s) [attempted 75/189 = 39%, 21 KB/s], Decompressed: 68[K
+Downloaded: 80 file(s) [attempted 80/189 = 42%, 15 KB/s], Decompressed: 78[K
+Downloaded: 82 file(s) [attempted 82/189 = 43%, 8 KB/s], Decompressed: 80[K
+Downloaded: 89 file(s) [attempted 89/189 = 47%, 36 KB/s], Decompressed: 87[K
+Downloaded: 96 file(s) [attempted 96/189 = 50%, 2 KB/s], Decompressed: 89[K
+Downloaded: 99 file(s) [attempted 99/189 = 52%, 177 KB/s], Decompressed: 94[K
+Downloaded: 102 file(s) [attempted 102/189 = 53%, 28 KB/s], Decompressed: 97[K
+Downloaded: 107 file(s) [attempted 107/189 = 56%, 24 KB/s], Decompressed: 102[K
+Downloaded: 109 file(s) [attempted 109/189 = 57%, 21 KB/s], Decompressed: 107[K
+Downloaded: 111 file(s) [attempted 111/189 = 58%, 13 KB/s], Decompressed: 109[K
+Downloaded: 114 file(s) [attempted 114/189 = 60%, 30 KB/s], Decompressed: 111[K
+Downloaded: 118 file(s) [attempted 118/189 = 62%, 30 KB/s], Decompressed: 114[K
+Downloaded: 123 file(s) [attempted 123/189 = 65%, 50 KB/s], Decompressed: 114[K
+Downloaded: 126 file(s) [attempted 126/189 = 66%, 13 KB/s], Decompressed: 118[K
+Downloaded: 128 file(s) [attempted 128/189 = 67%, 8 KB/s], Decompressed: 125[K
+Downloaded: 131 file(s) [attempted 131/189 = 69%, 8 KB/s], Decompressed: 125[K
+Downloaded: 135 file(s) [attempted 135/189 = 71%, 13 KB/s], Decompressed: 128[K
+Downloaded: 139 file(s) [attempted 139/189 = 73%, 20 KB/s], Decompressed: 135[K
+Downloaded: 142 file(s) [attempted 142/189 = 75%, 14 KB/s], Decompressed: 139[K
+Downloaded: 145 file(s) [attempted 145/189 = 76%, 12 KB/s], Decompressed: 142[K
+Downloaded: 147 file(s) [attempted 147/189 = 77%, 76 KB/s], Decompressed: 145[K
+Downloaded: 149 file(s) [attempted 149/189 = 78%, 29 KB/s], Decompressed: 147[K
+Downloaded: 152 file(s) [attempted 152/189 = 80%, 10 KB/s], Decompressed: 149[K
+Downloaded: 154 file(s) [attempted 154/189 = 81%, 28 KB/s], Decompressed: 152[K
+Downloaded: 156 file(s) [attempted 156/189 = 82%, 19 KB/s], Decompressed: 154[K
+Downloaded: 159 file(s) [attempted 159/189 = 84%, 34 KB/s], Decompressed: 156[K
+Downloaded: 162 file(s) [attempted 162/189 = 85%, 3 KB/s], Decompressed: 159[K
+Downloaded: 164 file(s) [attempted 164/189 = 86%, 3 KB/s], Decompressed: 162[K
+Downloaded: 165 file(s) [attempted 165/189 = 87%, 29 KB/s], Decompressed: 164[K
+Downloaded: 168 file(s) [attempted 168/189 = 88%, 8 KB/s], Decompressed: 165[K
+Downloaded: 170 file(s) [attempted 170/189 = 89%, 12 KB/s], Decompressed: 168[K
+Downloaded: 173 file(s) [attempted 173/189 = 91%, 15 KB/s], Decompressed: 170[K
+Downloaded: 175 file(s) [attempted 175/189 = 92%, 4 KB/s], Decompressed: 173[K
+Downloaded: 176 file(s) [attempted 176/189 = 93%, 27 KB/s], Decompressed: 175[K
+Downloaded: 178 file(s) [attempted 178/189 = 94%, 9 KB/s], Decompressed: 176[K
+Downloaded: 180 file(s) [attempted 180/189 = 95%, 7 KB/s], Decompressed: 178[K
+Downloaded: 181 file(s) [attempted 181/189 = 95%, 1 KB/s], Decompressed: 180[K
+Downloaded: 184 file(s) [attempted 184/189 = 97%, 4 KB/s], Decompressed: 181[K
+Downloaded: 187 file(s) [attempted 187/189 = 98%, 24 KB/s], Decompressed: 184[K
+Downloaded: 189 file(s) [attempted 189/189 = 100%, 24 KB/s], Decompressed: 184[K
+Decompressed 189 file(s)
+Already decompressed 2195 file(s)

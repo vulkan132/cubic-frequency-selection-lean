@@ -1,0 +1,72 @@
+✖ [2229/2229] Building GMZP0.CircleCharacter (14s)
+trace: .> LEAN_PATH=D:\AAAAA\new\GMZ_P0_Lean\vendor\mathlib4-4.33.0\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\plausible\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\LeanSearchClient\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\importGraph\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\proofwidgets\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\aesop\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Qq\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\batteries\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Cli\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean c:\Users\孙\AppData\Local\Microsoft\WinGet\Packages\Lean.Lean_Microsoft.Winget.Source_8wekyb3d8bbwe\lean-4.33.0-windows\bin\lean.exe D:\AAAAA\new\GMZ_P0_Lean\GMZP0\CircleCharacter.lean -o D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\CircleCharacter.olean -i D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\CircleCharacter.ilean -c D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\CircleCharacter.c --setup D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\CircleCharacter.setup.json --json
+error: GMZP0/CircleCharacter.lean:32:22: Unknown constant `Int.natCast_zsmul`
+error: GMZP0/CircleCharacter.lean:30:54: unsolved goals
+N : ℕ
+a : Frequency
+r : Fin N
+⊢ ↑(AddCircle.toCircle (label r ^ 3 • a)) = ↑(AddCircle.toCircle (↑(label r ^ 3) • a))
+info: GMZP0/CircleCharacter.lean:44:2: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+error: GMZP0/CircleCharacter.lean:41:64: unsolved goals
+a b c : Frequency
+h k r : ℤ
+⊢ circleCharacter ((r * k ^ 2 * 3 + r ^ 2 * k * 3 + r ^ 3 + k ^ 3) • a) *
+          (starRingEnd ℂ)
+            (circleCharacter
+              ((-(r * k * h * 6) + r * k ^ 2 * 3 + r * h ^ 2 * 3 + r ^ 2 * k * 3 - r ^ 2 * h * 3 + r ^ 3 +
+                        k * h ^ 2 * 3 -
+                      k ^ 2 * h * 3 +
+                    k ^ 3 -
+                  h ^ 3) •
+                c)) *
+        (starRingEnd ℂ) (circleCharacter (r ^ 3 • b)) *
+      circleCharacter ((r * h ^ 2 * 3 - r ^ 2 * h * 3 + r ^ 3 - h ^ 3) • c) =
+    circleCharacter ((r * k ^ 2 * 3 + r ^ 2 * k * 3 + r ^ 3 + k ^ 3) • a) *
+        (starRingEnd ℂ) (circleCharacter (r ^ 3 • b)) *
+      (starRingEnd ℂ)
+        (circleCharacter
+          ((-(r * k * h * 6) + r * k ^ 2 * 3 + r * h ^ 2 * 3 + r ^ 2 * k * 3 - r ^ 2 * h * 3 + r ^ 3 + k * h ^ 2 * 3 -
+                    k ^ 2 * h * 3 +
+                  k ^ 3 -
+                h ^ 3) •
+              c +
+            -((r * h ^ 2 * 3 - r ^ 2 * h * 3 + r ^ 3 - h ^ 3) • c)))
+error: GMZP0/CircleCharacter.lean:49:75: unsolved goals
+a b c : Frequency
+h k t : ℤ
+h1 : t - k + h + k = t + h
+h2 : t - k + h = t + h - k
+h3 : t - k + h + k - h = t
+h4 : t - k + h - h = t - k
+⊢ (t + h - k + k) ^ 3 • a - (t + h - k) ^ 3 • b - ((t + h - k + k - h) ^ 3 - (t + h - k - h) ^ 3) • c =
+    (t + h) ^ 3 • a - (t + h - k) ^ 3 • b - (t ^ 3 - (t - k) ^ 3) • c
+warning: GMZP0/CircleCharacter.lean:54:37: This simp argument is unused:
+  h1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [doublePhaseCoefficient, h2, h3, h4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GMZP0/CircleCharacter.lean:54:45: This simp argument is unused:
+  h3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [doublePhaseCoefficient, h1, h2, h4]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GMZP0/CircleCharacter.lean:54:49: This simp argument is unused:
+  h4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [doublePhaseCoefficient, h1, h2, h3]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- GMZP0.CircleCharacter
+error: build failed

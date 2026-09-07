@@ -1,0 +1,44 @@
+✔ [2236/2237] Built GMZP0.WeightedAdjoint (19s)
+✖ [2237/2237] Building GMZP0.DiagonalEnergy (15s)
+trace: .> LEAN_PATH=D:\AAAAA\new\GMZ_P0_Lean\vendor\mathlib4-4.33.0\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\plausible\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\LeanSearchClient\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\importGraph\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\proofwidgets\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\aesop\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Qq\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\batteries\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Cli\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean c:\Users\孙\AppData\Local\Microsoft\WinGet\Packages\Lean.Lean_Microsoft.Winget.Source_8wekyb3d8bbwe\lean-4.33.0-windows\bin\lean.exe D:\AAAAA\new\GMZ_P0_Lean\GMZP0\DiagonalEnergy.lean -o D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\DiagonalEnergy.olean -i D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\DiagonalEnergy.ilean -c D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\DiagonalEnergy.c --setup D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\DiagonalEnergy.setup.json --json
+error: GMZP0/DiagonalEnergy.lean:35:6: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  ↑‖?z‖ ^ 2
+in the target expression
+  b z * (↑N)⁻¹ * (starRingEnd ℂ) (b z) = ↑(‖b z‖ ^ 2 * (↑N)⁻¹)
+
+N : ℕ
+hN : 0 < N
+p : Base N → Frequency
+b : Base N → ℂ
+hinner : ∀ (z : Base N), (∑ w, if w.1 = z.1 then gramInteraction N p b z w else 0) = b z / ↑N * (starRingEnd ℂ) (b z)
+z : Base N
+a✝ : z ∈ Finset.univ
+⊢ b z * (↑N)⁻¹ * (starRingEnd ℂ) (b z) = ↑(‖b z‖ ^ 2 * (↑N)⁻¹)
+warning: GMZP0/DiagonalEnergy.lean:31:27: This simp argument is unused:
+  Complex.ofReal_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [finiteEnergy, Complex.ofReal_sum, Complex.ofReal_natCast, Complex.ofReal_pow, div_eq_mul_inv,
+    Finset.sum_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GMZP0/DiagonalEnergy.lean:31:67: This simp argument is unused:
+  Complex.ofReal_natCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [finiteEnergy, Complex.ofReal_div, Complex.ofReal_sum, Complex.ofReal_pow, div_eq_mul_inv,
+    Finset.sum_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: GMZP0/DiagonalEnergy.lean:32:4: This simp argument is unused:
+  Complex.ofReal_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [finiteEnergy, Complex.ofReal_div, Complex.ofReal_sum, Complex.ofReal_natCast, div_eq_mul_inv,
+    Finset.sum_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- GMZP0.DiagonalEnergy
+error: build failed

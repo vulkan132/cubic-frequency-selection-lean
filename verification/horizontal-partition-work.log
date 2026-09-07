@@ -1,0 +1,31 @@
+✔ [2246/2247] Built GMZP0.VerticalStrips (15s)
+✖ [2247/2247] Building GMZP0.HorizontalPartition (15s)
+trace: .> LEAN_PATH=D:\AAAAA\new\GMZ_P0_Lean\vendor\mathlib4-4.33.0\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\plausible\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\LeanSearchClient\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\importGraph\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\proofwidgets\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\aesop\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Qq\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\batteries\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\vendor\Cli\.lake\build\lib\lean;D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean c:\Users\孙\AppData\Local\Microsoft\WinGet\Packages\Lean.Lean_Microsoft.Winget.Source_8wekyb3d8bbwe\lean-4.33.0-windows\bin\lean.exe D:\AAAAA\new\GMZ_P0_Lean\GMZP0\HorizontalPartition.lean -o D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\HorizontalPartition.olean -i D:\AAAAA\new\GMZ_P0_Lean\.lake\build\lib\lean\GMZP0\HorizontalPartition.ilean -c D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\HorizontalPartition.c --setup D:\AAAAA\new\GMZ_P0_Lean\.lake\build\ir\GMZP0\HorizontalPartition.setup.json --json
+error: GMZP0/HorizontalPartition.lean:17:37: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  b ≤ -1
+  a ≥ 1
+where
+ a := ↑M
+ b := ↑N / ↑M
+error: GMZP0/HorizontalPartition.lean:31:34: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≤ -1
+  b ≥ 0
+  a ≥ 1
+  a - b ≥ 1
+where
+ a := ↑M
+ b := ↑↑j
+ c := ↑N / ↑M
+error: GMZP0/HorizontalPartition.lean:62:12: Unknown identifier `exists_ge_mean`
+error: GMZP0/HorizontalPartition.lean:60:41: unsolved goals
+N M : ℕ
+hM : 0 < M
+μ : Base N → ℝ
+this : Nonempty (Fin M) := Nonempty.intro ⟨0, hM⟩
+⊢ ∃ j, (∑ z ∈ safeBaseSet N (N / M), μ z) / ↑M ≤ ∑ z ∈ chunkWindow N M hM j, μ z
+error: Lean exited with code 1
+Some required targets logged failures:
+- GMZP0.HorizontalPartition
+error: build failed
