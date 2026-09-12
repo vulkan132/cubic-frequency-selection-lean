@@ -68,3 +68,15 @@ are not asserted proved by these modules.
 
 All coefficients remain on R/Z. No division selects a single root branch.
 These auxiliary results neither prove P0 nor constitute a counterexample to P0.
+
+## F29 external-input follow-up
+
+Proposition 4.3 and Lemma 4.4 in the primary source above were rechecked on
+2026-09-12. F29 defines CubicTwoCoefficientWeylInput as the exact two-highest-
+coefficient specialization needed for the degree-zero Gram phase, on actual
+integer subintervals of [1,N] with original N normalization. It is an explicit
+analytic premise, not a proved theorem, a project axiom, or a literal library
+transcription. The external-to-project adaptation remains unformalized.
+The input's precise type and the checked conditional degree-zero/affine core
+chain are documented in CONSTANT_FREEZING_INTERFACE.md. General nonlinear
+returns and higher-degree freezing are not supplied by this checkpoint.

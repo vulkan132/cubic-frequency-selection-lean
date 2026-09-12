@@ -758,3 +758,350 @@ example (hcapture : GMZP0.WeightedCapture) : GMZP0.P0 :=
 #print axioms GMZP0.cyclicLocalFourthNormAverage_le_one
 #print axioms GMZP0.original_scale_bound_of_local_four
 #check GMZP0.original_scale_bound_of_local_four
+
+-- F21: core pair geometry and original seven-cubes with an explicit external input.
+#print axioms GMZP0.pair_equal_value_gcd_divisibility
+#print axioms GMZP0.pair_representation_code_bound
+#print axioms GMZP0.integer_pair_representation_count
+#print axioms GMZP0.cyclic_pair_representation_count
+#print axioms GMZP0.cyclic_pair_density_energy
+#print axioms GMZP0.pair_density_scale_bound
+#print axioms GMZP0.pairDensityConstant_pos
+#print axioms GMZP0.cyclic_pair_density_uniform
+#print axioms GMZP0.global_seventh_moment_of_good_pair
+#print axioms GMZP0.positive_label_multiple_mean
+#print axioms GMZP0.positive_label_multiple_probability
+#print axioms GMZP0.small_positive_label_probability
+#print axioms GMZP0.pair_common_divisor_probability
+#print axioms GMZP0.reciprocal_square_tail
+#print axioms GMZP0.pair_large_gcd_probability
+#print axioms GMZP0.exceptional_pair_probability
+#print axioms GMZP0.pairCutoff_pos
+#print axioms GMZP0.exceptional_pair_probability_cutoff
+#print axioms GMZP0.exists_good_cyclic_pair
+#print axioms GMZP0.pairSeventhLower_pos
+#print axioms GMZP0.global_seventh_from_pair_average
+#print axioms GMZP0.cyclic_global_seventh_of_good_fibres
+#print axioms GMZP0.cyclic_real_seven_of_pair_family
+#print axioms GMZP0.uniform_original_real_seven_of_concatenation
+#check GMZP0.CyclicConcatenationInput
+#check GMZP0.uniform_original_real_seven_of_concatenation
+
+-- F22: exact seven-cube preparation and transport to original retained points.
+#print axioms GMZP0.additiveCubeVertex_update_difference
+#print axioms GMZP0.additive_cube_pair_update_unique
+#print axioms GMZP0.additive_cube_pair_collision_probability
+#print axioms GMZP0.card_ascendingSevenLabelPairs
+#print axioms GMZP0.global_seven_collision_probability
+#print axioms GMZP0.bounded_product_le_factor
+#print axioms GMZP0.bounded_product_threshold_indicator
+#print axioms GMZP0.globalThresholdCubeDensity_bounds
+#print axioms GMZP0.globalDistinctThresholdCubeDensity_bounds
+#print axioms GMZP0.global_threshold_density_lower
+#print axioms GMZP0.globalDistinctThresholdCubeDensity_eq_count
+#print axioms GMZP0.distinct_seven_cube_count_lower
+#print axioms GMZP0.global_seven_threshold_collision_removal
+#print axioms GMZP0.weighted_real_seven_to_distinct_threshold
+#print axioms GMZP0.cyclic_prepared_seven_lower
+#print axioms GMZP0.preparedSevenFibers_card
+#print axioms GMZP0.preparedSevenFibers_cube_count
+#print axioms GMZP0.uniform_seven_collision_threshold
+#print axioms GMZP0.cyclic_nonzero_weight_in_original_range
+#print axioms GMZP0.cyclic_row_preimage_card
+#print axioms GMZP0.retainedOriginalFibers_card
+#print axioms GMZP0.retainedOriginalFibers_support
+#print axioms GMZP0.retainedOriginalFibers_weight_lower
+#print axioms GMZP0.retainedOriginalFibers_mass
+#print axioms GMZP0.retainedOriginalFibers_circle_error
+#print axioms GMZP0.retainedOriginalFibers_uniform_mass
+#print axioms GMZP0.retainedOriginalFibers_original_response
+#print axioms GMZP0.uniform_original_prepared_seven_of_concatenation
+#check GMZP0.uniform_original_prepared_seven_of_concatenation
+#check GMZP0.retainedOriginalFibers_uniform_mass
+
+-- F23: finite block Schur bounds for the exact original response and arbitrary masks.
+#print axioms GMZP0.symmetric_nonnegative_form_bound
+#print axioms GMZP0.kernel_action_energy_of_adjoint
+#print axioms GMZP0.kernel_adjoint_energy_of_gram_rows
+#print axioms GMZP0.kernel_action_energy_of_gram_rows
+#print axioms GMZP0.kernel_action_sqrt_bound
+#print axioms GMZP0.kernel_gram_row_bound
+#print axioms GMZP0.kernel_action_energy_of_rows_columns
+#print axioms GMZP0.kernel_adjoint_energy_of_action
+#print axioms GMZP0.kernel_pairing_bound_of_energy
+#print axioms GMZP0.outputMaskedKernel_action
+#print axioms GMZP0.outputMaskedKernel_adjoint
+#print axioms GMZP0.finiteEnergy_mask_le
+#print axioms GMZP0.masked_action_energy_of_supported_adjoint
+#print axioms GMZP0.gram_row_bound_needs_square_root
+#print axioms GMZP0.kernelAdjoint_energy_blocks
+#print axioms GMZP0.kernel_adjoint_energy_of_block_rows
+#print axioms GMZP0.kernel_action_energy_of_block_rows
+#print axioms GMZP0.blockGramKernel_adjoint
+#print axioms GMZP0.blockGramKernel_energy_bound_symm
+#print axioms GMZP0.outputMaskedKernel_gram
+#print axioms GMZP0.blockGramKernel_masked_action
+#print axioms GMZP0.blockGramKernel_mask_bound
+#print axioms GMZP0.largeBlockCoefficient_nonneg
+#print axioms GMZP0.largeBlockCoefficient_symm
+#print axioms GMZP0.largeBlockCoefficient_row
+#print axioms GMZP0.blockGramKernel_zero_outside
+#print axioms GMZP0.largeBlockCoefficient_bounds_blocks
+#print axioms GMZP0.kernel_energy_of_few_large_blocks
+#print axioms GMZP0.horizontalKernel_row_norm_sum
+#print axioms GMZP0.horizontalKernel_column_norm_sum
+#print axioms GMZP0.original_horizontal_block_bound
+#print axioms GMZP0.masked_original_horizontal_block_bound
+#print axioms GMZP0.masked_original_energy_of_few_large_blocks
+#print axioms GMZP0.masked_original_response_energy
+#print axioms GMZP0.minorOutputMask_bound
+#print axioms GMZP0.minorOutputMask_energy
+#print axioms GMZP0.finiteMinorEstimate_of_few_large_compressed_blocks
+#print axioms GMZP0.uniform_compressed_block_error_budget
+#print axioms GMZP0.uniform_finiteMinorEstimate_of_compressed_counts
+#check GMZP0.masked_original_response_energy
+#check GMZP0.uniform_finiteMinorEstimate_of_compressed_counts
+
+-- F24: original operator stability, actual assignment, and conditional freezing-step assembly.
+#print axioms GMZP0.finiteResponse_energy_le
+#print axioms GMZP0.positiveFiniteAverage_nonneg
+#print axioms GMZP0.finiteResponse_zero_norm_input
+#print axioms GMZP0.positiveFiniteAverage_energy_le
+#print axioms GMZP0.finiteResponse_difference_le_average
+#print axioms GMZP0.masked_response_difference_energy
+#print axioms GMZP0.cubicPhase_le_of_scaled_circle_error
+#print axioms GMZP0.masked_response_circle_stability
+#print axioms GMZP0.disjoint_assignment_energy_obstruction
+#print axioms GMZP0.finiteEnergy_assignment_eq_sum
+#print axioms GMZP0.assignmentOutputMask_bound
+#print axioms GMZP0.masked_minor_energy_le
+#print axioms GMZP0.masked_finiteMinorEstimate
+#print axioms GMZP0.assigned_masked_minor_energy
+#print axioms GMZP0.assigned_child_error_budget
+#print axioms GMZP0.finiteEnergy_sqrt_triangle
+#print axioms GMZP0.finiteEnergy_add_bound
+#print axioms GMZP0.finiteEnergy_three_piece_budget
+#print axioms GMZP0.majorArc_transfer_without_closeness_obstruction
+#print axioms GMZP0.majorArc_nearby_transfer
+#print axioms GMZP0.minorArc_nearby_transfer
+#print axioms GMZP0.freezing_circle_error_le_unit_scale
+#print axioms GMZP0.freezing_manuscript_circle_scale
+#print axioms GMZP0.restrictOutputMask_bound
+#print axioms GMZP0.restrictOutputMask_ne_zero
+#print axioms GMZP0.complementOutputMask_bound
+#print axioms GMZP0.complementOutputMask_ne_zero
+#print axioms GMZP0.outputMask_three_piece_decomposition
+#print axioms GMZP0.masked_freezing_step
+#print axioms GMZP0.finiteMinorEstimate_freezing_step
+#print axioms GMZP0.uniform_freezing_step_from_compressed_counts
+#check GMZP0.masked_response_circle_stability
+#check GMZP0.uniform_freezing_step_from_compressed_counts
+#print axioms GMZP0.truncated_sum_modulus_obstruction
+#print axioms GMZP0.wideVerticalCoordinate_injective
+#print axioms GMZP0.wideVerticalEmbed_coordinate
+#print axioms GMZP0.wideVerticalEmbed_injective
+#print axioms GMZP0.wideVerticalIndex_coordinate
+#print axioms GMZP0.wide_parabola_target_bounds
+#print axioms GMZP0.wideParabolaTarget_coordinate
+#print axioms GMZP0.wideBlockTarget_coordinate
+#print axioms GMZP0.wideBlockTarget_injective
+#print axioms GMZP0.wideBlockTarget_original_collision
+#print axioms GMZP0.wideZeroExtension_original
+#print axioms GMZP0.wideZeroExtension_outside
+#print axioms GMZP0.wideZeroExtension_energy
+#print axioms GMZP0.kernelAction_wideZeroExtension
+#print axioms GMZP0.wideHorizontalKernel_at_target
+#print axioms GMZP0.wideHorizontalKernel_no_target
+#print axioms GMZP0.original_collision_wide_label
+#print axioms GMZP0.wideHorizontalKernel_original
+#print axioms GMZP0.wideHorizontalKernel_original_action
+#print axioms GMZP0.original_block_bound_of_wide
+#print axioms GMZP0.masked_original_block_bound_of_wide
+#print axioms GMZP0.wideBlockTarget_shared_iff
+#print axioms GMZP0.wideHorizontalKernel_gram_labels
+#print axioms GMZP0.wideBlockCoefficient_shared_product
+#print axioms GMZP0.wideBlockCoefficient_double_phase
+#print axioms GMZP0.wideHorizontalKernel_gram_phase_pairs
+#print axioms GMZP0.complete_blockFinLabels_pair_sum
+#print axioms GMZP0.wideHorizontalKernel_gram_lags
+#print axioms GMZP0.wideDoublePhase_zero_lag
+#print axioms GMZP0.wideLagSum_zero
+#print axioms GMZP0.wideLagSum_norm_le
+#print axioms GMZP0.original_vertical_single_fiber_sum_le
+#print axioms GMZP0.wideHorizontalKernel_gram_row_le
+#print axioms GMZP0.wide_lag_total_bound
+#print axioms GMZP0.wide_block_energy_of_lag_bounds
+#print axioms GMZP0.wide_nonzero_lag_sum
+#print axioms GMZP0.wide_lag_maximizing_roots
+#print axioms GMZP0.masked_large_block_lag_sum_lower
+#print axioms GMZP0.sum_le_large_card_scaled
+#print axioms GMZP0.many_large_lag_envelopes
+#print axioms GMZP0.masked_large_block_many_lags
+#print axioms GMZP0.uniform_masked_large_block_many_lags
+#check GMZP0.wideHorizontalKernel_original_action
+#check GMZP0.wide_block_energy_of_lag_bounds
+#check GMZP0.uniform_masked_large_block_many_lags
+#print axioms GMZP0.cubicCirclePolynomial_translate
+#print axioms GMZP0.uniform_cubic_interval_common_denominator
+#print axioms GMZP0.lagLabels_eq_interval
+#print axioms GMZP0.lagLabels_interval_length_le
+#print axioms GMZP0.uniform_cubic_lag_common_denominator
+#print axioms GMZP0.affine_profile_agreement
+#print axioms GMZP0.affine_double_phase_polynomial
+#print axioms GMZP0.affine_wideDoublePhase
+#print axioms GMZP0.affine_wideLagSum
+#print axioms GMZP0.affineBlockCubic_reverse
+#print axioms GMZP0.affine_two_direction_elimination
+#print axioms GMZP0.affine_direction_branch_obstruction
+#print axioms GMZP0.uniform_affine_power_returns
+#print axioms GMZP0.uniform_bounded_multiplier_affine_returns
+#print axioms GMZP0.uniform_affine_block_direction
+#print axioms GMZP0.affine_two_direction_norm_bound
+#print axioms GMZP0.uniform_affine_block_row_relation
+#print axioms GMZP0.horizontalGap_injective_right
+#print axioms GMZP0.uniform_affine_many_blocks_top_relation
+#print axioms GMZP0.uniform_affine_no_relation_count
+#print axioms GMZP0.affineVerticalProfile_real_eval
+#print axioms GMZP0.largeBlockNeighbors_empty_of_zero_row
+#print axioms GMZP0.uniform_affine_no_relation_operator
+#print axioms GMZP0.affineNoRelationMask_bound
+#print axioms GMZP0.uniform_affine_no_relation_mask_energy
+#check GMZP0.uniform_affine_block_row_relation
+#check GMZP0.uniform_affine_many_blocks_top_relation
+#check GMZP0.uniform_affine_no_relation_mask_energy
+#print axioms GMZP0.majorArc_grid_circle_approximation
+#print axioms GMZP0.majorArc_universal_circle_list
+#print axioms GMZP0.affine_increment_majorArc
+#print axioms GMZP0.affineConstantChild_vertical_constant
+#print axioms GMZP0.affine_child_error
+#print axioms GMZP0.uniform_affine_constant_children
+#print axioms GMZP0.mem_affineNoRelationPoints
+#print axioms GMZP0.not_mem_affineNoRelationPoints
+#print axioms GMZP0.uniform_affine_freezing_of_constant
+#check GMZP0.uniform_affine_constant_children
+#check GMZP0.UniformConstantFreezing
+#check GMZP0.uniform_affine_freezing_of_constant
+#print axioms GMZP0.cyclic_character_frequency
+#print axioms GMZP0.cyclicConstantResponse_as_translation
+#print axioms GMZP0.horizontalCubicResponse_as_fiber
+#print axioms GMZP0.cyclicConstantResponse_energy
+#print axioms GMZP0.cyclicConstantResponse_original
+#print axioms GMZP0.original_constant_energy_of_horizontal
+#print axioms GMZP0.finiteMinorEstimate_of_horizontal
+#print axioms GMZP0.uniform_constant_freezing_of_horizontal
+#print axioms GMZP0.finiteCyclicIndex_val
+#print axioms GMZP0.finiteCyclicIndex_injective
+#print axioms GMZP0.cyclicZeroExtend_original
+#print axioms GMZP0.cyclicZeroExtend_outside
+#print axioms GMZP0.cyclicZeroExtend_energy
+#print axioms GMZP0.finiteCyclicIndex_energy_le
+#print axioms GMZP0.endpointIndex_horizontal
+#print axioms GMZP0.endpointIndex_cyclic
+#print axioms GMZP0.cyclicInput_endpoint
+#print axioms GMZP0.cyclicInput_energy
+#print axioms GMZP0.finiteFourier_sum
+#print axioms GMZP0.finiteFourier_const_mul
+#print axioms GMZP0.finiteFourier_translate
+#print axioms GMZP0.verticalTranslationSum_fourier
+#print axioms GMZP0.verticalTranslationSum_energy
+#check GMZP0.UniformHorizontalConstantFreezing
+#check GMZP0.uniform_constant_freezing_of_horizontal
+#print axioms GMZP0.uniform_constant_entry_return
+#print axioms GMZP0.uniform_constant_many_entries_majorArc
+#print axioms GMZP0.uniform_horizontal_constant_freezing_of_weyl
+#print axioms GMZP0.uniform_constant_freezing_of_weyl
+#print axioms GMZP0.uniform_affine_freezing_of_weyl
+#print axioms GMZP0.gram_row_of_few_large_entries
+#print axioms GMZP0.outputMaskedKernel_gram_norm_le
+#print axioms GMZP0.masked_energy_of_few_horizontal_entries
+#print axioms GMZP0.horizontalMinorMask_bound
+#print axioms GMZP0.horizontal_minor_energy_of_counts
+#print axioms GMZP0.constant_finiteMinorEstimate_of_counts
+#print axioms GMZP0.uniform_constant_estimate_of_counts
+#print axioms GMZP0.horizontalFourierPhase_product
+#print axioms GMZP0.constantGramPhase_coefficients
+#print axioms GMZP0.horizontalCubicKernel_gram_integer
+#print axioms GMZP0.blockLabels_eq_interval
+#print axioms GMZP0.horizontalCubicKernel_gram_norm_le
+#print axioms GMZP0.horizontalCubicKernel_large_sum
+#print axioms GMZP0.constant_two_coefficient_return
+#print axioms GMZP0.constant_leading_coefficient_obstruction
+#print axioms GMZP0.horizontalEndpointIndex_injective
+#print axioms GMZP0.horizontalEndpointIndex_collision_iff
+#print axioms GMZP0.horizontalEndpointIndex_shifted
+#print axioms GMZP0.horizontalEndpointIndex_collision_mem
+#print axioms GMZP0.horizontal_collision_sum
+#print axioms GMZP0.norm_horizontalFourierPhase
+#print axioms GMZP0.horizontalFourierPhase_label
+#print axioms GMZP0.horizontalCubicKernel_action
+#print axioms GMZP0.horizontalCubicKernel_gram
+#print axioms GMZP0.horizontalCubicKernel_diagonal
+#print axioms GMZP0.horizontalCubicKernel_gram_labels
+#check GMZP0.CubicTwoCoefficientWeylInput
+#check GMZP0.uniform_constant_freezing_of_weyl
+#check GMZP0.uniform_affine_freezing_of_weyl
+#print axioms GMZP0.uniform_polynomial_lag_leading_coefficient
+#print axioms GMZP0.ordinary_top_scalar_factor
+#print axioms GMZP0.ordinary_power_return_reverse
+#print axioms GMZP0.uniform_ordinary_block_partner_relation
+#print axioms GMZP0.uniform_ordinary_block_row_relation
+#print axioms GMZP0.ordinary_profile_agreement
+#print axioms GMZP0.ordinary_profile_original_response
+#print axioms GMZP0.ordinary_wideDoublePhase
+#print axioms GMZP0.ordinary_wideLagSum
+#print axioms GMZP0.ordinary_wide_top_coefficient
+#print axioms GMZP0.ordinary_wide_top_coefficient_reverse
+#print axioms GMZP0.ordinary_profile_degree_zero
+#print axioms GMZP0.ordinary_profile_degree_one
+#print axioms GMZP0.uniform_ordinary_freezing_zero
+#print axioms GMZP0.uniform_ordinary_freezing_one
+#print axioms GMZP0.ordinary_affine_comp_degree
+#print axioms GMZP0.ordinary_affine_comp_coeff
+#print axioms GMZP0.cubicShiftDifference_expansion
+#print axioms GMZP0.cubicShiftDifference_degree
+#print axioms GMZP0.cubicShiftDifference_coeff_two
+#print axioms GMZP0.ordinaryDoublePhasePolynomial_eval
+#print axioms GMZP0.ordinaryDoublePhasePolynomial_degree
+#print axioms GMZP0.ordinaryDoublePhasePolynomial_top_coeff
+#print axioms GMZP0.ordinary_degree_one_top_obstruction
+#print axioms GMZP0.ordinary_eval_degree_zero
+#print axioms GMZP0.ordinary_eval_degree_one
+#check GMZP0.PolynomialLeadingWeylInput
+#check GMZP0.UniformOrdinaryFreezing
+#check GMZP0.uniform_ordinary_block_row_relation
+#print axioms GMZP0.ordinaryTopRelation_one
+#print axioms GMZP0.ordinary_erase_degree
+#print axioms GMZP0.ordinary_erase_eval
+#print axioms GMZP0.ordinaryChildPolynomial_coeff
+#print axioms GMZP0.ordinaryChildPolynomial_degree
+#print axioms GMZP0.ordinary_child_error
+#print axioms GMZP0.ordinary_child_zero_branch_obstruction
+#print axioms GMZP0.ordinary_increment_majorArc
+#print axioms GMZP0.majorArc_universal_real_list
+#print axioms GMZP0.uniform_ordinary_lower_children
+#print axioms GMZP0.uniform_degree_one_monomial_returns
+#print axioms GMZP0.uniform_bounded_multiplier_monomial_returns
+#print axioms GMZP0.uniform_ordinary_many_blocks_top_relation
+#print axioms GMZP0.uniform_ordinary_no_relation_count
+#print axioms GMZP0.uniform_ordinary_no_relation_operator
+#print axioms GMZP0.mem_ordinaryNoRelationPoints
+#print axioms GMZP0.not_mem_ordinaryNoRelationPoints
+#print axioms GMZP0.uniform_ordinary_freezing_step
+#print axioms GMZP0.uniform_ordinary_freezing_of_returns
+#check GMZP0.MonomialDenseReturns
+#check GMZP0.uniform_ordinary_freezing_of_returns
+#print axioms GMZP0.integer_monomial_interpolation
+#print axioms GMZP0.uniform_monomial_pattern_seed
+#print axioms GMZP0.bounded_integer_cluster
+#print axioms GMZP0.dense_monomial_cluster_card
+#print axioms GMZP0.uniform_monomial_seed
+#print axioms GMZP0.nonnegative_monomial_returns
+#print axioms GMZP0.nonnegative_power_gap
+#print axioms GMZP0.monomial_fiber_spread
+#print axioms GMZP0.monomial_from_rounded_returns
+#print axioms GMZP0.rounded_monomial_target_mem
+#print axioms GMZP0.uniform_monomial_amplification
+#print axioms GMZP0.monomial_dense_returns
+#print axioms GMZP0.uniform_ordinary_freezing_of_weyl
+#check GMZP0.monomial_dense_returns
+#check GMZP0.uniform_ordinary_freezing_of_weyl

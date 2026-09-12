@@ -1,4 +1,12 @@
-ℹ [3072/3072] Replayed GMZP0.Audit
+✔ [3118/3127] Built GMZP0.MonomialReturnInterface (20s)
+✔ [3119/3127] Built GMZP0.OrdinaryTopRelation (23s)
+✔ [3120/3127] Built GMZP0.OrdinaryFreezing (22s)
+✔ [3121/3127] Built GMZP0.MonomialInterpolation (23s)
+✔ [3122/3127] Built GMZP0.MonomialAmplification (23s)
+✔ [3123/3127] Built GMZP0.MonomialSeed (18s)
+✔ [3124/3127] Built GMZP0.MonomialReturns (24s)
+✔ [3125/3127] Built GMZP0 (23s)
+ℹ [3127/3127] Built GMZP0.Audit (26s)
 info: GMZP0/Audit.lean:5:0: 'GMZP0.cubic_lag_difference' depends on axioms: [propext, Quot.sound]
 info: GMZP0/Audit.lean:6:0: 'GMZP0.lag_target_coordinate' depends on axioms: [propext]
 info: GMZP0/Audit.lean:7:0: 'GMZP0.double_phase_reroot' depends on axioms: [propext, Quot.sound]
@@ -1278,4 +1286,605 @@ info: GMZP0/Audit.lean:760:0: GMZP0.original_scale_bound_of_local_four {N q M : 
     (a / 4) ^ 16 / (4 * 57 ^ 16) ≤
       GMZP0.cyclicLocalFourthNormAverage N q (GMZP0.smoothingRadius N a) M (GMZP0.originalScaledWeight N μ D) F) :
   a ≤ 256
-Build completed successfully (3072 jobs).
+info: GMZP0/Audit.lean:763:0: 'GMZP0.pair_equal_value_gcd_divisibility' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:764:0: 'GMZP0.pair_representation_code_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:765:0: 'GMZP0.integer_pair_representation_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:766:0: 'GMZP0.cyclic_pair_representation_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:767:0: 'GMZP0.cyclic_pair_density_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:768:0: 'GMZP0.pair_density_scale_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:769:0: 'GMZP0.pairDensityConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:770:0: 'GMZP0.cyclic_pair_density_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:771:0: 'GMZP0.global_seventh_moment_of_good_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:772:0: 'GMZP0.positive_label_multiple_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:773:0: 'GMZP0.positive_label_multiple_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:774:0: 'GMZP0.small_positive_label_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:775:0: 'GMZP0.pair_common_divisor_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:776:0: 'GMZP0.reciprocal_square_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:777:0: 'GMZP0.pair_large_gcd_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:778:0: 'GMZP0.exceptional_pair_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:779:0: 'GMZP0.pairCutoff_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:780:0: 'GMZP0.exceptional_pair_probability_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:781:0: 'GMZP0.exists_good_cyclic_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:782:0: 'GMZP0.pairSeventhLower_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:783:0: 'GMZP0.global_seventh_from_pair_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:784:0: 'GMZP0.cyclic_global_seventh_of_good_fibres' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:785:0: 'GMZP0.cyclic_real_seven_of_pair_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:786:0: 'GMZP0.uniform_original_real_seven_of_concatenation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:787:0: GMZP0.CyclicConcatenationInput : Prop
+info: GMZP0/Audit.lean:788:0: GMZP0.uniform_original_real_seven_of_concatenation (hconcat : GMZP0.CyclicConcatenationInput) (κ η : ℝ) (hκ : 0 < κ)
+  (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c d E χ N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < d ∧
+          0 < E ∧
+            0 < χ ∧
+              0 < N₀ ∧
+                ∀ (N : ℕ),
+                  N₀ ≤ N →
+                    ∀ (q : ℕ) [inst : Fact (Nat.Prime q)],
+                      4 * N ^ 2 < q →
+                        q ≤ 128 * N ^ 2 →
+                          ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                            (μ : GMZP0.Base N → ℝ),
+                            GMZP0.Admissible N κ η f θ lam μ →
+                              ∃ X D b F,
+                                D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                                  (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                    c ≤ ∑ z ∈ D, μ z ∧
+                                      (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                        (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                          η * ∑ z ∈ D, μ z ≤
+                                              ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                                  lam‖ ∧
+                                            9 ≤ GMZP0.liftGridSize N E ∧
+                                              (∀ (x : Fin N) (Y : ZMod q),
+                                                  ∃ k, F x Y = ↑k / ↑(GMZP0.liftGridSize N E)) ∧
+                                                (∀ (x : Fin N) (Y : ZMod q), |F x Y| ≤ 3) ∧
+                                                  (∀ (x : Fin N) (Y : ZMod q),
+                                                      GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x Y =
+                                                          0 →
+                                                        F x Y = 0) ∧
+                                                    (∀ (x : Fin N) (Y : ZMod q),
+                                                        0 <
+                                                            GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x
+                                                              Y →
+                                                          ‖↑(F x Y) - d • GMZP0.cyclicField N q θ 0 x Y‖ ≤
+                                                            19 * E / ↑N ^ 3) ∧
+                                                      χ ≤
+                                                          GMZP0.cyclicGlobalRealSevenMass N q
+                                                            (GMZP0.originalScaledWeight N μ D) F ∧
+                                                        ∀ z ∈ D, μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:791:0: 'GMZP0.additiveCubeVertex_update_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:792:0: 'GMZP0.additive_cube_pair_update_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:793:0: 'GMZP0.additive_cube_pair_collision_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:794:0: 'GMZP0.card_ascendingSevenLabelPairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:795:0: 'GMZP0.global_seven_collision_probability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:796:0: 'GMZP0.bounded_product_le_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:797:0: 'GMZP0.bounded_product_threshold_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:798:0: 'GMZP0.globalThresholdCubeDensity_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:799:0: 'GMZP0.globalDistinctThresholdCubeDensity_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:800:0: 'GMZP0.global_threshold_density_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:801:0: 'GMZP0.globalDistinctThresholdCubeDensity_eq_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:802:0: 'GMZP0.distinct_seven_cube_count_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:803:0: 'GMZP0.global_seven_threshold_collision_removal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:804:0: 'GMZP0.weighted_real_seven_to_distinct_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:805:0: 'GMZP0.cyclic_prepared_seven_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:806:0: 'GMZP0.preparedSevenFibers_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:807:0: 'GMZP0.preparedSevenFibers_cube_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:808:0: 'GMZP0.uniform_seven_collision_threshold' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:809:0: 'GMZP0.cyclic_nonzero_weight_in_original_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:810:0: 'GMZP0.cyclic_row_preimage_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:811:0: 'GMZP0.retainedOriginalFibers_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:812:0: 'GMZP0.retainedOriginalFibers_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:813:0: 'GMZP0.retainedOriginalFibers_weight_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:814:0: 'GMZP0.retainedOriginalFibers_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:815:0: 'GMZP0.retainedOriginalFibers_circle_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:816:0: 'GMZP0.retainedOriginalFibers_uniform_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:817:0: 'GMZP0.retainedOriginalFibers_original_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:818:0: 'GMZP0.uniform_original_prepared_seven_of_concatenation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:819:0: GMZP0.uniform_original_prepared_seven_of_concatenation (hconcat : GMZP0.CyclicConcatenationInput) (κ η : ℝ) (hκ : 0 < κ)
+  (hη : 0 < η) (hη1 : η ≤ 1) :
+  ∃ M c d E χ N₀,
+    0 < M ∧
+      0 < c ∧
+        0 < d ∧
+          0 < E ∧
+            0 < χ ∧
+              0 < N₀ ∧
+                ∀ (N : ℕ),
+                  N₀ ≤ N →
+                    ∀ (q : ℕ) [inst : Fact (Nat.Prime q)],
+                      64 * N ^ 2 < q →
+                        q ≤ 128 * N ^ 2 →
+                          ∀ (f : ℤ × ℤ → ℂ) (θ : GMZP0.Base N → GMZP0.Frequency) (lam : GMZP0.Base N → ℂ)
+                            (μ : GMZP0.Base N → ℝ),
+                            GMZP0.Admissible N κ η f θ lam μ →
+                              ∃ X D b F H,
+                                D = X ×ˢ GMZP0.safeRows N (N / M) ∧
+                                  (∀ (x : Fin N), x ∈ X ↔ b ≤ ↑x ∧ ↑x ≤ b + N / M) ∧
+                                    c ≤ ∑ z ∈ D, μ z ∧
+                                      (∀ x ∈ X, ∀ x' ∈ X, |↑↑x' - ↑↑x| ≤ ↑(N / M)) ∧
+                                        (∀ z ∈ D, GMZP0.SafeVertical (↑N) (↑(N / M)) (GMZP0.basePoint z).2) ∧
+                                          η * ∑ z ∈ D, μ z ≤
+                                              ‖GMZP0.weightedOriginalResponse N f θ (GMZP0.originalScaledWeight N μ D)
+                                                  lam‖ ∧
+                                            9 ≤ GMZP0.liftGridSize N E ∧
+                                              (∀ (x : Fin N) (Y : ZMod q),
+                                                  ∃ k, F x Y = ↑k / ↑(GMZP0.liftGridSize N E)) ∧
+                                                (∀ (x : Fin N) (Y : ZMod q), |F x Y| ≤ 3) ∧
+                                                  (∀ (x : Fin N) (Y : ZMod q),
+                                                      GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x Y =
+                                                          0 →
+                                                        F x Y = 0) ∧
+                                                    (∀ (x : Fin N) (Y : ZMod q),
+                                                        0 <
+                                                            GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x
+                                                              Y →
+                                                          ‖↑(F x Y) - d • GMZP0.cyclicField N q θ 0 x Y‖ ≤
+                                                            19 * E / ↑N ^ 3) ∧
+                                                      χ ≤
+                                                          GMZP0.cyclicGlobalRealSevenMass N q
+                                                            (GMZP0.originalScaledWeight N μ D) F ∧
+                                                        χ / 4 * ↑N ≤ ↑H.card ∧
+                                                          (∀ x ∈ H,
+                                                              χ / 4 * ↑q ^ 8 ≤
+                                                                ↑(GMZP0.globalDistinctThresholdCubeCount 7
+                                                                    (fun Y =>
+                                                                      GMZP0.cyclicField N q
+                                                                        (GMZP0.originalScaledWeight N μ D) 0 x Y)
+                                                                    (F x) (χ / 512))) ∧
+                                                            ∀ z ∈ D,
+                                                              μ z ≠ 0 → η ≤ (lam z * GMZP0.response N f z (θ z)).re
+info: GMZP0/Audit.lean:820:0: GMZP0.retainedOriginalFibers_uniform_mass {N q : ℕ} [NeZero q] (hN : 0 < N) (hq : N ^ 2 < q) (hqScale : 64 * N ^ 2 ≤ q)
+  (μ : GMZP0.Base N → ℝ) (D : Finset (GMZP0.Base N)) (H : Finset (Fin N)) (S : Fin N → Finset (ZMod q)) (ρ τ cModel : ℝ)
+  (hρ : 0 ≤ ρ) (hτ : 0 < τ) (hcModel : 0 ≤ cModel) (hH : ρ * ↑N ≤ ↑H.card)
+  (hS : ∀ x ∈ H, ∀ Y ∈ S x, τ ≤ GMZP0.cyclicField N q (GMZP0.originalScaledWeight N μ D) 0 x Y)
+  (hcard : ∀ x ∈ H, cModel * ↑q ≤ ↑(S x).card) : 64 * ρ * cModel * τ ≤ ∑ z ∈ GMZP0.retainedOriginalFibers N q H S, μ z
+info: GMZP0/Audit.lean:823:0: 'GMZP0.symmetric_nonnegative_form_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:824:0: 'GMZP0.kernel_action_energy_of_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:825:0: 'GMZP0.kernel_adjoint_energy_of_gram_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:826:0: 'GMZP0.kernel_action_energy_of_gram_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:827:0: 'GMZP0.kernel_action_sqrt_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:828:0: 'GMZP0.kernel_gram_row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:829:0: 'GMZP0.kernel_action_energy_of_rows_columns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:830:0: 'GMZP0.kernel_adjoint_energy_of_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:831:0: 'GMZP0.kernel_pairing_bound_of_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:832:0: 'GMZP0.outputMaskedKernel_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:833:0: 'GMZP0.outputMaskedKernel_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:834:0: 'GMZP0.finiteEnergy_mask_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:835:0: 'GMZP0.masked_action_energy_of_supported_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:836:0: 'GMZP0.gram_row_bound_needs_square_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:837:0: 'GMZP0.kernelAdjoint_energy_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:838:0: 'GMZP0.kernel_adjoint_energy_of_block_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:839:0: 'GMZP0.kernel_action_energy_of_block_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:840:0: 'GMZP0.blockGramKernel_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:841:0: 'GMZP0.blockGramKernel_energy_bound_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:842:0: 'GMZP0.outputMaskedKernel_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:843:0: 'GMZP0.blockGramKernel_masked_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:844:0: 'GMZP0.blockGramKernel_mask_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:845:0: 'GMZP0.largeBlockCoefficient_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:846:0: 'GMZP0.largeBlockCoefficient_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:847:0: 'GMZP0.largeBlockCoefficient_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:848:0: 'GMZP0.blockGramKernel_zero_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:849:0: 'GMZP0.largeBlockCoefficient_bounds_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:850:0: 'GMZP0.kernel_energy_of_few_large_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:851:0: 'GMZP0.horizontalKernel_row_norm_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:852:0: 'GMZP0.horizontalKernel_column_norm_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:853:0: 'GMZP0.original_horizontal_block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:854:0: 'GMZP0.masked_original_horizontal_block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:855:0: 'GMZP0.masked_original_energy_of_few_large_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:856:0: 'GMZP0.masked_original_response_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:857:0: 'GMZP0.minorOutputMask_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:858:0: 'GMZP0.minorOutputMask_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:859:0: 'GMZP0.finiteMinorEstimate_of_few_large_compressed_blocks' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:860:0: 'GMZP0.uniform_compressed_block_error_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:861:0: 'GMZP0.uniform_finiteMinorEstimate_of_compressed_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:862:0: GMZP0.masked_original_response_energy {N : ℕ} (hN : 0 < N) (p : GMZP0.Base N → GMZP0.Frequency) (m : GMZP0.Base N → ℂ)
+  (H : Finset (Fin N)) (hm : ∀ (z : GMZP0.Base N), ‖m z‖ ≤ 1) (hsupport : ∀ (z : GMZP0.Base N), z.1 ∉ H → m z = 0)
+  (v ρ : ℝ) (hv : 0 ≤ v) (hρ : 0 ≤ ρ)
+  (hcount :
+    ∀ x ∈ H, ↑(GMZP0.largeBlockNeighbors (GMZP0.outputMaskedKernel (GMZP0.responseKernel N p) m) H v x).card ≤ ρ * ↑N)
+  (f : ℤ × ℤ → ℂ) (hf : ∀ (w : ℤ × ℤ), ‖f w‖ ≤ 1) :
+  ∑ z, ‖m z * GMZP0.response N f z (p z)‖ ^ 2 ≤ 4 * ↑N ^ 3 * (ρ + v + (↑N)⁻¹)
+info: GMZP0/Audit.lean:863:0: GMZP0.uniform_finiteMinorEstimate_of_compressed_counts (s : ℝ) (hs : 0 < s) :
+  ∃ ρ v,
+    0 < ρ ∧
+      0 < v ∧
+        ∃ N₀,
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (Q : ℕ) (p : GMZP0.Base N → GMZP0.Frequency),
+                  (∀ (x : Fin N),
+                      ↑(GMZP0.largeBlockNeighbors
+                              (GMZP0.outputMaskedKernel (GMZP0.responseKernel N p) (GMZP0.minorOutputMask Q N p))
+                              Finset.univ v x).card ≤
+                        ρ * ↑N) →
+                    GMZP0.FiniteMinorEstimate Q N s p
+info: GMZP0/Audit.lean:866:0: 'GMZP0.finiteResponse_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:867:0: 'GMZP0.positiveFiniteAverage_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:868:0: 'GMZP0.finiteResponse_zero_norm_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:869:0: 'GMZP0.positiveFiniteAverage_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:870:0: 'GMZP0.finiteResponse_difference_le_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:871:0: 'GMZP0.masked_response_difference_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:872:0: 'GMZP0.cubicPhase_le_of_scaled_circle_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:873:0: 'GMZP0.masked_response_circle_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:874:0: 'GMZP0.disjoint_assignment_energy_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:875:0: 'GMZP0.finiteEnergy_assignment_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:876:0: 'GMZP0.assignmentOutputMask_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:877:0: 'GMZP0.masked_minor_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:878:0: 'GMZP0.masked_finiteMinorEstimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:879:0: 'GMZP0.assigned_masked_minor_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:880:0: 'GMZP0.assigned_child_error_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:881:0: 'GMZP0.finiteEnergy_sqrt_triangle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:882:0: 'GMZP0.finiteEnergy_add_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:883:0: 'GMZP0.finiteEnergy_three_piece_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:884:0: 'GMZP0.majorArc_transfer_without_closeness_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:885:0: 'GMZP0.majorArc_nearby_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:886:0: 'GMZP0.minorArc_nearby_transfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:887:0: 'GMZP0.freezing_circle_error_le_unit_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:888:0: 'GMZP0.freezing_manuscript_circle_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:889:0: 'GMZP0.restrictOutputMask_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:890:0: 'GMZP0.restrictOutputMask_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:891:0: 'GMZP0.complementOutputMask_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:892:0: 'GMZP0.complementOutputMask_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:893:0: 'GMZP0.outputMask_three_piece_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:894:0: 'GMZP0.masked_freezing_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:895:0: 'GMZP0.finiteMinorEstimate_freezing_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:896:0: 'GMZP0.uniform_freezing_step_from_compressed_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:897:0: GMZP0.masked_response_circle_stability {N : ℕ} (hN : 0 < N) (p q : GMZP0.Base N → GMZP0.Frequency)
+  (m : GMZP0.Base N → ℂ) (hm : ∀ (z : GMZP0.Base N), ‖m z‖ ≤ 1) (ε : ℝ) (hε : 0 ≤ ε)
+  (hclose : ∀ (z : GMZP0.Base N), m z ≠ 0 → ‖p z - q z‖ ≤ ε / (2 * Real.pi * ↑N ^ 3)) (g : GMZP0.InputBox N → ℂ) :
+  (GMZP0.finiteEnergy fun z => m z * (GMZP0.finiteResponse N p g z - GMZP0.finiteResponse N q g z)) ≤
+    ε ^ 2 * GMZP0.finiteEnergy g
+info: GMZP0/Audit.lean:898:0: GMZP0.uniform_freezing_step_from_compressed_counts (s : ℝ) (hs : 0 < s) (hs1 : s ≤ 1) :
+  ∃ ρ v,
+    0 < ρ ∧
+      0 < v ∧
+        ∃ N₀,
+          0 < N₀ ∧
+            ∀ (N : ℕ),
+              N₀ ≤ N →
+                ∀ (J : ℕ),
+                  0 < J →
+                    ∀ (Q : ℕ) (Qchild : Fin J → ℕ),
+                      (∀ (i : Fin J), 2 * Qchild i ≤ Q) →
+                        ∀ (p : GMZP0.Base N → GMZP0.Frequency) (child : Fin J → GMZP0.Base N → GMZP0.Frequency)
+                          (j : GMZP0.Base N → Fin J) (A : Finset (GMZP0.Base N)),
+                          (∀ z ∉ A,
+                              ¬GMZP0.MajorArc Q N (p z) → ‖p z - child (j z) z‖ ≤ s / 12 / (2 * Real.pi * ↑N ^ 3)) →
+                            (∀ (x : Fin N),
+                                ↑(GMZP0.largeBlockNeighbors
+                                        (GMZP0.outputMaskedKernel (GMZP0.responseKernel N p)
+                                          (GMZP0.restrictOutputMask (GMZP0.minorOutputMask Q N p) A))
+                                        Finset.univ v x).card ≤
+                                  ρ * ↑N) →
+                              (∀ (i : Fin J), GMZP0.FiniteMinorEstimate (Qchild i) N (s / (3 * √↑J)) (child i)) →
+                                GMZP0.FiniteMinorEstimate Q N s p
+info: GMZP0/Audit.lean:899:0: 'GMZP0.truncated_sum_modulus_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:900:0: 'GMZP0.wideVerticalCoordinate_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:901:0: 'GMZP0.wideVerticalEmbed_coordinate' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:902:0: 'GMZP0.wideVerticalEmbed_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:903:0: 'GMZP0.wideVerticalIndex_coordinate' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:904:0: 'GMZP0.wide_parabola_target_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:905:0: 'GMZP0.wideParabolaTarget_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:906:0: 'GMZP0.wideBlockTarget_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:907:0: 'GMZP0.wideBlockTarget_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:908:0: 'GMZP0.wideBlockTarget_original_collision' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:909:0: 'GMZP0.wideZeroExtension_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:910:0: 'GMZP0.wideZeroExtension_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:911:0: 'GMZP0.wideZeroExtension_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:912:0: 'GMZP0.kernelAction_wideZeroExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:913:0: 'GMZP0.wideHorizontalKernel_at_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:914:0: 'GMZP0.wideHorizontalKernel_no_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:915:0: 'GMZP0.original_collision_wide_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:916:0: 'GMZP0.wideHorizontalKernel_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:917:0: 'GMZP0.wideHorizontalKernel_original_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:918:0: 'GMZP0.original_block_bound_of_wide' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:919:0: 'GMZP0.masked_original_block_bound_of_wide' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:920:0: 'GMZP0.wideBlockTarget_shared_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:921:0: 'GMZP0.wideHorizontalKernel_gram_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:922:0: 'GMZP0.wideBlockCoefficient_shared_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:923:0: 'GMZP0.wideBlockCoefficient_double_phase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:924:0: 'GMZP0.wideHorizontalKernel_gram_phase_pairs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:925:0: 'GMZP0.complete_blockFinLabels_pair_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:926:0: 'GMZP0.wideHorizontalKernel_gram_lags' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:927:0: 'GMZP0.wideDoublePhase_zero_lag' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:928:0: 'GMZP0.wideLagSum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:929:0: 'GMZP0.wideLagSum_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:930:0: 'GMZP0.original_vertical_single_fiber_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:931:0: 'GMZP0.wideHorizontalKernel_gram_row_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:932:0: 'GMZP0.wide_lag_total_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:933:0: 'GMZP0.wide_block_energy_of_lag_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:934:0: 'GMZP0.wide_nonzero_lag_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:935:0: 'GMZP0.wide_lag_maximizing_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:936:0: 'GMZP0.masked_large_block_lag_sum_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:937:0: 'GMZP0.sum_le_large_card_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:938:0: 'GMZP0.many_large_lag_envelopes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:939:0: 'GMZP0.masked_large_block_many_lags' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:940:0: 'GMZP0.uniform_masked_large_block_many_lags' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:941:0: GMZP0.wideHorizontalKernel_original_action {N : ℕ} (P : Fin N → ℤ → GMZP0.Frequency)
+  (p : GMZP0.Base N → GMZP0.Frequency) (hP : GMZP0.WideProfileAgreement N P p) (x x' : Fin N) (hx : x ≠ x')
+  (g : Fin (N ^ 2) → ℂ) :
+  GMZP0.kernelAction (GMZP0.wideHorizontalKernel P x x') (GMZP0.wideZeroExtension g) =
+    GMZP0.kernelAction (GMZP0.horizontalKernel N p x x') g
+info: GMZP0/Audit.lean:942:0: GMZP0.wide_block_energy_of_lag_bounds {N : ℕ} (P : Fin N → ℤ → GMZP0.Frequency) (x x' : Fin N) (M : ℤ → ℝ)
+  (hM0 : ∀ (k : ℤ), 0 ≤ M k)
+  (hM : ∀ (y : Fin (N ^ 2)), ∀ k ∈ Finset.Icc (-↑N) ↑N, k ≠ 0 → ‖GMZP0.wideLagSum P x x' (↑(GMZP0.label y)) k‖ ≤ M k)
+  (g : GMZP0.WideVertical N → ℂ) :
+  GMZP0.finiteEnergy (GMZP0.kernelAction (GMZP0.wideHorizontalKernel P x x') g) ≤
+    (↑N + ∑ k ∈ Finset.Icc (-↑N) ↑N, if k ≠ 0 then M k else 0) / ↑N ^ 4 * GMZP0.finiteEnergy g
+info: GMZP0/Audit.lean:943:0: GMZP0.uniform_masked_large_block_many_lags (v : ℝ) (hv : 0 < v) :
+  ∃ c,
+    0 < c ∧
+      ∃ N₀,
+        0 < N₀ ∧
+          ∀ (N : ℕ),
+            N₀ ≤ N →
+              ∀ (P : Fin N → ℤ → GMZP0.Frequency) (p : GMZP0.Base N → GMZP0.Frequency),
+                GMZP0.WideProfileAgreement N P p →
+                  ∀ (m : GMZP0.Base N → ℂ),
+                    (∀ (z : GMZP0.Base N), ‖m z‖ ≤ 1) →
+                      ∀ (x x' : Fin N),
+                        x ≠ x' →
+                          ¬GMZP0.KernelEnergyBound
+                                (GMZP0.blockGramKernel (GMZP0.outputMaskedKernel (GMZP0.responseKernel N p) m) x x')
+                                (v / ↑N) →
+                            ∃ K root,
+                              c * ↑N ≤ ↑K.card ∧
+                                ∀ k ∈ K,
+                                  k ≠ 0 ∧ |k| < ↑N ∧ c * ↑N ≤ ‖GMZP0.wideLagSum P x x' (↑(GMZP0.label (root k))) k‖
+info: GMZP0/Audit.lean:944:0: 'GMZP0.cubicCirclePolynomial_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:945:0: 'GMZP0.uniform_cubic_interval_common_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:946:0: 'GMZP0.lagLabels_eq_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:947:0: 'GMZP0.lagLabels_interval_length_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:948:0: 'GMZP0.uniform_cubic_lag_common_denominator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:949:0: 'GMZP0.affine_profile_agreement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:950:0: 'GMZP0.affine_double_phase_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:951:0: 'GMZP0.affine_wideDoublePhase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:952:0: 'GMZP0.affine_wideLagSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:953:0: 'GMZP0.affineBlockCubic_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:954:0: 'GMZP0.affine_two_direction_elimination' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:955:0: 'GMZP0.affine_direction_branch_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:956:0: 'GMZP0.uniform_affine_power_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:957:0: 'GMZP0.uniform_bounded_multiplier_affine_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:958:0: 'GMZP0.uniform_affine_block_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:959:0: 'GMZP0.affine_two_direction_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:960:0: 'GMZP0.uniform_affine_block_row_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:961:0: 'GMZP0.horizontalGap_injective_right' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:962:0: 'GMZP0.uniform_affine_many_blocks_top_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:963:0: 'GMZP0.uniform_affine_no_relation_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:964:0: 'GMZP0.affineVerticalProfile_real_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:965:0: 'GMZP0.largeBlockNeighbors_empty_of_zero_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:966:0: 'GMZP0.uniform_affine_no_relation_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:967:0: 'GMZP0.affineNoRelationMask_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:968:0: 'GMZP0.uniform_affine_no_relation_mask_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:969:0: GMZP0.uniform_affine_block_row_relation (v : ℝ) (hv : 0 < v) :
+  ∃ Q E N₀,
+    0 < Q ∧
+      0 < E ∧
+        0 < N₀ ∧
+          ∀ (N : ℕ),
+            N₀ ≤ N →
+              ∀ (a b : Fin N → GMZP0.Frequency) (m : GMZP0.Base N → ℂ),
+                (∀ (z : GMZP0.Base N), ‖m z‖ ≤ 1) →
+                  ∀ (x x' : Fin N),
+                    x ≠ x' →
+                      ¬GMZP0.KernelEnergyBound
+                            (GMZP0.blockGramKernel
+                              (GMZP0.outputMaskedKernel (GMZP0.responseKernel N (GMZP0.affineOriginalProfile a b)) m) x
+                              x')
+                            (v / ↑N) →
+                        ∃ n, 0 < n ∧ n ≤ Q ∧ ‖n • GMZP0.horizontalGap x x' • a x‖ ≤ E / ↑N ^ 4
+info: GMZP0/Audit.lean:970:0: GMZP0.uniform_affine_many_blocks_top_relation (v ρ : ℝ) (hv : 0 < v) (hρ : 0 < ρ) :
+  ∃ Q E N₀,
+    0 < Q ∧
+      0 < E ∧
+        0 < N₀ ∧
+          ∀ (N : ℕ),
+            N₀ ≤ N →
+              ∀ (a b : Fin N → GMZP0.Frequency) (m : GMZP0.Base N → ℂ),
+                (∀ (z : GMZP0.Base N), ‖m z‖ ≤ 1) →
+                  ∀ (x : Fin N),
+                    ρ * ↑N ≤
+                        ↑(GMZP0.largeBlockNeighbors
+                              (GMZP0.outputMaskedKernel (GMZP0.responseKernel N (GMZP0.affineOriginalProfile a b)) m)
+                              Finset.univ v x).card →
+                      GMZP0.AffineTopRelation Q E N (a x)
+info: GMZP0/Audit.lean:971:0: GMZP0.uniform_affine_no_relation_mask_energy (s : ℝ) (hs : 0 < s) :
+  ∃ Q E N₀,
+    0 < Q ∧
+      0 < E ∧
+        0 < N₀ ∧
+          ∀ (N : ℕ),
+            N₀ ≤ N →
+              ∀ (a b : Fin N → GMZP0.Frequency) (m : GMZP0.Base N → ℂ),
+                (∀ (z : GMZP0.Base N), ‖m z‖ ≤ 1) →
+                  ∀ (g : GMZP0.InputBox N → ℂ),
+                    (GMZP0.finiteEnergy fun z =>
+                        GMZP0.affineNoRelationMask Q E a m z *
+                          GMZP0.finiteResponse N (GMZP0.affineOriginalProfile a b) g z) ≤
+                      s ^ 2 * GMZP0.finiteEnergy g
+info: GMZP0/Audit.lean:972:0: 'GMZP0.majorArc_grid_circle_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:973:0: 'GMZP0.majorArc_universal_circle_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:974:0: 'GMZP0.affine_increment_majorArc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:975:0: 'GMZP0.affineConstantChild_vertical_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:976:0: 'GMZP0.affine_child_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:977:0: 'GMZP0.uniform_affine_constant_children' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:978:0: 'GMZP0.mem_affineNoRelationPoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:979:0: 'GMZP0.not_mem_affineNoRelationPoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:980:0: 'GMZP0.uniform_affine_freezing_of_constant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:981:0: GMZP0.uniform_affine_constant_children (Q : ℕ) (hQ : 0 < Q) (E : ℝ) (hE : 0 ≤ E) (ε : ℝ) (hε : 0 < ε) :
+  ∃ J,
+    0 < J ∧
+      ∀ (N : ℕ),
+        0 < N →
+          ∃ offset,
+            ∀ (a : Fin N → GMZP0.Frequency),
+              ∃ j,
+                ∀ (b : Fin N → GMZP0.Frequency) (z : GMZP0.Base N),
+                  GMZP0.AffineTopRelation Q E N (a z.1) →
+                    ‖GMZP0.affineOriginalProfile a b z - GMZP0.affineConstantChild b offset (j z) z‖ ≤ ε / (2 * ↑N ^ 3)
+info: GMZP0/Audit.lean:982:0: GMZP0.UniformConstantFreezing : Prop
+info: GMZP0/Audit.lean:983:0: GMZP0.uniform_affine_freezing_of_constant (hconstant : GMZP0.UniformConstantFreezing) (s : ℝ) (hs : 0 < s)
+  (hs1 : s ≤ 1) :
+  ∃ Q N₀,
+    0 < Q ∧
+      0 < N₀ ∧
+        ∀ (N : ℕ),
+          N₀ ≤ N → ∀ (a b : Fin N → GMZP0.Frequency), GMZP0.FiniteMinorEstimate Q N s (GMZP0.affineOriginalProfile a b)
+info: GMZP0/Audit.lean:984:0: 'GMZP0.cyclic_character_frequency' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:985:0: 'GMZP0.cyclicConstantResponse_as_translation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:986:0: 'GMZP0.horizontalCubicResponse_as_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:987:0: 'GMZP0.cyclicConstantResponse_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:988:0: 'GMZP0.cyclicConstantResponse_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:989:0: 'GMZP0.original_constant_energy_of_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:990:0: 'GMZP0.finiteMinorEstimate_of_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:991:0: 'GMZP0.uniform_constant_freezing_of_horizontal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:992:0: 'GMZP0.finiteCyclicIndex_val' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:993:0: 'GMZP0.finiteCyclicIndex_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:994:0: 'GMZP0.cyclicZeroExtend_original' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:995:0: 'GMZP0.cyclicZeroExtend_outside' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:996:0: 'GMZP0.cyclicZeroExtend_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:997:0: 'GMZP0.finiteCyclicIndex_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:998:0: 'GMZP0.endpointIndex_horizontal' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:999:0: 'GMZP0.endpointIndex_cyclic' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:1000:0: 'GMZP0.cyclicInput_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1001:0: 'GMZP0.cyclicInput_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1002:0: 'GMZP0.finiteFourier_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1003:0: 'GMZP0.finiteFourier_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1004:0: 'GMZP0.finiteFourier_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1005:0: 'GMZP0.verticalTranslationSum_fourier' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1006:0: 'GMZP0.verticalTranslationSum_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1007:0: GMZP0.UniformHorizontalConstantFreezing : Prop
+info: GMZP0/Audit.lean:1008:0: GMZP0.uniform_constant_freezing_of_horizontal (h : GMZP0.UniformHorizontalConstantFreezing) :
+  GMZP0.UniformConstantFreezing
+info: GMZP0/Audit.lean:1009:0: 'GMZP0.uniform_constant_entry_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1010:0: 'GMZP0.uniform_constant_many_entries_majorArc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1011:0: 'GMZP0.uniform_horizontal_constant_freezing_of_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1012:0: 'GMZP0.uniform_constant_freezing_of_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1013:0: 'GMZP0.uniform_affine_freezing_of_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1014:0: 'GMZP0.gram_row_of_few_large_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1015:0: 'GMZP0.outputMaskedKernel_gram_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1016:0: 'GMZP0.masked_energy_of_few_horizontal_entries' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1017:0: 'GMZP0.horizontalMinorMask_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1018:0: 'GMZP0.horizontal_minor_energy_of_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1019:0: 'GMZP0.constant_finiteMinorEstimate_of_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1020:0: 'GMZP0.uniform_constant_estimate_of_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1021:0: 'GMZP0.horizontalFourierPhase_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1022:0: 'GMZP0.constantGramPhase_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1023:0: 'GMZP0.horizontalCubicKernel_gram_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1024:0: 'GMZP0.blockLabels_eq_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1025:0: 'GMZP0.horizontalCubicKernel_gram_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1026:0: 'GMZP0.horizontalCubicKernel_large_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1027:0: 'GMZP0.constant_two_coefficient_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1028:0: 'GMZP0.constant_leading_coefficient_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1029:0: 'GMZP0.horizontalEndpointIndex_injective' depends on axioms: [propext, Quot.sound]
+info: GMZP0/Audit.lean:1030:0: 'GMZP0.horizontalEndpointIndex_collision_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1031:0: 'GMZP0.horizontalEndpointIndex_shifted' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1032:0: 'GMZP0.horizontalEndpointIndex_collision_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1033:0: 'GMZP0.horizontal_collision_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1034:0: 'GMZP0.norm_horizontalFourierPhase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1035:0: 'GMZP0.horizontalFourierPhase_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1036:0: 'GMZP0.horizontalCubicKernel_action' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1037:0: 'GMZP0.horizontalCubicKernel_gram' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1038:0: 'GMZP0.horizontalCubicKernel_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1039:0: 'GMZP0.horizontalCubicKernel_gram_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1040:0: GMZP0.CubicTwoCoefficientWeylInput : Prop
+info: GMZP0/Audit.lean:1041:0: GMZP0.uniform_constant_freezing_of_weyl (hW : GMZP0.CubicTwoCoefficientWeylInput) : GMZP0.UniformConstantFreezing
+info: GMZP0/Audit.lean:1042:0: GMZP0.uniform_affine_freezing_of_weyl (hW : GMZP0.CubicTwoCoefficientWeylInput) (s : ℝ) (hs : 0 < s) (hs1 : s ≤ 1) :
+  ∃ Q N₀,
+    0 < Q ∧
+      0 < N₀ ∧
+        ∀ (N : ℕ),
+          N₀ ≤ N → ∀ (a b : Fin N → GMZP0.Frequency), GMZP0.FiniteMinorEstimate Q N s (GMZP0.affineOriginalProfile a b)
+info: GMZP0/Audit.lean:1043:0: 'GMZP0.uniform_polynomial_lag_leading_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1044:0: 'GMZP0.ordinary_top_scalar_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1045:0: 'GMZP0.ordinary_power_return_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1046:0: 'GMZP0.uniform_ordinary_block_partner_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1047:0: 'GMZP0.uniform_ordinary_block_row_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1048:0: 'GMZP0.ordinary_profile_agreement' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1049:0: 'GMZP0.ordinary_profile_original_response' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1050:0: 'GMZP0.ordinary_wideDoublePhase' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1051:0: 'GMZP0.ordinary_wideLagSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1052:0: 'GMZP0.ordinary_wide_top_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1053:0: 'GMZP0.ordinary_wide_top_coefficient_reverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1054:0: 'GMZP0.ordinary_profile_degree_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1055:0: 'GMZP0.ordinary_profile_degree_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1056:0: 'GMZP0.uniform_ordinary_freezing_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1057:0: 'GMZP0.uniform_ordinary_freezing_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1058:0: 'GMZP0.ordinary_affine_comp_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1059:0: 'GMZP0.ordinary_affine_comp_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1060:0: 'GMZP0.cubicShiftDifference_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1061:0: 'GMZP0.cubicShiftDifference_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1062:0: 'GMZP0.cubicShiftDifference_coeff_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1063:0: 'GMZP0.ordinaryDoublePhasePolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1064:0: 'GMZP0.ordinaryDoublePhasePolynomial_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1065:0: 'GMZP0.ordinaryDoublePhasePolynomial_top_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1066:0: 'GMZP0.ordinary_degree_one_top_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1067:0: 'GMZP0.ordinary_eval_degree_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1068:0: 'GMZP0.ordinary_eval_degree_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1069:0: GMZP0.PolynomialLeadingWeylInput : Prop
+info: GMZP0/Audit.lean:1070:0: GMZP0.UniformOrdinaryFreezing (D : ℕ) : Prop
+info: GMZP0/Audit.lean:1071:0: GMZP0.uniform_ordinary_block_row_relation (hW : GMZP0.PolynomialLeadingWeylInput) (D : ℕ) (hD : 2 ≤ D) (v : ℝ)
+  (hv : 0 < v) :
+  ∃ Q E N₀,
+    0 < Q ∧
+      0 < E ∧
+        0 < N₀ ∧
+          ∀ (N : ℕ),
+            N₀ ≤ N →
+              ∀ (P : Fin N → Polynomial ℝ),
+                (∀ (x : Fin N), (P x).natDegree ≤ D) →
+                  ∀ (m : GMZP0.Base N → ℂ),
+                    (∀ (z : GMZP0.Base N), ‖m z‖ ≤ 1) →
+                      ∀ (x x' : Fin N),
+                        x ≠ x' →
+                          ¬GMZP0.KernelEnergyBound
+                                (GMZP0.blockGramKernel
+                                  (GMZP0.outputMaskedKernel (GMZP0.responseKernel N (GMZP0.ordinaryOriginalProfile P))
+                                    m)
+                                  x x')
+                                (v / ↑N) →
+                            ∃ n,
+                              0 < n ∧ n ≤ Q ∧ ‖n • GMZP0.horizontalGap x x' ^ D • ↑((P x).coeff D)‖ ≤ E / ↑N ^ (D + 3)
+info: GMZP0/Audit.lean:1072:0: 'GMZP0.ordinaryTopRelation_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1073:0: 'GMZP0.ordinary_erase_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1074:0: 'GMZP0.ordinary_erase_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1075:0: 'GMZP0.ordinaryChildPolynomial_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1076:0: 'GMZP0.ordinaryChildPolynomial_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1077:0: 'GMZP0.ordinary_child_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1078:0: 'GMZP0.ordinary_child_zero_branch_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1079:0: 'GMZP0.ordinary_increment_majorArc' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1080:0: 'GMZP0.majorArc_universal_real_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1081:0: 'GMZP0.uniform_ordinary_lower_children' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1082:0: 'GMZP0.uniform_degree_one_monomial_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1083:0: 'GMZP0.uniform_bounded_multiplier_monomial_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1084:0: 'GMZP0.uniform_ordinary_many_blocks_top_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1085:0: 'GMZP0.uniform_ordinary_no_relation_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1086:0: 'GMZP0.uniform_ordinary_no_relation_operator' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1087:0: 'GMZP0.mem_ordinaryNoRelationPoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1088:0: 'GMZP0.not_mem_ordinaryNoRelationPoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1089:0: 'GMZP0.uniform_ordinary_freezing_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1090:0: 'GMZP0.uniform_ordinary_freezing_of_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1091:0: GMZP0.MonomialDenseReturns : Prop
+info: GMZP0/Audit.lean:1092:0: GMZP0.uniform_ordinary_freezing_of_returns (hW₀ : GMZP0.CubicTwoCoefficientWeylInput)
+  (hW : GMZP0.PolynomialLeadingWeylInput) (hR : GMZP0.MonomialDenseReturns) (D : ℕ) : GMZP0.UniformOrdinaryFreezing D
+info: GMZP0/Audit.lean:1093:0: 'GMZP0.integer_monomial_interpolation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1094:0: 'GMZP0.uniform_monomial_pattern_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1095:0: 'GMZP0.bounded_integer_cluster' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1096:0: 'GMZP0.dense_monomial_cluster_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1097:0: 'GMZP0.uniform_monomial_seed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1098:0: 'GMZP0.nonnegative_monomial_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1099:0: 'GMZP0.nonnegative_power_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1100:0: 'GMZP0.monomial_fiber_spread' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1101:0: 'GMZP0.monomial_from_rounded_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1102:0: 'GMZP0.rounded_monomial_target_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1103:0: 'GMZP0.uniform_monomial_amplification' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1104:0: 'GMZP0.monomial_dense_returns' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1105:0: 'GMZP0.uniform_ordinary_freezing_of_weyl' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1106:0: GMZP0.monomial_dense_returns : GMZP0.MonomialDenseReturns
+info: GMZP0/Audit.lean:1107:0: GMZP0.uniform_ordinary_freezing_of_weyl (hW₀ : GMZP0.CubicTwoCoefficientWeylInput)
+  (hW : GMZP0.PolynomialLeadingWeylInput) (D : ℕ) : GMZP0.UniformOrdinaryFreezing D
+Build completed successfully (3127 jobs).

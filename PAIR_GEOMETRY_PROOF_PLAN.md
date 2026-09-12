@@ -1,4 +1,4 @@
-# Pair geometry after the family step (unverified plan)
+# Pair geometry after the family step (plan, completed at F21)
 
 The F17 theorem records a>0 but does not record a<=1. Do not silently add that
 upper bound. A weaker bound obtainable from the actual local-moment lower
@@ -45,3 +45,13 @@ local-four bound are audited in `PairGeometry.lean` and `PairScale.lean`.
 The gcd representation count, exceptional-pair count and family theorem remain
 open. `proof_drafts/F20Representations.lean` is an unfinished draft and is not
 included in the audited checkpoint.
+
+F21 update (2026-09-12): the gcd representation argument is now checked in
+`GMZP0/PairRepresentations.lean`, including its cyclic consequence. The
+unfinished F20 draft was promoted into that module. `ExceptionalPairs.lean`
+proves the actual exceptional probability <=3/A<=u/4 by finite counting and
+telescoping. `PairDensity.lean` and `PairSeventhMoment.lean` check the full
+density and moment passage. `UniformOriginalRealSeven.lean` connects it to
+the original data, conditional on `CyclicConcatenationInput`. The external
+deep proof is outside the current work phase at the user's request; the core
+pair geometry is complete. See CORE_SEVEN_CUBE_CHECKPOINT.md.

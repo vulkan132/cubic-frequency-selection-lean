@@ -2,17 +2,128 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F20: 688 checked theorem declarations. Finite Fourier inversion,
-Parseval, original parameter/difference pushforwards and the exact nonnegative
-Fourier expansion of local cube moments are checked. The complete multiset local-to-global comparison for every s>=2 is now proved,
-with no unproved character-twist premise. Exact global seventh-moment frequency
-averaging is also checked; a positive seventh-moment lower bound still requires
-the family theorem and actual pair geometry.
-F20 additionally checks the elementary pair-geometry prerequisites: the local
-fourth-moment bound forces a <= 256, with uniform shrink thresholds, integer
-range and no-wrap lemmas for paired shifts. Representation multiplicity and
-the family theorem remain open.
-See LOCAL_GLOBAL_INTERFACE.md for its precise remaining scope.
+Checkpoint F32: 998 checked theorem declarations. Actual paired-shift
+representation counts, exceptional-pair deletion and uniform density energy
+are now proved. These combine with the checked local-to-global comparison
+and complete frequency mesh to give positive original weighted real seven-cubes
+conditional on `CyclicConcatenationInput`. The uniform theorem preserves one
+fixed real lift, original safe-window mass and complete original responses.
+All constants precede the scale and original data.
+
+F22 adds complete seven-vertex collision deletion, high-weight thresholding,
+the exact unweighted q^8 normalization and uniform horizontal fibre selection.
+Supplied structural subsets can then be transported back to actual original
+base points, preserving a uniform original-mass lower bound, circle error to
+d*theta and full original responses. These transport theorems do not assert
+that a structural model exists or label an arbitrary matching function a
+nilpolynomial. See STRUCTURAL_VALUE_INTERFACE.md.
+
+F23 adds 39 checked results for finite Schur estimates and arbitrary pointwise
+output masks. Every original horizontal Gram block has norm at most 1/N.
+For a mask supported on retained horizontal rows, if each such row has at
+most rho*N actual large compressed blocks and the other retained off-diagonal
+blocks have norm at most v/N, the masked original operator has norm at most
+sqrt(rho+v+1/N). This gives the original minor-arc estimate conditional
+on that block count, with error parameters fixed before N and the original
+data. The exact K=1/2 obstruction rules out dropping the square root.
+The count itself remains unproved for the structural profiles.
+See FINITE_BLOCK_SCHUR_INTERFACE.md.
+
+F24 adds 31 checked results for supported circle-error operator stability,
+exact arbitrary child assignment, different child minor-arc cutoffs and the
+three-piece freezing assembly. The bounds s/3, s/12, s/3 fit inside s. A
+uniform wrapper chooses numerical parameters before N and all data, and
+deduces the parent finite estimate from actual compressed-block counts and
+supplied approximating children with their individual estimates. It does
+not construct structural children or prove termination. Exact counterexamples
+check the assignment loss and the need for major-arc closeness.
+See FREEZING_STEP_INTERFACE.md.
+
+F25 adds 42 checked results for a finite vertical enlargement, exact recovery
+of every original horizontal block, complete four-factor Gram phases and the
+N^(-4) large-block estimate. Failure of an actual compressed v/N block bound,
+at N*v^2>=2, yields at least N*v^2/4 nonzero lags with complete phase sums
+at least N*v^2/8, each at its own original source root. A uniform wrapper fixes
+c and N0 before all profiles and masks. An exact two-term counterexample checks
+the invalid comparison between truncated and complete phase sums. No external
+deep input is used by these new results. See WIDE_BLOCK_INTERFACE.md.
+
+F26 adds 25 checked results for actual affine vertical profiles. Their complete
+cubic phases, shorter-interval Weyl estimates with the original N denominator,
+two actual block directions and bounded-multiplier returns give the N^(-5)
+top-slope relation on rows with many large compressed blocks. The contrapositive
+proves the no-relation block count, and the original operator on those rows has
+norm at most any prescribed s after a uniform threshold. Arbitrary pointwise
+contractive masks and the same original input remain. An exact quarter-slope
+obstruction checks the retained factor 8. This uses the proved cubic Weyl theorem,
+not a new external input. See AFFINE_FREEZING_INTERFACE.md.
+
+F27 adds nine checked results constructing the actual affine relation-row
+children. Their number precedes N and all original coefficients; the explicit
+grid offsets precede the slope and intercept fields, and all rational branches
+are retained. These children are constant in the vertical variable and retain
+the original horizontal intercept dependence. With these constructed children
+and F26's no-relation estimate, complete affine freezing is reduced to the
+explicitly unproved degree-zero core proposition UniformConstantFreezing.
+It is a theorem premise, not a new axiom or an established external input.
+See AFFINE_CHILD_INTERFACE.md and CONSTANT_FREEZING_PROOF_PLAN.md.
+
+F28 adds 23 checked results for the degree-zero Fourier passage: the exact
+positive translation multiplier, fiberwise counting-energy transfer, injective
+cyclic input zero extension, and complete original endpoint/response recovery.
+The cubic and quadratic phases are both retained, and the cyclic normalization
+cancels with no loss. Restriction to the original output follows the full
+cyclic estimate. The exact reduction to UniformHorizontalConstantFreezing
+preserves Q,N0; this horizontal core proposition is still unproved. Its Gram
+kernel, simultaneous coefficient estimates and actual large-entry count remain.
+See CONSTANT_FOURIER_INTERFACE.md.
+
+F29 adds 31 checked results for the genuine horizontal Gram kernel, complete
+I_h labels, all four phase coefficients, the actual large-entry count and
+scalar Schur estimate. The final degree-zero and complete affine freezing
+theorems assume only CubicTwoCoefficientWeylInput; all internal estimates and
+children are supplied by checked proofs. This explicit external analytic
+input is neither a new axiom nor a proved theorem. Its conversion from an
+external library statement remains outside the checked chain. All cutoffs
+precede N and the original coefficients. See CONSTANT_FREEZING_INTERFACE.md.
+
+F30 adds 26 checked results for genuine ordinary polynomial profiles and
+their exact original responses. For every D>=2, the actual double-phase
+polynomial has degree at most D+2 and top coefficient
+-3*k*(2*h)^D*a_D(x+h), with the zero/lower-degree cases included. An exact
+D=1 obstruction preserves the affine exception. From the explicit
+PolynomialLeadingWeylInput, each actual compressed large block forces a
+bounded positive multiple of h^D*a_D(current row) at N^(-(D+3)), with constants
+before N, all original coefficients and masks, and without synchronizing roots.
+The nonlinear return in h, actual lower-degree children and induction remain
+open. See ORDINARY_BLOCK_INTERFACE.md.
+
+F31 adds 19 checked results constructing actual lower-degree polynomial
+children, retaining original lower coefficients and every circle branch.
+Their positive count and offsets precede N-dependent original coefficient
+fields; the point assignment depends only on the top field. The actual block
+count, no-relation operator and complete degree induction are now connected
+CONDITIONALLY on the two explicit external Weyl inputs AND the still-unproved
+INTERNAL core premise MonomialDenseReturns. That premise is not an external
+deep-theorem exemption or a project axiom. An exact half-frequency obstruction
+prevents zero-branch deletion. See ORDINARY_DESCENT_INTERFACE.md and
+MONOMIAL_RETURNS_PROOF_PLAN.md. P0 remains unproved.
+
+F32 adds 13 checked results proving MonomialDenseReturns without any
+unproved premise, including the critical m=D case. Actual bounded clusters,
+integer interpolation uniform in the center, and same-sign rounding fibers
+give the full N^(-(m+D)) return scale. Substitution in the F31 induction
+now completes ordinary polynomial freezing in every fixed degree from only
+the two explicit external Weyl inputs. The general structural model and
+descent stages remain open. See MONOMIAL_RETURNS_INTERFACE.md.
+
+Following the user's 2026-09-12 instruction, current work prioritizes the
+manuscript's own core arguments. External deep theorems are explicit inputs;
+their proofs are outside this work phase. They are neither new Lean axioms nor
+counted as proved. Nonlinear monomial returns and the ordinary internal
+freezing chain are complete. Structural value extraction, general structural
+block counts, rational descents and uniform structural freezing are still open.
+See CORE_SEVEN_CUBE_CHECKPOINT.md for the exact new scope.
 
 The earlier checked spine remains: The recursive box moment now
 equals the full Boolean-vertex expansion in C, with all multiplicities intact.
@@ -49,9 +160,10 @@ with grid integrality and the strict size bound. It detects real zero and
 retains every original weight. The same F has local fourth-norm sixteenth
 moment >=beta=(a/4)^16/(4*57^16), and at least beta/2 of actual (x,j) fibres
 have mean_h local norm >=beta/2. All multiset multiplicities and complete
-original responses remain in the uniform theorem. Local-to-global comparison,
-family concatenation, structural realization, uniform freezing and deeper
-external dependencies remain open.
+original responses remain in the uniform theorem. The local-to-global comparison
+is checked. F21 closes the core passage to real seven-cubes relative to the
+explicit external concatenation input. Structural realization, uniform freezing
+and the remaining operator bounds are open.
 
 Primary source: ../GMZ_P0_Zenodo/sections/01-introduction.tex through 05-selection.tex.
 Original contract: ../GMZ_P0_Phase40_Final_Adjudication/historical_contracts/phase12_capture_contract.json.

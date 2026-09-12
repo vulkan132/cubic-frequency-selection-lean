@@ -1,6 +1,8 @@
 import GMZP0.PairGeometry
 import Mathlib.Data.Int.GCD
 
+/-! Representation counts for actual paired shifts, retaining all parameter multiplicities. -/
+
 noncomputable section
 open scoped BigOperators
 namespace GMZP0
@@ -96,6 +98,40 @@ theorem integer_pair_representation_count {N s A h h' : ℕ}
         ring
       rw [he, Int.toNat_natCast]
     simpa only [ht] using hcard
+  · rw [Finset.not_nonempty_iff_eq_empty.mp hS, Finset.card_empty]
+    omega
+
+theorem cyclic_pair_representation_count {N q s A h h' : ℕ}
+    (hN : 0 < N) (hq : 4 * N ^ 2 < q) (hA : 0 < A)
+    (hh : 0 < h) (hhN : h ≤ N) (hh' : 0 < h') (hh'N : h' ≤ N)
+    (hs : 2 * s < N) (hlarge : N ≤ A * h') (hg : Nat.gcd h h' ≤ A)
+    (y : ZMod q) :
+    (Finset.univ.filter (fun v : smoothingShiftLabels s × smoothingShiftLabels s =>
+      cyclicPairShiftMap q s h h' v = y)).card ≤ 1 + 2 * A ^ 2 := by
+  classical
+  let S := Finset.univ.filter (fun v : smoothingShiftLabels s × smoothingShiftLabels s =>
+    cyclicPairShiftMap q s h h' v = y)
+  change S.card ≤ _
+  by_cases hS : S.Nonempty
+  · obtain ⟨v₀, hv₀⟩ := hS
+    have hbound (v : smoothingShiftLabels s × smoothingShiftLabels s) :
+        |2 * (h : ℤ) * v.1.val + 2 * h' * v.2.val| < 2 * (N : ℤ) ^ 2 := by
+      apply pair_shift_integer_bound hN hs
+      · exact ⟨Nat.cast_nonneg h, by exact_mod_cast hhN⟩
+      · exact ⟨Nat.cast_nonneg h', by exact_mod_cast hh'N⟩
+      · exact abs_le.mpr (Finset.mem_Icc.mp v.1.property)
+      · exact abs_le.mpr (Finset.mem_Icc.mp v.2.property)
+    have hsub : S ⊆ Finset.univ.filter
+        (fun v : smoothingShiftLabels s × smoothingShiftLabels s =>
+          (h : ℤ) * v.1.val + h' * v.2.val = (h : ℤ) * v₀.1.val + h' * v₀.2.val) := by
+      intro v hv
+      apply Finset.mem_filter.mpr
+      refine ⟨Finset.mem_univ _, ?_⟩
+      have hmod := ((Finset.mem_filter.mp hv).2).trans ((Finset.mem_filter.mp hv₀).2).symm
+      have he := bounded_pair_values_no_wrap hq _ _ (hbound v) (hbound v₀) hmod
+      nlinarith
+    exact (Finset.card_le_card hsub).trans
+      (integer_pair_representation_count hA hh hh' hs hlarge hg _)
   · rw [Finset.not_nonempty_iff_eq_empty.mp hS, Finset.card_empty]
     omega
 

@@ -21,7 +21,7 @@ theorem mem_lagPairDomain_iff (N : ℕ) (h : ℤ) (kr : ℤ × ℤ) :
   simp only [lagPairDomain, lagLabels, Finset.mem_filter, Finset.mem_product, and_assoc]
 
 /-- The affine map is a bijection on the complete integer-label domain. -/
-theorem integer_label_pair_sum (N : ℕ) (h : ℤ) (F : ℤ → ℤ → ℝ) :
+theorem integer_label_pair_sum {M : Type*} [AddCommMonoid M] (N : ℕ) (h : ℤ) (F : ℤ → ℤ → M) :
     (∑ a ∈ blockLabels N h, ∑ b ∈ blockLabels N h, F (a - b) b) =
       ∑ k ∈ Finset.Icc (-(N : ℤ)) N, ∑ r ∈ lagLabels N h k, F k r := by
   classical
@@ -57,7 +57,7 @@ theorem integer_label_pair_sum (N : ℕ) (h : ℤ) (F : ℤ → ℤ → ℝ) :
       Finset.sum_finset_product (lagPairDomain N h) (Finset.Icc (-(N : ℤ)) N)
         (lagLabels N h) (mem_lagPairDomain_iff N h)
 
-theorem sum_blockFinLabels (N : ℕ) (h : ℤ) (F : ℤ → ℝ) :
+theorem sum_blockFinLabels {M : Type*} [AddCommMonoid M] (N : ℕ) (h : ℤ) (F : ℤ → M) :
     (∑ r : blockFinLabels N h, F (label r.val)) = ∑ r ∈ blockLabels N h, F r := by
   calc
     (∑ r : blockFinLabels N h, F (label r.val)) =

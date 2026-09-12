@@ -28,3 +28,11 @@ The implementation must retain the following project-specific obligations:
 The separate finite Fourier and full local-to-global comparison are proved
 at F19 for every s>=2, using a direct character-twist argument. This does not
 prove the family concatenation theorem. P0 and WeightedCapture remain open.
+
+F21 update (2026-09-12): at the user's request, the external deep proof is
+outside the current work phase. `CyclicConcatenationInput` in
+`GMZP0/ConcatenationInterface.lean` records the exact finite cyclic input,
+including positive radius and uniform choice of u. It is a proposition only.
+The core theorem `uniform_original_real_seven_of_concatenation` uses it as an
+explicit hypothesis and proves the rest of this passage with original data.
+Source agreement has not become a theorem or an axiom in the project.

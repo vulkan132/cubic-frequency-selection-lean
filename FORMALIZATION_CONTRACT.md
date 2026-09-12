@@ -48,6 +48,23 @@ or a different response. No claim about U0 follows.
 
 ## Acceptance
 
+### Current working scope (user instruction, 2026-09-12)
+
+Prioritize the manuscript's own core arguments. Do not implement the external
+deep theorems in this work phase. State the exact specialized inputs needed
+from those theorems as explicit hypotheses of conditional results and record
+the source/matching obligations. Never introduce them as new Lean axioms or
+count their premises as proved. Completion of the core relative to those inputs
+is a distinct milestone from an unconditional kernel-checked proof of P0.
+The unconditional acceptance criteria below remain the criteria for claiming
+a complete formal proof; they do not require working on external proofs now.
+
+At F31, MonomialDenseReturns was isolated as an unproved INTERNAL core lemma.
+F32 proves it, including the critical m=D case. The ordinary-degree induction
+now has only the two explicit external Weyl premises in its final theorem.
+This completes the ordinary internal stage, not general structural freezing
+or P0. An external-deep-theorem exemption never discharges an internal lemma.
+
 1. State the target using actual mathematical definitions, not an abstract
    proposition supplied as a hypothesis under a proved-sounding name.
 2. Check every exported proof with the pinned Lean kernel.
