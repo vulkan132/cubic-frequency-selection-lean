@@ -221,5 +221,22 @@ import GMZP0.MonomialInterpolation
 import GMZP0.MonomialSeed
 import GMZP0.MonomialAmplification
 import GMZP0.MonomialReturns
+import GMZP0.ObservationModule
+import GMZP0.ObservationGroup
+import GMZP0.ObservationQuotient
+import GMZP0.ObservationPhase
+import GMZP0.ObservationFlag
+import GMZP0.ObservationObstruction
+import GMZP0.WeightedPolynomial
+import GMZP0.WeightedSubstitution
+import GMZP0.CoordinateObservation
+import GMZP0.ObservationProper
+import GMZP0.TriangularCoordinates
+import GMZP0.TriangularObstruction
+import GMZP0.ObservationCommutator
+import GMZP0.ObservationNilpotent
+import GMZP0.ObservationCharacters
+import GMZP0.ObservationCommutatorObstruction
+import GMZP0.ObservationContinuousCharacters
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/

@@ -1,6 +1,6 @@
 {
   "build": "passed",
-  "checked_theorems": 998,
+  "checked_theorems": 1109,
   "transitive_axioms": {
     "GMZP0.cubic_lag_difference": [
       "Quot.sound",
@@ -4947,10 +4947,575 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "GMZP0.observationTranslate_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observationTranslate_comp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observationTranslate_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_translate_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_invariant_constant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_annihilator_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_integer_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observationConstant_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_constant_mem_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_mul_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_mul_obs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_one_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_one_obs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_inv_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_inv_obs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_lattice_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_representative_eq": [
+      "propext"
+    ],
+    "GMZP0.observation_correction_mul": [
+      "propext"
+    ],
+    "GMZP0.observation_phase_lattice_change": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_circle_lattice_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.quotient_observation_mk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_at_canonical": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.quotient_observation_norm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_curve_real_phase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_curve_quotient": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_profile_agreement": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_profile_original_response": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_block_circle_phase": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_wide_lag_sum": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_curve": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_one_mem_difference_of_flag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.affine_real_observation_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_missing_pullback_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_weightedPolynomialBelow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weightedPolynomialBelow_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weightedPolynomialBelow_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_monomial_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_constant_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_variable_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_mul_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_mul_lt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_mul_lt_right": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_substitution_product": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_substitution_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_substitution_variable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_substitution_monomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_substitution_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_substitution_preserves": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.coordinatePolynomialEvaluation_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.coordinate_evaluation_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.mem_coordinateObservationFlag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.coordinateObservationFlag_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.coordinateObservationFlag_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.coordinateObservationFlag_lowers": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.coordinateObservationFlag_top": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_one_mem_difference_of_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_proper_of_flag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_structure_of_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_integer_difference_saturated": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_monomial_weight_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.weighted_polynomial_mem_of_totalDegree": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.triangular_monomial_weight_lt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.triangular_correction_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.triangular_observation_uniform_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_structure_of_triangular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.triangular_ordinary_degree_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_base_inclusion_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_base_inclusion_obs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_fiber_inclusion_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_fiber_inclusion_obs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_base_fiber_decomposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_base_projection_surjective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_commutator_base": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_commutator_obs": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_commutator_base_fiber": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_commutator_fiber": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_two_translates_difference_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_commutator_obs_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_fiber_smul_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_difference_fiber_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_base_commutator_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_commutator_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observationFiberSubgroup_bot": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_eq_fiber_of_base_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_fiber_commutator_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_lowerCentral_projection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_lowerCentral_fiber_start": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_lowerCentral_fiber_descent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_lowerCentral_vanishes_of_flag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_nilpotent_of_flag": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_nilpotent_of_triangular": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_decomposition": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_annihilates_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_translate_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_linear_form": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_actual_character_curve": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_base_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_fiber_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.affine_observation_unit_difference": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_abelian_base_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_base_inclusion_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_fiber_inclusion_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_base_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_character_fiber_continuous": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observationContinuousFiber_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_continuous_character_form": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_continuous_character_curve": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_continuous_fiber_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_continuous_character_nontrivial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "main_P0": "NOT_proved",
   "weighted_capture": "NOT_proved",
+  "observation_group_algebra": "checked at F33: actual left-translation function module, constructed difference space, right semidirect group laws and inverse, integer-valued subgroup and all right lattice correction terms; F35 additionally proves commutators and nilpotence under explicit flag/triangular hypotheses; rationality, discreteness and cocompactness remain open",
+  "observation_commutator": "checked at F35: the actual subgroup commutator of H equals the pairs with base in [G,G] and fiber in the real difference span W; arbitrary real multiples are themselves generated by actual base-fiber commutators, with no closure enlargement or abelian-base assumption",
+  "observation_nilpotence": "checked: a nilpotent base of class c and actual lowering flag of height K give lowerCentralSeries(H,c+K)=bottom; triangular coordinates with correction degree D and observation degree R give class(H)<=c+R*(D+1)^m+1, uniformly in coefficients; full rational Malcev presentation and Lie/topological structure remain open",
+  "observation_actual_characters": "checked: every actual real-valued group character decomposes into base and additive fiber restrictions, and the fiber annihilates all of W; in the product topology with the pointwise observation subspace topology, continuity proves real linearity, source-term cancellation and a nontrivial component pair; actual lattice integrality restricts to both components; bounded integer bases and their quantitative bounds remain open",
+  "observation_commutator_obstruction": "checked exact affine-function example over the additive real base: the base-fiber commutator is the nonzero constant-one fiber, so an abelian base does not make H abelian; not a counterexample to P0",
+  "observation_quotient": "checked: fixed unit-modulus observation on the actual coset quotient by a possibly nonnormal subgroup; right lattice multiplication adds an actual integer to the real phase, so its circle value is invariant",
+  "observation_original_phase": "checked: the curve (g, source*1 - A*(F composed with L_g)) gives the exact complete double phase and lag sum, with the same original label set and each original root; the observation-profile response uses the same input and all original labels; existence of a model for arbitrary original theta is not supplied",
+  "observation_character": "checked: linear fiber functionals annihilating the constructed W combine with base characters to give actual group characters; 1 in W removes the source term; F34 constructs the common lowering flag from actual triangular coordinate corrections and bounded-degree polynomial representatives; F35 derives the linear form for actual continuous characters; the full rational Malcev presentation and bounded integer-character bases remain open",
+  "weighted_polynomial_lowering": "checked at F34 for actual multivariate polynomial supports: coordinate corrections of weight strictly below their coordinate weight imply substitution preserves every weighted bound and lowers the actual polynomial difference by one; constants, zero terms and top cancellation are included",
+  "coordinate_observation_flag": "checked: exact evaluation intertwines actual left translation with the proved polynomial substitution; intersecting the image of weighted support spaces with V constructs increasing flag levels with zero bottom and a supplied uniform top; no observation function is replaced by an unrelated polynomial witness",
+  "triangular_observation_structure": "checked: for m triangular coordinates with all correction degrees <=D and actual observation representatives of degree <=R, weights (D+1)^i and flag height R*(D+1)^m+1 are chosen before coefficients and translations; the constructed flag proves 1 in W and W proper for a nonconstant module; matching the complete rational Malcev presentation remains open",
+  "observation_integer_saturation": "checked: the actual additive subgroup W intersect V_Z is saturated inside V_Z, using nonzero-scalar cancellation only in the real vector space; full lattice, rationality, quotient integer bases and circle-root conclusions are not asserted",
+  "weighted_degree_obstruction": "checked exact polynomial identity: X_1 -> X_1+X_0 gives a difference of unchanged ordinary total degree one, while the explicit triangular weights make the difference strictly lower; this refutes the unweighted shortcut, not P0",
+  "observation_obstruction": "checked exact affine-coordinate example: omitting the left pullback changes the circle phase by 1/2; this refutes an algebraic shortcut, not P0 or structural freezing",
   "conditional_P0_reduction": "checked: WeightedCapture -> P0",
   "conditional_terminal_capture": "checked: explicit model approximation and finite minor-arc operator estimates imply original-weight finite capture",
   "original_first_adjoint": "checked: exact finite adjoint, endpoint Gram expansion, I/N same-horizontal block, original-weight energy lower bound and first grouped TT* inequality",

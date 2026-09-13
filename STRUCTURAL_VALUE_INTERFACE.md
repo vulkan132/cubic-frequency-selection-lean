@@ -1,5 +1,16 @@
 # Core interface around structural value extraction
 
+Update at F35: the ordinary freezing chain is now checked from its two
+external Weyl inputs, and the general observation group's algebra, coset
+invariance and exact original-block phase encoding are implemented. Actual
+triangular coordinate formulas construct the lowering flag and yield
+nilpotence for a nilpotent base; the commutator subgroup and continuous
+character decomposition are proved. This
+does not supply the nilpolynomial output types, quantitative rational
+structures or their realization. See OBSERVATION_NILPOTENT_INTERFACE.md for
+the current structural frontier. The F22 count/transport scope below is
+unchanged, and P0 remains open.
+
 Checkpoint F22 (2026-09-12): 740 audited theorem declarations, of which 28
 are new in this checkpoint. Only standard Lean/Mathlib foundations occur.
 The new results are in GlobalCubeCollision, GlobalCubeThreshold,

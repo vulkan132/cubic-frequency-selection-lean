@@ -2,7 +2,33 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F32: 998 checked theorem declarations. Actual paired-shift
+Checkpoint F35: 1109 checked theorem declarations. The actual commutator
+subgroup is proved to be [G,G] times the real difference space W, with
+every real multiple justified by actual commutators. The constructed
+triangular flag gives class(H)<=class(G)+R*(D+1)^m+1 for a nilpotent base.
+Actual continuous characters now have real-linear fiber restrictions
+annihilating W, with exact source-term cancellation and lattice integrality.
+Rational presentations and full lattices, bounded integer bases, observation
+analysis and general structural descents remain open. See
+OBSERVATION_NILPOTENT_INTERFACE.md for the hypotheses and remaining work.
+
+At F34, actual triangular
+coordinate formulas now construct a common lowering flag, with explicit
+weights and height depending only on fixed degree and dimension bounds.
+This proves 1 in the observation difference space W and W proper for a
+nonconstant module, without a supplied abstract flag. The integer intersection
+is also proved saturated. General rational Malcev structure and structural
+freezing remain open. See COORDINATE_FLAG_INTERFACE.md.
+
+At F33 the observation group,
+its actual integer-valued subgroup, fixed coset observation and exact original
+block-phase encoding are now checked. The common-flag implication for 1 in W
+and an exact missing-pullback obstruction are also checked. General rational
+structure, boundary estimates and structural descents remain open. F34 and
+F35 supply the coordinate flags and nilpotence under their exact hypotheses.
+See OBSERVATION_GROUP_INTERFACE.md for the exact scope and next obligations.
+
+Earlier core results: Actual paired-shift
 representation counts, exceptional-pair deletion and uniform density energy
 are now proved. These combine with the checked local-to-global comparison
 and complete frequency mesh to give positive original weighted real seven-cubes
@@ -116,6 +142,32 @@ give the full N^(-(m+D)) return scale. Substitution in the F31 induction
 now completes ordinary polynomial freezing in every fixed degree from only
 the two explicit external Weyl inputs. The general structural model and
 descent stages remain open. See MONOMIAL_RETURNS_INTERFACE.md.
+
+F33 adds 35 checked results around the actual right semidirect observation
+group. Integer-valued translations and all right lattice corrections give
+a well-defined unit-modulus observation on the coset quotient. Its curve
+agrees exactly with the complete original block phase and lag sum. A supplied
+common lowering flag for a nonconstant module implies 1 in W, allowing the
+source polynomial to vanish in the constructed horizontal character. No
+rationality, nilpotence, full lattice property or flag existence is inferred
+from the algebraic types alone. An affine example proves that omitting the
+pullback can change the phase by exactly half a circle. P0 remains unproved.
+
+F34 adds 33 checked results for actual weighted polynomial support spaces,
+strict lowering under triangular substitution, exact coordinate evaluation,
+constructed common flags, proper W and the saturated integer intersection.
+The weights (D+1)^i and height R*(D+1)^m+1 are fixed before all coefficients
+and translations. An exact polynomial example shows why ordinary total degree
+cannot replace weighted degree. The full rational Malcev presentation still
+needs to supply the explicit coordinate hypotheses, and rationality, full
+lattices, observation analysis and general descents remain unproved.
+
+F35 adds 43 checked results for actual commutator generation, lower-central
+flag descent, continuous real-linear character restrictions and their
+integer and nontrivial components. The same original curve loses its source
+term in every such character. The topology is the actual product with the
+pointwise observation subspace; a full Lie/Malcev comparison is not inferred.
+An exact affine example shows that an abelian base need not give abelian H.
 
 Following the user's 2026-09-12 instruction, current work prioritizes the
 manuscript's own core arguments. External deep theorems are explicit inputs;

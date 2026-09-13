@@ -375,5 +375,47 @@ These labels are separate from the manuscript research phases.
   models, realization, rational descents and uniform structural termination
   remain open. WeightedCapture and P0 remain unproved.
 
+- F33 (2026-09-13): 1033 checked theorem declarations. Adds 35 results
+  constructing the actual function module, difference space, right semidirect
+  group and integer-valued subgroup. All right lattice corrections survive
+  the exact real phase formula; its circle value defines a fixed observation
+  on the actual coset quotient. The observation curve reproduces the complete
+  original block phase and all actual lag labels and roots. A nonconstant
+  module with a supplied common lowering flag has 1 in W, which removes the
+  source polynomial from the constructed horizontal character. An exact
+  affine-coordinate obstruction gives circle error 1/2 when the pullback
+  is omitted. The rational module flag, proper/rational W, full lattice,
+  nilpotent presentation, mean-zero boundary estimates and bounded character
+  classification remain core obligations. No new external input or axiom is
+  added. General structural freezing, WeightedCapture and P0 remain unproved.
+
+- F34 (2026-09-13): 1066 checked theorem declarations. Adds 33 results
+  proving weighted polynomial substitution lowers actual differences and
+  constructing a common flag from genuine triangular coordinate formulas.
+  Weights (D+1)^i and height R*(D+1)^m+1 precede all real coefficients and
+  all translations. With a nonconstant observation module these prove
+  1 in W and W proper without a supplied abstract flag. W cap V_Z is an
+  actual saturated subgroup of V_Z, using only real-vector cancellation.
+  An exact polynomial obstruction shows that ordinary total degree need
+  not drop under triangular substitution. The complete rational Malcev
+  interface, rational W, full lattices and bounded bases, nilpotent group
+  structure and structural freezing remain open. No external input or
+  axiom is added; P0 and WeightedCapture remain unproved.
+
+- F35 (2026-09-13): 1109 checked theorem declarations. Adds 43 results
+  proving [H,H]=[G,G] times the actual real difference space W, with real
+  scalar multiples produced by genuine commutators. The actual lower central
+  series descends through the constructed flag, giving the uniform bound
+  class(H)<=class(G)+R*(D+1)^m+1 for a nilpotent base under the F34 coordinate
+  hypotheses. Every actual continuous real character has a real-linear fiber
+  part annihilating W; integer restrictions, nontrivial component pairs and
+  exact original-source cancellation are proved. The product topology uses
+  the pointwise observation subspace and does not assert the full Lie/Malcev
+  structure. An exact affine example has an abelian base and a nonzero fiber
+  commutator. Full rational presentations and lattices, bounded integer bases,
+  boundary estimates, general structural descents and realization remain
+  open. No new external input or axiom is added; P0 and WeightedCapture remain
+  unproved. See OBSERVATION_NILPOTENT_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.

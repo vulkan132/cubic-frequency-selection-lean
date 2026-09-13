@@ -1,6 +1,41 @@
-# Open mathematical interfaces after F32
+# Open mathematical interfaces after F35
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F35 proves [H,H]=[G,G] times W as actual subgroups, including the real-span
+generation step. With the F34 triangular coordinate hypotheses and a
+nilpotent base it proves class(H)<=class(G)+R*(D+1)^m+1. Actual continuous
+characters have real-linear fiber restrictions annihilating W, with original
+source-term cancellation, lattice integrality and nontrivial components.
+The product topology uses the pointwise subspace topology on V. Matching
+the full rational Malcev/Lie presentation, proving full lattices and bounded
+integer bases, observation boundary estimates, general rational descents
+and original-frequency realization remain necessary core work. See
+OBSERVATION_NILPOTENT_INTERFACE.md. No new external input was added.
+
+F34 proves the general weighted-substitution lowering lemma and constructs
+the actual observation flag from triangular coordinate formulas, with prior
+weights (D+1)^i and height R*(D+1)^m+1. It proves 1 in W and W proper under
+those coordinate conditions and a uniform ordinary observation-degree bound.
+The integer intersection W cap V_Z is saturated inside V_Z. Matching the
+full rational Malcev presentation to these explicit coordinate hypotheses,
+rationality of W, full lattices and bounded bases, rational/Lie group
+structure and boundary estimates remain necessary core work. The nilpotence
+and commutator parts are now proved at F35 under the explicit hypotheses. See
+COORDINATE_FLAG_INTERFACE.md. P0 and general structural freezing remain open.
+
+F33 constructs the actual observation group and its integer-valued subgroup,
+proves fixed-observation invariance on the coset quotient, and encodes the
+complete original block phase and actual lag sum. A common lowering flag
+implies 1 in W, and this condition removes the source polynomial in the
+constructed horizontal character. At F34, flag construction and properness
+are proved from actual triangular coordinates; the full rational Malcev
+interface, rationality of W, the full lattice and
+rational/Lie structure, fixed boundary estimates and bounded integer-character
+bases still require core proofs. No new external analytic premise
+was added. See OBSERVATION_GROUP_INTERFACE.md. Ordinary freezing remains
+proved relative to its two existing external Weyl inputs; general structural
+freezing, extraction/realization and P0 remain open.
 
 The current work phase, following the user's 2026-09-12 instruction, prioritizes
 core proofs. F21 proves the original-response to positive real-seven-cube
