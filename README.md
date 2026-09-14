@@ -2,7 +2,27 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F35: 1109 checked theorem declarations. The actual commutator
+Checkpoint F37: 1161 checked theorem declarations. A supplied actual finite
+real basis represented by rational coordinate polynomials, together with
+the actual subgroup coordinate image being the full integer grid, now proves
+that the original integer-valued subgroup is discrete and spans V over R.
+Exact integer evaluations also construct a finite integer basis. Its height
+and adaptation to W, the full rational presentation, group lattice
+cocompactness, boundary estimates and general structural descents remain
+open. See OBSERVATION_INTEGER_LATTICE_INTERFACE.md for the exact scope.
+The earlier checkpoint paragraphs below retain their historical scope.
+
+At F36, 1142 theorem declarations were checked. Actual bounded-degree
+polynomial representatives now prove finite-dimensionality, the pointwise
+module topology and closed W. With continuous coordinates, evaluation and
+translation are jointly continuous and H is an actual topological group.
+A literal rational polynomial translation matrix and surjective coordinates
+give a finite rational-coordinate generating list for W. Constructing the
+full rational presentation, full lattices and bounded integer bases, boundary
+estimates and general structural descents remain open. See
+OBSERVATION_RATIONAL_INTERFACE.md for the exact inputs and conclusions.
+
+At F35, the actual commutator
 subgroup is proved to be [G,G] times the real difference space W, with
 every real multiple justified by actual commutators. The constructed
 triangular flag gives class(H)<=class(G)+R*(D+1)^m+1 for a nilpotent base.
@@ -168,6 +188,14 @@ integer and nontrivial components. The same original curve loses its source
 term in every such character. The topology is the actual product with the
 pointwise observation subspace; a full Lie/Malcev comparison is not inferred.
 An exact affine example shows that an abelian base need not give abelian H.
+
+F36 adds 33 checked results connecting the bounded-degree function module
+to finite-dimensional topology and actual joint continuity. A general
+value-span/coefficient-span identity proves rational W from the actual
+rational polynomial translation matrix, with an explicit finite list and
+cardinality bound. The exact restricted-parameter example explains why the
+coordinate-coverage premise must be retained. Full rational presentation and
+lattice construction remain necessary. See OBSERVATION_RATIONAL_INTERFACE.md.
 
 Following the user's 2026-09-12 instruction, current work prioritizes the
 manuscript's own core arguments. External deep theorems are explicit inputs;

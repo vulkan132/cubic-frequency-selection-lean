@@ -1,13 +1,16 @@
 # Core interface around structural value extraction
 
-Update at F35: the ordinary freezing chain is now checked from its two
+Update at F36: the ordinary freezing chain is now checked from its two
 external Weyl inputs, and the general observation group's algebra, coset
 invariance and exact original-block phase encoding are implemented. Actual
 triangular coordinate formulas construct the lowering flag and yield
 nilpotence for a nilpotent base; the commutator subgroup and continuous
-character decomposition are proved. This
+character decomposition are proved. The same bounded polynomial presentation
+now gives finite dimension, and continuous coordinates give the actual
+topological group. A rational translation matrix with surjective coordinates
+gives a finite rational-coordinate span for W. This
 does not supply the nilpolynomial output types, quantitative rational
-structures or their realization. See OBSERVATION_NILPOTENT_INTERFACE.md for
+structures or their realization. See OBSERVATION_RATIONAL_INTERFACE.md for
 the current structural frontier. The F22 count/transport scope below is
 unchanged, and P0 remains open.
 

@@ -238,5 +238,16 @@ import GMZP0.ObservationNilpotent
 import GMZP0.ObservationCharacters
 import GMZP0.ObservationCommutatorObstruction
 import GMZP0.ObservationContinuousCharacters
+import GMZP0.ObservationFiniteDimension
+import GMZP0.PolynomialValueSpan
+import GMZP0.ObservationRationalSpan
+import GMZP0.ObservationTopology
+import GMZP0.ObservationPolynomialMatrix
+import GMZP0.PolynomialParameterObstruction
+import GMZP0.IntegerPolynomialValues
+import GMZP0.FiniteObservationEvaluations
+import GMZP0.ObservationIntegerDiscrete
+import GMZP0.ObservationIntegerLattice
+import GMZP0.ObservationIntegerBasis
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/

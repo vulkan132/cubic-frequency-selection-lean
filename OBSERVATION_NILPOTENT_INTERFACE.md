@@ -1,5 +1,13 @@
 # F35: actual commutators, nilpotence and continuous characters
 
+Update at F36: bounded-degree polynomial representatives now establish finite
+dimension and the real module topology on V. Continuous coordinates give
+jointly continuous evaluation, translation and the actual topological group H.
+A literal rational polynomial translation matrix and surjective coordinates
+give a finite rational-coordinate spanning list for W. Constructing the full
+Malcev presentation, Lie structure, full lattices and bounded integer bases
+remains open. See OBSERVATION_RATIONAL_INTERFACE.md for the current frontier.
+
 P0 and WeightedCapture remain unproved. This checkpoint proves core parts of
 Section 4 of the manuscript, without a new external input or project axiom.
 The source is `../GMZ_P0_Arxiv_Paper/sections/04-freezing.tex`, specifically
@@ -110,10 +118,12 @@ not a numerical test or a counterexample to P0.
 
 ## Remaining core route to P0
 
-1. Construct and match the rational Malcev presentation, prove W rational
-   and V_Z a full lattice, and construct bounded adapted integer quotient
+1. Construct and match the rational Malcev presentation, including the actual
+   rational basis and matrix needed for F36's proof that W is rational.
+   Prove V_Z a full lattice, and construct bounded adapted integer quotient
    and character bases. Saturation alone does not supply them.
-2. Prove the needed topological/Lie and rational polynomial structure,
+2. F36 proves the topological group structure from actual continuous coordinates
+   and polynomial representatives. Prove the needed Lie and rational polynomial structure,
    polynomial-curve filtration, and observation fiber mean-zero and
    uniform boundary/Lipschitz bounds. Then connect the precisely stated
    external quantitative equidistribution input.

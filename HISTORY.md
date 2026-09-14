@@ -417,5 +417,37 @@ These labels are separate from the manuscript research phases.
   open. No new external input or axiom is added; P0 and WeightedCapture remain
   unproved. See OBSERVATION_NILPOTENT_INTERFACE.md.
 
+- F36 (2026-09-14): 1142 checked theorem declarations. Adds 33 results
+  deriving finite-dimensionality from actual uniformly bounded-degree
+  representatives, with dimension bounded by the fixed polynomial space.
+  The pointwise topology is the real module topology; W is closed. Actual
+  continuous coordinates give joint evaluation and translation, and the
+  existing product topology and operations make H a topological group.
+  The real span of all vector-polynomial values equals its coefficient
+  span. A literal rational polynomial translation-difference matrix on
+  surjective coordinates yields a finite rational-coordinate generating
+  list for W, of size at most basis-card times combined-support-card.
+  Rationality is relative to the supplied actual basis; the full Malcev
+  presentation must still construct this basis and matrix with uniform
+  degree/height bounds. An exact X-on-{0} example prevents discarding the
+  parameter-coverage condition. Full lattices and bounded integer bases,
+  Lie structure, observation boundary estimates, general structural
+  descents and original-frequency realization remain open. No new external
+  premise or axiom is added; P0 and WeightedCapture remain unproved.
+  See OBSERVATION_RATIONAL_INTERFACE.md.
+
+- F37 (2026-09-14): 1161 checked theorem declarations. Adds 19 results:
+  uniform denominator clearing on integer inputs, polynomial uniqueness
+  on the full integer grid, and a determining family of at most dim(V)
+  actual subgroup evaluations. These prove discreteness of the original
+  V_Z. An actual rational polynomial basis and exact integer-grid subgroup
+  coordinates also prove its full real span. Exact integer evaluation
+  embeds V_Z into a finite free integer module, whose actual range yields
+  a finite integer basis. The basis is qualitative: bounds, adaptation to W,
+  construction of the full rational Malcev presentation, group lattice
+  cocompactness, boundary analysis and general structural descents remain
+  open. P0 and WeightedCapture remain unproved; no new external premise or
+  project axiom is introduced. See OBSERVATION_INTEGER_LATTICE_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.

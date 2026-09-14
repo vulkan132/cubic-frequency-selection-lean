@@ -1,6 +1,31 @@
-# Open mathematical interfaces after F35
+# Open mathematical interfaces after F37
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F37 proves discreteness and full real span of the original V_Z from an
+actual rational polynomial basis and exact integer-grid coordinate image
+of Gamma. At most dim(V) actual evaluations suffice to determine V;
+their integer-valued restriction embeds V_Z into a finite free integer
+module and gives a finite integer basis. Remaining core obligations include
+constructing this rational coordinate presentation from full Malcev data,
+bounding and adapting the integer basis to W, group lattice cocompactness,
+Lie structure, observation boundary estimates, rational descents and
+original-frequency realization. No height bound, W-adapted basis or
+compact quotient is proved by F37. See OBSERVATION_INTEGER_LATTICE_INTERFACE.md.
+The paragraphs below record earlier checkpoints and must be read with
+these F37 updates.
+
+F36 derives finite-dimensionality and the module topology from actual
+bounded-degree polynomial representatives, proves W closed and establishes
+joint evaluation, translation and topological group operations from continuous
+coordinates. A literal rational polynomial matrix for actual basis differences
+and a surjective coordinate map yield a finite rational-coordinate generating
+list for W. The full rational Malcev presentation still must provide that
+basis and matrix, coordinate properties, degree and height bounds. The actual
+full lattice, adapted bounded integer bases, Lie structure, observation
+boundary estimates, rational descents and original-frequency realization
+remain open. See OBSERVATION_RATIONAL_INTERFACE.md. No new external input
+or project axiom was added.
 
 F35 proves [H,H]=[G,G] times W as actual subgroups, including the real-span
 generation step. With the F34 triangular coordinate hypotheses and a
