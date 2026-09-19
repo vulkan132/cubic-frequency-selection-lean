@@ -2,7 +2,247 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F37: 1161 checked theorem declarations. A supplied actual finite
+Checkpoint F53: 1477 checked theorem declarations. Original rational basis
+functions and the full integer grid give a rational coefficient-recovery
+matrix at actual original subgroup points, valid for every unrestricted
+real observation. The original rational base law then derives rational
+translation/difference matrices, rationality of W and the actual H joint
+polynomial law. Compatible integer/real bases with rational polynomial
+functions are constructed; the original H lattice is exactly the full
+integer grid in the same coordinates. The original full-orbit theorem
+now constructs its compatible bases internally, retaining its metric/scales
+quantifiers and original N normalization. An exact scalar recovery example
+excludes inferring uniform heights from rationality and fixed dimension.
+Full Lie/adapted Malcev structure, quantitative heights and external
+metric/test/filtration/interval matching, general descents and termination,
+original-frequency realization and final WeightedCapture/P0 remain open.
+See RATIONAL_OBSERVATION_PRESENTATION_INTERFACE.md. Earlier checkpoints
+are historical.
+
+At F52, 1458 theorem declarations were checked. Exact finite evaluation
+recovery of all original basis coefficients derives the actual H joint
+polynomial law from the original G law and polynomial basis functions.
+Both source metrics, all right isometries, and actual base/fiber local
+regularity are constructed. The assembled full orbit theorem constructs
+the original quotient metrics and all boundary geometry internally from
+explicit original joint/triangular laws, full integer grid and compatible
+integer/real bases. One metric precedes all specified sections in the fixed
+cell, invariant probabilities, thresholds, complete orbits and N; fixed
+scales preserve the original N normalization under card(I)<=N. Real
+polynomial existence does not yet provide uniform rational heights or
+external quantitative metric/test/filtration/interval matching. General
+descents and termination, original-frequency realization and final
+WeightedCapture/P0 remain open. See ORIGINAL_POLYNOMIAL_ORBIT_INTERFACE.md.
+Earlier checkpoints are historical.
+
+At F51, 1448 theorem declarations were checked. The full original
+translate family of a fixed identity peak constructs a genuine right-
+invariant source metric. Compact-support arguments prove local comparison
+in both directions and exact original topology. A finite-dimensional
+coordinate homeomorphism and literal joint polynomial group law internally
+construct the initial proper metric and prove locally Lipschitz multiplication;
+the final metric has locally Lipschitz actual coordinates and inverse.
+The original discrete lattice and compact cover then construct the genuine
+coset metric and literal infimum formula. No source metric, right isometry,
+coordinate regularity or quotient metric is supplied in the final theorem.
+The new metric is bounded; an exact real-group obstruction excludes global
+comparison with unbounded coordinates. Instantiating the actual H semidirect
+coordinate law and original base/fiber maps remains to be done, together
+with external quantitative metric/test matching, heights, general descents,
+termination and original-frequency realization. P0 and WeightedCapture
+remain unproved. See POLYNOMIAL_RIGHT_METRIC_INTERFACE.md. Earlier
+checkpoints are historical.
+
+At F50, 1421 theorem declarations were checked. Isometric actual right
+lattice actions and closed original lattices construct genuine coset
+metrics, without normality or nearest-point attainment. Compact original
+covers identify the exact original quotient topologies and retain the
+literal infimum formulas. Closedness of the actual observation lattice is
+proved directly from all original integer evaluations. Both quotient
+metrics and their formulas are now constructed inside the original cutoff
+theorem, giving the global projection constant and unchanged C/t bound.
+A cubic-coordinate metric obstruction shows right isometry is not automatic.
+Constructing source G/H metrics, their right isometries and local coordinate
+regularity from full Malcev/Lie data remains open, as do uniform heights,
+external quantitative theorem matching, general descents and termination,
+original-frequency realization and final WeightedCapture/P0. See
+ORIGINAL_COSET_METRIC_INTERFACE.md. Earlier checkpoints are historical.
+
+At F49, 1402 theorem declarations were checked. Original compact covers
+and literal coset-distance formulas construct actual near-pair lifts and
+identify the supplied metric's exact original quotient topology. Compatible
+H topology and locally Lipschitz actual base/fiber coordinates internally
+give uniform lift bounds, short paths, the global H-to-G projection
+constant and the original C/t cutoff estimate. One theorem assembles the
+original tube mass, section measurability, probability projection, zero
+mean and orbit forcing. The same scales apply to the original N-normalized
+sum for card(I)<=N, proving gamma*N<card(I) and retaining all points.
+A two-point obstruction prevents omitting that cardinality condition.
+Intended metrics, literal formulas and coordinate regularity still need
+construction from full Malcev/Lie data; heights, external Leibman test,
+filtration and interval-smoothness matching, general descents and original
+frequency realization remain open. See COMPACT_METRIC_LIFT_INTERFACE.md.
+P0 and WeightedCapture remain unproved. Earlier checkpoints are historical.
+
+At F48, 1386 theorem declarations were checked. Actual lattice
+corrections are finite on compact base charts, and a change along a
+connected continuous path forces a crossing of the original quotient
+frontier. One same-branch character bound precedes all unrestricted
+observation coefficients. Controlled actual quotient pair lifts imply
+the original cutoff product's C/t Lipschitz bound with C chosen before
+all 0<t<=1; the original zero-mean orbit theorem uses this derived bound.
+Local Lipschitz coordinates in both directions construct uniformly short
+base paths internally. Intended metrics, controlled quotient pair lifts,
+the H-to-G projection constant, full Malcev/Lie data and heights, external
+Leibman/interval matching, general descents and original-frequency
+realization remain open. A unit-jump obstruction shows that a Lipschitz
+base cutoff alone is insufficient. See ORIGINAL_CUTOFF_GEOMETRY_INTERFACE.md.
+P0 and WeightedCapture remain unproved. Earlier checkpoints are historical.
+
+At F47, 1369 theorem declarations were checked. The exact original cell
+frontier and every original lattice translate give a quotient-tube strip
+cover under the literal coset-distance formula and local coordinate metric
+control. The original invariant probability satisfies the linear tube bound
+(2*m*L+1/r)*t for every t>0. Compact cell closure and locally Lipschitz
+coordinates construct uniform L,r internally, with the final constant
+preceding every specified invariant probability and every positive scale.
+The intended metric formula and local Lipschitz coordinates still need
+derivation from full Malcev/Lie data. Original projection/cutoff Lipschitz
+bounds, uniform heights, external Leibman/interval matching, general
+descents and original-frequency realization remain open. A checked cubic
+coordinate obstruction excludes inferring metric control from topology.
+See QUOTIENT_BOUNDARY_GEOMETRY_INTERFACE.md. P0 and WeightedCapture remain
+unproved. Earlier checkpoints are historical.
+
+At F46, 1352 theorem declarations were checked. Measurable strictly
+triangular translations preserve actual coordinate volume in every finite
+dimension. The original coordinate homeomorphism and literal triangular
+group law therefore give a Haar measure, and the original full integer
+grid gives its mass-one strict half-open cell. Restriction and the original
+quotient map produce exactly every specified original invariant
+probability. The 2m coordinate face strips have total volume at most
+ofReal(2*m*t); the specified original section's representatives satisfy
+the same probability bound. A checked current-coordinate cancellation
+counterexample prevents dropping strict prefix dependence. Original
+quotient-metric tube coverings, uniform projection and original-observation
+cutoff Lipschitz bounds, full Malcev/Lie presentation and heights, external
+Leibman/interval matching, general descents and original-frequency
+realization remain open. See COORDINATE_BOUNDARY_MEASURE_INTERFACE.md.
+P0 and WeightedCapture remain unproved. Earlier checkpoints are historical.
+
+At F45, 1326 theorem declarations were checked. Explicit distance
+cutoffs and majorants have 1/t Lipschitz bounds, exact empty-boundary
+behavior and integrals bounded by the actual doubled-tube measure.
+Testing the pulled-back majorant controls actual boundary visits of the
+full original orbit. The unchanged original observation has proved zero
+cutoff mean and an orbit bound by tube measure plus alpha(2+K+J/t).
+Given explicit uniform geometric bounds, the scale and discrepancy
+tolerance precede every finite index type, orbit length and orbit.
+An exact null-boundary/full-visit counterexample prevents replacing
+equidistribution by a small-measure assertion. Deriving the geometric
+estimates and metric constants from full Malcev/Lie data, connecting the
+external Leibman inputs and original interval normalization, uniform
+heights, general descents and original-frequency realization remain open.
+See BOUNDARY_ORBIT_INTERFACE.md. P0 and WeightedCapture remain unproved.
+Earlier checkpoints are historical.
+
+At F44, 1306 theorem declarations were checked. In every finite
+dimension, literal triangular coordinate laws and the full original integer
+grid give a unique original right correction into each fixed translated
+half-open unit cell. A coordinate homeomorphism supplies Borel cells with
+compact closure and proves compactness of the actual quotient. Every
+specified original section in that same cell is identified pointwise and
+is measurable; its actual global cutoff means now follow with these inputs
+derived internally. Original corrections are locally constant above
+interior representatives, giving local continuity of the original section,
+real phase and quotient-observation pullback. A checked diagonal-cancellation
+counterexample explains why strict lower-coordinate dependence is necessary.
+Other specified domains still need exact matching. Full Malcev/Lie data
+and heights, quantitative boundary/Lipschitz/orbit estimates, general
+descents and original-frequency realization remain open. See
+CANONICAL_COORDINATE_SECTION_INTERFACE.md. P0 and WeightedCapture remain
+unproved. Earlier checkpoints are historical.
+
+At F43, 1286 theorem declarations were checked. Counting the actual
+lattice fibers lifts each full-group invariant quotient probability to a
+left-invariant measure finite on compacts. Exact recovery on a strict
+domain and ambient Haar uniqueness prove uniqueness on the original
+possibly nonnormal compact quotient. The original observation projection
+intertwines the full actions and preserves any specified invariant
+probabilities upstairs and on the base. The literal rational presentation
+supplies the actual H quotient's unique probability and its base marginal.
+Auxiliary sections do not replace the original observation section.
+Canonical-section geometry, any still-unproved coordinate-measure
+invariance, quantitative boundary/Lipschitz/orbit estimates, full
+Malcev/Lie data and uniform heights, general descents and original-frequency
+realization remain open. See OBSERVATION_MEASURE_IDENTIFICATION_INTERFACE.md.
+P0 and WeightedCapture remain unproved. Earlier checkpoints are historical.
+
+At F42, 1268 theorem declarations were checked. A strict compactly
+contained domain and Haar uniqueness now prove ambient right invariance
+from the original discrete cocompact lattice. Restriction, pushforward and
+normalization construct an invariant probability on the actual possibly
+nonnormal quotient. The literal rational observation presentation gives
+one full-H invariant probability on H/Gamma_H; with constants in V, all
+specified measurable original sections and bounded measurable base cutoffs
+have integrable original cutoff observations with zero mean under that
+same measure. Canonical-section regularity, required canonical-measure
+identifications, quantitative boundary and Lipschitz estimates, full
+Malcev/Lie data and uniform heights, general descents and original-frequency
+realization remain open. See OBSERVATION_GLOBAL_MEAN_INTERFACE.md.
+P0 and WeightedCapture remain unproved. Earlier checkpoints are historical.
+
+At F41, 1260 theorem declarations were checked. Finite local inverse
+charts construct measurable sections of the actual discrete compact
+quotient; countable original lattice corrections give strict Borel domains
+with compact closure. The literal rational presentation supplies the
+actual observation group's Polish/local compact structure and the Borel
+structure of its possibly nonnormal quotient. For any specified measurable
+original section, the original observation, its base cutoff and the
+quotient action are measurable. A separately constructed section is not
+substituted for the specified one. The full invariant probability measure,
+specified-section quantitative boundary and Lipschitz estimates, full
+Malcev/Lie data and uniform heights, general descents and original-frequency
+realization remain open. See OBSERVATION_BOREL_INTERFACE.md.
+P0 and WeightedCapture remain unproved. Earlier checkpoints are historical.
+
+At F40, 1237 theorem declarations were checked. The original additive
+fiber V/V_Z now continuously and injectively parametrizes the whole fiber
+in H/Gamma_H. The literal rational presentation constructs its compact
+Hausdorff topology and normalized Haar probability measure. Constants in V
+give an exact half-translation sign and genuine zero integrals for every
+original fiber observation and scalar base cutoff; integrability is proved
+separately. The same sign holds on the full original quotient, with a
+global integral theorem explicitly conditional on an actual invariant
+finite measure and measurability. Those global inputs, quantitative boundary
+estimates, full Malcev/Lie data and uniform heights, general descents and
+original-frequency realization remain open. See
+OBSERVATION_FIBER_MEAN_INTERFACE.md. P0 remains unproved.
+The earlier checkpoint paragraphs retain their historical scope.
+
+At F39, 1208 theorem declarations were checked. From a literal rational
+polynomial basis, continuous coordinates with full integer-grid image on
+Gamma, a locally compact topological base group, discrete Gamma and compact
+G/Gamma, the original observation group now has a discrete, cocompact
+lattice. Integer bases and compact covering sets are constructed internally.
+Right lattice reduction retains the actual observation pullback before
+rounding. This is a qualitative compact-cover result: full Malcev/Lie data,
+uniform heights, observation boundary estimates, general descents and
+original-frequency realization remain open. See
+OBSERVATION_COCOMPACT_INTERFACE.md. P0 remains unproved.
+The earlier checkpoint paragraphs retain their historical scope.
+
+At F38, 1194 theorem declarations were checked. The actual integer
+quotient V_Z/(W cap V_Z) is proved torsion-free and split. The literal
+rational coordinate and translation-matrix presentation now constructs
+compatible adapted integer and real bases. Actual quotient coordinates
+have kernel W, retain integer surjectivity and polynomial expansions,
+and give the original real observation's exact W-plus-quotient decomposition.
+Uniform basis heights, the full Malcev/Lie presentation, cocompactness,
+boundary estimates and general structural descents remain open. See
+OBSERVATION_QUOTIENT_BASIS_INTERFACE.md. P0 remains unproved.
+
+At F37, 1161 theorem declarations were checked. A supplied actual finite
 real basis represented by rational coordinate polynomials, together with
 the actual subgroup coordinate image being the full integer grid, now proves
 that the original integer-valued subgroup is discrete and spans V over R.

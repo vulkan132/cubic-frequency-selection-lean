@@ -1,5 +1,11 @@
 # F37: the actual integer-valued observation subgroup
 
+Later update: F38 proves compatible adapted integer and real bases from
+the literal rational presentation, identifies the basis size with real
+dimension, and supplies the actual real quotient coordinates and exact
+decomposition. Uniform height bounds and cocompactness remain open. See
+OBSERVATION_QUOTIENT_BASIS_INTERFACE.md. The F37 scope below is historical.
+
 P0 and WeightedCapture remain unproved. This checkpoint adds 19 internal
 results to the F36 observation-module construction. It introduces no new
 external deep-theorem input or project axiom.
