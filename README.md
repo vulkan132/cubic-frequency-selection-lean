@@ -2,7 +2,31 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F63: 1661 checked theorem declarations. Every actual native Lie
+Checkpoint F65: 1694 checked theorem declarations. The actual differential
+of original conjugation intertwines the original exponential/logarithm
+and preserves the actual native Lie bracket. Every native lower-central
+ideal, and its actual exponential set, is invariant under all original
+conjugations. One original structural construction retains all F64
+topology, original-lattice spans, rationality and finite-depth bounds.
+Multiplicative closure, group/Lie series correspondence, lattice-intersection
+cocompactness, adapted Malcev and external matching, controlled descents,
+termination and original-frequency realization remain open, as do
+WeightedCapture/P0. See ORIGINAL_CONJUGATION_FILTRATION_INTERFACE.md
+and verification/result.json. Earlier checkpoints are historical.
+
+At F64, 1676 theorem declarations were checked. Exponential images of
+the actual native Lie lower-central ideals are closed and contractible,
+with exact original inverse and positive-power membership properties.
+Each layer is spanned by logarithms of a finite subset of the original
+lattice lying in that layer. The full structural theorem retains every
+F63 witness. This proves logarithmic span, not multiplicative closure or
+lattice-intersection cocompactness. Group integration, group-series
+matching, common adapted Malcev data, external matching, general controlled
+descents/termination and original-frequency realization remain open, as
+do WeightedCapture/P0. See ORIGINAL_EXPONENTIAL_SUBSPACE_INTERFACE.md
+and verification/result.json. Earlier checkpoints are historical.
+
+At F63, 1661 theorem declarations were checked. Every actual native Lie
 lower-central ideal has an exact finite rational generator list in the
 original basis. Actual bases selected from those generators retain their
 rational coordinates; one height bound controls every layer in a fixed

@@ -1,6 +1,6 @@
 {
   "build": "passed",
-  "checked_theorems": 1661,
+  "checked_theorems": 1694,
   "transitive_axioms": {
     "GMZP0.cubic_lag_difference": [
       "Quot.sound",
@@ -8243,10 +8243,181 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "GMZP0.original_exponential_image_closed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_exponential_image_contractible": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_exp_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_exp_nsmul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_log_pow": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_exponential_image_power_properties": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_vector_family_integer_multiple": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_vectors_original_lattice_realization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_standard_basis_vector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_subspace_finite_original_lattice_span": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_subspace_original_lattice_span": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_exponential_subspace_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_lower_central_exponential_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.heisenberg_exponential_plane_closure_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_full_exponential_lie_filtration": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_self_map_has_mfderiv_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_conjugation_differentiable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_adjoint_native": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_native_subgroup_conjugate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_adjoint_exp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_adjoint_log": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_adjoint_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_adjoint_mul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_exponential_image_conjugation_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_conjugation_contMDiff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_conjugation_inverse_mfderiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_conjugation_pullback_invariant": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_adjoint_vectorfield_bracket": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_adjoint_preserves_native_bracket": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_adjoint_lower_central_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_lower_central_exponential_conjugation_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_lower_central_conjugation_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_full_conjugation_lie_filtration": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "main_P0": "NOT_proved",
   "weighted_capture": "NOT_proved",
+  "original_conjugation_tangent_and_exponential": "checked at F65: actual original conjugation is differentiable in the original chart and its derivative equals the native tangent differential; conjugated native subgroups have the transformed tangent, giving exact original exp/log equivariance and the identity/composition laws in the original group order",
+  "original_adjoint_native_lie_bracket": "checked at F65: actual inverse differentials and pullback identities for original left-invariant vector fields, together with Mathlib bracket pullback naturality, prove preservation of the actual native Lie bracket; both bracket instances are explicit and the resulting Lie homomorphism is constructed, not assumed",
+  "original_lower_central_conjugation_invariance": "checked at F65: every actual native lower-central ideal is stable under every original conjugation tangent map; the same original exponential lower-central set is invariant under every original group conjugation in both directions, retaining all F64 topology, original-lattice logarithmic spans, rationality and finite-depth bounds; multiplicative closure and group/Lie lower-central identification remain open",
+  "original_exponential_subspace_geometry": "checked at F64: the same rational global logarithm is a homeomorphism; every actual linear subspace has a closed contractible exponential image, containing the identity and closed under inverses; original group powers have exact logarithmic scalar coordinates and every positive power detects membership; multiplicative closure is not asserted",
+  "original_rational_subspace_lattice_spans": "checked at F64: one positive integer scales each fixed finite rational vector family to logarithms of actual original lattice elements; every rational subspace is exactly spanned by a finite subset of the original lattice intersection under the original logarithm, without assuming additivity of log(Gamma); actual native lower-central ideals and the full original structural assembly retain the same F63 witnesses",
+  "exponential_subspace_closure_obstruction": "checked at F64: the exact Heisenberg multiplication and exponential/logarithm formulas send two horizontal basis vectors to a product with central logarithmic coordinate 1/2; linear-subspace topology and lattice span do not discharge the missing Lie-subgroup integration or group lower-central correspondence",
   "actual_lie_basis_bracket_spans": "checked at F63: the actual Lie-ideal bracket with the whole original Lie algebra equals the real span of brackets of the fixed original basis with an actual spanning family; rational coordinate contraction computes the original bracket using its actual structure constants",
   "actual_rational_lower_central_generators": "checked at F63: recursive finite rational coordinate lists span exactly every Mathlib lowerCentralSeries ideal in the same original real basis; index zero is the whole Lie algebra and index one is the commutator ideal",
   "selected_rational_lower_central_bases": "checked at F63: actual subspace bases are selected from finite original rational generators and preserve their coordinates; for each fixed finite depth one height bound precedes every layer, selected basis vector and coordinate, including zero-dimensional layers",

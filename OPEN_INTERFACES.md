@@ -1,6 +1,39 @@
-# Open mathematical interfaces after F63
+# Open mathematical interfaces after F65
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F65 constructs the actual native Lie homomorphism given by differentiating
+original conjugation and proves exact original exponential/logarithm
+equivariance. Every actual native lower-central ideal and its actual
+exponential set are invariant under every original conjugation. All F64
+topology, original-lattice logarithmic spans, rationality and finite-depth
+bounds are retained. See ORIGINAL_CONJUGATION_FILTRATION_INTERFACE.md.
+
+Next: prove multiplicative closure of these exponential sets, then the
+original group/Lie lower-central correspondence and required commutator
+relations with correct indexing. Conjugation invariance of a set does
+not yet supply a normal subgroup. Original lattice-intersection
+cocompactness, common adapted Malcev data, external quantitative matching,
+controlled general descent/termination, original full-label frequency
+realization and WeightedCapture/P0 remain open. Earlier checkpoints below
+are historical.
+
+F64 proves that exponential images of the actual native Lie lower-central
+ideals are closed and contractible, contain the identity, are inverse
+closed and detect every positive power. Each layer is exactly spanned by
+logarithms of a finite subset of the original lattice in that layer.
+The full original structural construction retains every F63 witness.
+See ORIGINAL_EXPONENTIAL_SUBSPACE_INTERFACE.md.
+
+Next: use the actual Lie bracket to prove the required subgroup closure
+and normality and the original group/Lie lower-central correspondence.
+The logarithmic span does not yet prove cocompactness of original lattice
+intersections or supply a common adapted Malcev basis. Complete those
+and the quantitative external metric/test/interval matching. Controlled
+general descents, quantitative termination, original full-label frequency
+realization and WeightedCapture/P0 remain open. The exact Heisenberg
+coordinate obstruction forbids treating arbitrary linear exponential
+images as multiplicatively closed. Earlier checkpoints below are historical.
 
 F63 identifies every actual native lower-central Lie ideal with an
 explicit finite rational generator span in the original basis, and

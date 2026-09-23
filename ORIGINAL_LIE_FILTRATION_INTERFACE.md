@@ -1,5 +1,9 @@
 # Rational lower-central ideals of the original native Lie algebra — F63
 
+Historical checkpoint. F64 extends the same witnesses with exponential-set
+topology and exact original-lattice logarithmic spans; see
+ORIGINAL_EXPONENTIAL_SUBSPACE_INTERFACE.md. Group integration remains open.
+
 F63 adds 17 theorem declarations to F62's 1644. Full compilation and
 axiom-audit records are in verification/result.json, build.log and
 axioms.log. P0 and WeightedCapture remain unproved.

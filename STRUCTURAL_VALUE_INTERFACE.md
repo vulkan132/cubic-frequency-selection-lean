@@ -1,5 +1,25 @@
 # Core interface around structural value extraction
 
+Update at F65: actual original conjugation has a proved native Lie
+homomorphism as its differential and intertwines the same original
+exponential/logarithm. Actual native lower-central ideals and their
+exponential sets are invariant under all original conjugations. The full
+structural theorem retains F64 witnesses. Multiplicative closure,
+group/Lie series matching, lattice-intersection cocompactness, common
+adapted Malcev data and the remaining external/descent/frequency
+interfaces are still open. The current frontier is
+ORIGINAL_CONJUGATION_FILTRATION_INTERFACE.md; earlier updates are historical.
+
+Update at F64: actual exponential images of the native Lie lower-central
+ideals have proved closed/contractible topology and exact inverse/power
+properties. Finite subsets of the original lattice in each layer have
+logarithms spanning that exact layer, with no additivity assumption on
+the log image. All F63 witnesses are retained. Multiplicative closure,
+normality, group/Lie series correspondence, lattice-intersection
+cocompactness, common adapted Malcev data and the remaining external,
+descent and frequency interfaces are still open. The current frontier is
+ORIGINAL_EXPONENTIAL_SUBSPACE_INTERFACE.md; earlier updates are historical.
+
 Update at F63: the actual original native Lie lower-central series has
 exact finite rational generator lists and actual layer bases with a
 common height bound over any fixed finite prefix. One original basis

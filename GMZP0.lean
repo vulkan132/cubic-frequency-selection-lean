@@ -390,5 +390,15 @@ import GMZP0.RationalSpanBasis
 import GMZP0.RationalLowerCentral
 import GMZP0.OriginalRationalLowerCentral
 import GMZP0.OriginalFullLieFiltration
+import GMZP0.OriginalExponentialSubspace
+import GMZP0.RationalSubspaceLattice
+import GMZP0.OriginalExponentialFiltration
+import GMZP0.ExponentialClosureObstruction
+import GMZP0.OriginalFullExponentialFiltration
+import GMZP0.OriginalConjugationTangent
+import GMZP0.OriginalAdjointExponential
+import GMZP0.OriginalAdjointLieBracket
+import GMZP0.OriginalLowerCentralConjugation
+import GMZP0.OriginalFullConjugationFiltration
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/

@@ -914,5 +914,38 @@ These labels are separate from the manuscript research phases.
   remain open. No project axiom or external deep premise is added. See
   ORIGINAL_LIE_FILTRATION_INTERFACE.md.
 
+- F64 (2026-09-23): 1676 checked declarations; fifteen new theorems prove
+  closed/contractible topology for actual exponential subspaces, exact
+  original inverse/power formulas and positive-power membership equivalence.
+  A common positive scale realizes each fixed finite rational vector
+  family as logarithms of actual original lattice elements. Each rational
+  subspace is spanned by a finite subset of the original lattice inside
+  its exponential image, without assuming the logarithmic image additive.
+  The actual native Lie lower-central series and full original structural
+  assembly receive these conclusions with all F63 witnesses retained.
+  An exact Heisenberg coordinate computation gives central logarithmic
+  coordinate 1/2 and excludes automatic multiplicative closure for arbitrary
+  linear subspaces. Integration, group-series matching, original-intersection
+  cocompactness, common adapted Malcev data, external matching, controlled
+  general descent/termination, original-frequency realization and
+  WeightedCapture/P0 remain open. No project axiom or external deep premise
+  is added. See ORIGINAL_EXPONENTIAL_SUBSPACE_INTERFACE.md.
+
+- F65 (2026-09-23): 1694 checked declarations; eighteen new theorems
+  identify the actual native conjugation differential and prove exact
+  original exponential/logarithm equivariance using native subgroup
+  uniqueness. Actual inverse differentials, pullbacks of original
+  left-invariant fields and proved vector-field bracket naturality
+  construct a Lie homomorphism preserving the actual native bracket.
+  Every native lower-central ideal and its actual exponential set are
+  invariant under all original conjugations, with all F64 witnesses,
+  original-lattice logarithmic spans and finite-depth bounds retained.
+  Multiplicative closure, group/Lie series correspondence, original
+  lattice-intersection cocompactness, common adapted Malcev data, external
+  matching, controlled general descents/termination, original-frequency
+  realization and WeightedCapture/P0 remain open. No project axiom or
+  external deep premise is added. See
+  ORIGINAL_CONJUGATION_FILTRATION_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.

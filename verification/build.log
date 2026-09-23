@@ -1,5 +1,8 @@
-✔ [3686/3688] Built GMZP0 (15s)
-ℹ [3688/3688] Built GMZP0.Audit (19s)
+✔ [3693/3698] Built GMZP0.OriginalAdjointLieBracket (14s)
+✔ [3694/3698] Built GMZP0.OriginalLowerCentralConjugation (13s)
+✔ [3695/3698] Built GMZP0.OriginalFullConjugationFiltration (16s)
+✔ [3696/3698] Built GMZP0 (18s)
+ℹ [3698/3698] Built GMZP0.Audit (16s)
 info: GMZP0/Audit.lean:5:0: 'GMZP0.cubic_lag_difference' depends on axioms: [propext, Quot.sound]
 info: GMZP0/Audit.lean:6:0: 'GMZP0.lag_target_coordinate' depends on axioms: [propext]
 info: GMZP0/Audit.lean:7:0: 'GMZP0.double_phase_reroot' depends on axioms: [propext, Quot.sound]
@@ -2549,4 +2552,37 @@ info: GMZP0/Audit.lean:1767:0: 'GMZP0.original_real_lie_native_smoothness' depen
 info: GMZP0/Audit.lean:1768:0: 'GMZP0.original_weak_basis_lower_central_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: GMZP0/Audit.lean:1769:0: 'GMZP0.original_weak_basis_lower_central_bases' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: GMZP0/Audit.lean:1770:0: 'GMZP0.original_full_bounded_lie_filtration' depends on axioms: [propext, Classical.choice, Quot.sound]
-Build completed successfully (3688 jobs).
+info: GMZP0/Audit.lean:1771:0: 'GMZP0.original_exponential_image_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1772:0: 'GMZP0.original_exponential_image_contractible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1773:0: 'GMZP0.original_weak_basis_exp_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1774:0: 'GMZP0.original_weak_basis_exp_nsmul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1775:0: 'GMZP0.original_weak_basis_log_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1776:0: 'GMZP0.original_exponential_image_power_properties' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1777:0: 'GMZP0.rational_vector_family_integer_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1778:0: 'GMZP0.rational_vectors_original_lattice_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1779:0: 'GMZP0.rational_standard_basis_vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1780:0: 'GMZP0.rational_subspace_finite_original_lattice_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1781:0: 'GMZP0.rational_subspace_original_lattice_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1782:0: 'GMZP0.original_weak_basis_exponential_subspace_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1783:0: 'GMZP0.original_weak_basis_lower_central_exponential_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1784:0: 'GMZP0.heisenberg_exponential_plane_closure_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1785:0: 'GMZP0.original_full_exponential_lie_filtration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1786:0: 'GMZP0.original_self_map_has_mfderiv_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1787:0: 'GMZP0.original_conjugation_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1788:0: 'GMZP0.original_adjoint_native' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1789:0: 'GMZP0.original_native_subgroup_conjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1790:0: 'GMZP0.original_weak_basis_adjoint_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1791:0: 'GMZP0.original_weak_basis_adjoint_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1792:0: 'GMZP0.original_weak_basis_adjoint_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1793:0: 'GMZP0.original_weak_basis_adjoint_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1794:0: 'GMZP0.original_exponential_image_conjugation_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1795:0: 'GMZP0.original_conjugation_contMDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1796:0: 'GMZP0.original_conjugation_inverse_mfderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1797:0: 'GMZP0.original_conjugation_pullback_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1798:0: 'GMZP0.original_adjoint_vectorfield_bracket' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1799:0: 'GMZP0.original_adjoint_preserves_native_bracket' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1800:0: 'GMZP0.original_adjoint_lower_central_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1801:0: 'GMZP0.original_lower_central_exponential_conjugation_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1802:0: 'GMZP0.original_lower_central_conjugation_data' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1803:0: 'GMZP0.original_full_conjugation_lie_filtration' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3698 jobs).
