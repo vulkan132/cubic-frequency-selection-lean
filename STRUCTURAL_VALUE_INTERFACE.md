@@ -1,5 +1,32 @@
 # Core interface around structural value extraction
 
+Update at F56: every actual base subgroup path with the prescribed
+coordinate tangent has the exact finite original translation series.
+The integrated fiber satisfies the original right semidirect cocycle,
+and its H lift has the full original coordinate tangent and is unique
+over the same entire base path. The time-one fiber is the fixed rational
+polynomial with the same inverse, all in constructed full original
+integer/real bases. Base-path existence for every tangent, identification
+with the original rational Lie basis and actual exponential, global
+rational exp/log and inverse identities remain open, together with uniform
+heights, external quantitative matching, general descents/termination,
+original-frequency realization and final WeightedCapture/P0. The current
+frontier is ORIGINAL_ONE_PARAMETER_INTERFACE.md; earlier updates are historical.
+
+Update at F55: the original fixed rational group/basis presentation now
+constructs uniform degrees, the finite lowering flag and actual H
+nilpotence internally. The original translation differential is identified
+along all differentiable original curves, has a fixed rational tensor and
+one nilpotency exponent before all real tangents. Its finite fiber sum has
+a fixed rational polynomial inverse in both orders. These results are
+assembled in a constructed compatible basis of the entire original
+integer-valued lattice. Actual rational Lie-basis tangent identification,
+one-parameter subgroups and global exponential/logarithm formulas,
+quantitative heights and external matching, general descents/termination,
+original-frequency realization and final WeightedCapture/P0 remain open.
+The current frontier is ORIGINAL_INFINITESIMAL_INTERFACE.md; earlier
+updates are historical.
+
 Update at F54: original rational multiplication and strict triangular data
 derive the actual inverse polynomials. The same compatible original basis
 has rational group operations and the full integer grid as its lattice.

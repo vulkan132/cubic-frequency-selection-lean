@@ -750,5 +750,46 @@ These labels are separate from the manuscript research phases.
   final WeightedCapture/P0 remain open. No new project axiom or external
   deep premise is added. See RATIONAL_INVERSE_LIE_INTERFACE.md.
 
+- F55 (2026-09-23): 1518 checked theorem declarations. Adds 24 results.
+  Fixed original rational joint/basis polynomials internally give uniform
+  degrees before all translating points and unrestricted real observations,
+  hence a finite original lowering flag and a nilpotent smooth H under the
+  original base nilpotence assumption. Formal rational partial derivatives
+  are connected to actual analytic derivatives along all differentiable
+  original coordinate curves, retaining every original function value.
+  The resulting operator has a fixed rational tensor, is linear in every
+  real tangent and strictly lowers the original flag by closedness of its
+  finite-dimensional coordinate image. One positive K kills its K-th power
+  for all tangents. The finite fiber sum has a two-sided inverse given by
+  a fixed rational polynomial, proved in noncommutative algebras. One
+  theorem constructs compatible full integer/real bases and all these
+  data together. The exact curve 1+t excludes inferring a translation
+  representation solely from rationality and its identity value at zero.
+  Actual Lie-basis tangent and one-parameter subgroup identification,
+  global exponential/logarithm formulas, uniform heights and external
+  quantitative matching, general descents and termination, original-frequency
+  realization and final WeightedCapture/P0 remain open. No new project
+  axiom or external deep premise is added. See ORIGINAL_INFINITESIMAL_INTERFACE.md.
+
+- F56 (2026-09-23): 1542 checked theorem declarations. Adds 24 results.
+  A finite derivative tower vanishing at level K gives its exact factorial
+  Taylor sum with the original initial values. The actual base parameter
+  group law propagates the original derivative to all times, giving the
+  full translation finite exponential. The integrated fiber satisfies the
+  actual right semidirect cocycle identity; its H lift has the original
+  identity and group law, prescribed full coordinate tangent and uniqueness
+  over the same entire original base path with that vertical tangent. Its
+  time-one value is the same F55 rational fiber polynomial with its inverse.
+  Full integer/real bases and all rational data precede every path, tangent
+  and unrestricted original observation. The affine translation obstruction
+  rules out the naive tQ fiber; the quadratic correction is checked exactly.
+  Base paths are quantified with their actual group law and coordinate
+  derivative, without an existence assertion for every tangent. Constructing
+  and identifying the original base exponential and rational Lie basis,
+  global exp/log and inverse identities, uniform heights, external matching,
+  general descents/termination, original-frequency realization and final
+  WeightedCapture/P0 remain open. No new project axiom or external deep
+  premise is added. See ORIGINAL_ONE_PARAMETER_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.

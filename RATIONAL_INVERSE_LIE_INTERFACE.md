@@ -1,5 +1,9 @@
 # Original rational inverses, Lie structure and denominator inclusions — F54
 
+Historical checkpoint. F55 continues the actual infinitesimal and finite
+fiber calculation in ORIGINAL_INFINITESIMAL_INTERFACE.md. STATUS.md records
+the current scope.
+
 Checkpoint date: 2026-09-23. F54 adds 17 theorem declarations to F53's
 1477, bringing the complete audited project to 1494 declarations.
 

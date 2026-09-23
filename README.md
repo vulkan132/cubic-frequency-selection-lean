@@ -2,7 +2,38 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F54: 1494 checked theorem declarations. The original rational
+Checkpoint F56: 1542 checked theorem declarations. Along every supplied
+base path with its actual real parameter group law and original coordinate
+tangent, the entire original translation operator equals its finite
+nilpotent exponential series. The integrated fiber satisfies the actual
+right semidirect cocycle identity. The resulting H path has the original
+identity and group law, the full prescribed coordinate tangent, and is
+unique over the same entire base path with that vertical tangent. Its
+time-one fiber is the same fixed rational polynomial with the F55 inverse.
+All basis and rational data are constructed before every path, tangent and
+unrestricted original observation. Existence/identification of base paths
+for all tangents, the original rational Lie basis and global exp/log,
+uniform heights, quantitative matching, general descents/termination,
+original-frequency realization and final WeightedCapture/P0 remain open.
+See ORIGINAL_ONE_PARAMETER_INTERFACE.md. Earlier checkpoints are historical.
+
+At F55, 1518 theorem declarations were checked. Fixed original rational
+group/basis data now derive uniform degrees and the common finite lowering
+flag internally. The actual observation group has a nilpotent smooth Lie
+structure under the original base nilpotence assumption. Rational partial
+derivatives give the actual translation differential for every original
+curve with a specified coordinate tangent, preserving all original function
+values and unrestricted real coefficients. Closed lower flag spaces give
+one nilpotency exponent before all tangents. The finite fiber sum has one
+fixed rational polynomial inverse in both orders. These results are
+assembled in a constructed compatible basis of the full original integer
+lattice. Actual Lie-basis tangent and one-parameter subgroup identification,
+global Lie exponential/logarithm formulas, uniform heights, quantitative
+matching, general descents/termination, original-frequency realization and
+final WeightedCapture/P0 remain open. See ORIGINAL_INFINITESIMAL_INTERFACE.md.
+Earlier checkpoints are historical.
+
+At F54, 1494 theorem declarations were checked. The original rational
 joint law, strict triangular law and integer identity coordinates derive
 actual inverse polynomials. One compatible basis now gives both rational
 H operations and the full original lattice as the exact integer grid.

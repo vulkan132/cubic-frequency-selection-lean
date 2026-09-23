@@ -1,6 +1,53 @@
-# Open mathematical interfaces after F54
+# Open mathematical interfaces after F56
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F56 proves the original translation finite exponential and the integrated
+fiber cocycle along every actual base path with its real parameter group
+law and prescribed coordinate derivative. The explicit H lift has the
+original group law and identity, the full original coordinate tangent and
+the same rational time-one fiber polynomial/inverse. Uniqueness holds over
+the same entire original base path with the specified vertical tangent.
+These results are assembled with constructed full integer/real bases and
+fixed rational data preceding all paths, tangents and original observations.
+See ORIGINAL_ONE_PARAMETER_INTERFACE.md.
+
+Still open: construct/identify the original base one-parameter subgroups
+for every tangent, match them to the intended rational Lie basis and the
+actual base exponential, and establish the global rational exp/log maps
+with their inverse identities. The proved statement is universal over
+supplied paths satisfying their law and tangent condition; it does not
+assert existence for every tangent. A fiber inverse and uniqueness over
+a fixed base path do not by themselves give a global logarithm. Only after
+the actual maps are identified can F54's lattice inclusions be used as the
+intended logarithmic statement. Uniform heights, adapted Malcev and external
+metric/test/filtration/interval matching, general descents and quantitative
+termination, original-frequency realization with full labels, circle roots,
+original weights and responses, and final WeightedCapture/P0 remain open.
+Earlier checkpoint paragraphs below are historical.
+
+F55 derives uniform degree bounds and the original finite lowering flag
+from the fixed rational joint law and function basis. The actual translation
+differential has a rational coefficient tensor, is linear in the real
+coordinate tangent and differentiates every original observation at every
+original point along any curve with that tangent. Passing actual difference
+quotients into the closed lower flag space gives one nilpotency exponent
+before all tangents. Fixed rational polynomials give the fiber sum and its
+two-sided inverse, and all these data are derived in one compatible basis
+of the full original integer-valued function lattice. See
+ORIGINAL_INFINITESIMAL_INTERFACE.md.
+
+Still open: identify coordinate tangents with the intended rational Lie
+basis and construct/identify the actual one-parameter subgroups and global
+Lie exponential/logarithm. The fiber polynomial inverse is now proved,
+but is not by itself an exponential-map theorem. The base exponential
+formulas and their quantitative rational bounds must also be matched to the
+original presentation before using F54's two lattice inclusions. Adapted
+Malcev, external metric/test/filtration/interval matching, uniform heights,
+general descents and quantitative termination, original-frequency
+realization with full labels, roots, weights and responses, and final
+WeightedCapture/P0 remain open. No internal obligation has been renamed
+an external deep theorem. Earlier checkpoint paragraphs below are historical.
 
 F54 derives the actual rational inverse from the original rational joint
 law, strict triangular law and integer identity coordinates. One compatible

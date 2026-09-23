@@ -336,5 +336,18 @@ import GMZP0.RationalPolynomialDenominators
 import GMZP0.RationalLatticeSandwich
 import GMZP0.RationalLatticeObstructions
 import GMZP0.RationalCoordinateLieGroup
+import GMZP0.PolynomialPresentationBounds
+import GMZP0.RationalPolynomialDerivative
+import GMZP0.RationalObservationFlag
+import GMZP0.ObservationInfinitesimal
+import GMZP0.InfinitesimalNilpotent
+import GMZP0.NilpotentFiberPolynomial
+import GMZP0.OriginalInfinitesimalFiber
+import GMZP0.OneParameterObstruction
+import GMZP0.FiniteDerivativeTower
+import GMZP0.OneParameterTranslation
+import GMZP0.OneParameterFiber
+import GMZP0.ObservationOneParameter
+import GMZP0.OriginalOneParameterLift
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/
