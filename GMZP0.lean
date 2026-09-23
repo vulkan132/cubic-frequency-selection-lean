@@ -363,5 +363,17 @@ import GMZP0.RationalOriginalPowers
 import GMZP0.OriginalBaseLogarithm
 import GMZP0.OriginalBaseLogLattice
 import GMZP0.ObservationTimeOneInverse
+import GMZP0.ObservationFiberPolynomials
+import GMZP0.ObservationLogCoordinates
+import GMZP0.OriginalFullLogarithm
+import GMZP0.OriginalFullLogLattice
+import GMZP0.OriginalChartDifferential
+import GMZP0.RationalCoordinateDifferential
+import GMZP0.OriginalLeftInvariantCoordinates
+import GMZP0.OriginalChartLieBracket
+import GMZP0.OriginalRationalLieBracket
+import GMZP0.OriginalFullRationalLieBasis
+import GMZP0.LieConventionObstruction
+import GMZP0.OriginalCurveLieTangent
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/

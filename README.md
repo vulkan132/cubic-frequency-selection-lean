@@ -2,7 +2,32 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F58: 1592 checked theorem declarations. The actual original base
+Checkpoint F60: 1620 checked theorem declarations. The actual original
+manifold tangent space and Mathlib Lie bracket are identified in the
+original global chart. Differentiating the second multiplication input
+constructs rational left-invariant basis fields and rational structure
+coefficients of the actual Lie bracket. The same full original fiber
+basis supports this Lie structure, both time-one coordinate arrays and
+both original lattice inclusions. The coordinate/native curve derivative
+bridge is checked. Native Lie-tangent subgroup/time-one assembly, uniform
+heights, external quantitative matching, general descents/termination,
+original-frequency realization and final WeightedCapture/P0 remain open.
+See ORIGINAL_RATIONAL_LIE_BASIS_INTERFACE.md. Earlier checkpoints are historical.
+
+At F59, 1601 theorem declarations were checked. Both directions of the
+actual full H time-one equivalence are now literal rational polynomial
+arrays in the same constructed full original integer/real bases. The
+inverse fiber substitutes the actual original base logarithm and retains
+every original observation coefficient. Both full original H lattice
+denominator inclusions follow with one positive denominator before all
+integer vectors and lattice elements. No additive logarithmic lattice
+image or uniform height bound is assumed. Intended rational Lie-basis and
+standard exponential matching, uniform heights, external quantitative
+matching, general descents/termination, original-frequency realization
+and final WeightedCapture/P0 remain open. See
+ORIGINAL_FULL_LOG_LATTICE_INTERFACE.md. Earlier checkpoints are historical.
+
+At F58, 1592 theorem declarations were checked. The actual original base
 time-one map is globally bijective with a constructed rational logarithm.
 Exact discrete integration reconstructs every original natural power;
 polynomial identity on the entire natural grid proves the real subgroup law.

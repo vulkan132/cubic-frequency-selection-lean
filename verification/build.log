@@ -1,8 +1,5 @@
-✔ [3601/3606] Built GMZP0.OriginalBaseLogarithm (16s)
-✔ [3602/3606] Built GMZP0.OriginalBaseLogLattice (19s)
-✔ [3603/3606] Built GMZP0.ObservationTimeOneInverse (19s)
-✔ [3604/3606] Built GMZP0 (17s)
-ℹ [3606/3606] Built GMZP0.Audit (21s)
+✔ [3643/3645] Built GMZP0 (23s)
+ℹ [3645/3645] Built GMZP0.Audit (18s)
 info: GMZP0/Audit.lean:5:0: 'GMZP0.cubic_lag_difference' depends on axioms: [propext, Quot.sound]
 info: GMZP0/Audit.lean:6:0: 'GMZP0.lag_target_coordinate' depends on axioms: [propext]
 info: GMZP0/Audit.lean:7:0: 'GMZP0.double_phase_reroot' depends on axioms: [propext, Quot.sound]
@@ -2481,4 +2478,32 @@ info: GMZP0/Audit.lean:1698:0: 'GMZP0.original_base_time_one_zero' depends on ax
 info: GMZP0/Audit.lean:1699:0: 'GMZP0.original_rational_base_time_one_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: GMZP0/Audit.lean:1700:0: 'GMZP0.original_base_logarithmic_lattice_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: GMZP0/Audit.lean:1701:0: 'GMZP0.original_integral_basis_time_one_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
-Build completed successfully (3606 jobs).
+info: GMZP0/Audit.lean:1702:0: 'GMZP0.differential_matrix_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1703:0: 'GMZP0.iterated_differential_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1704:0: 'GMZP0.rational_endomorphism_polynomial_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1705:0: 'GMZP0.fiber_operator_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1706:0: 'GMZP0.observation_forward_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1707:0: 'GMZP0.observation_inverse_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1708:0: 'GMZP0.original_integral_basis_rational_log_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1709:0: 'GMZP0.observation_full_logarithmic_lattice_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1710:0: 'GMZP0.original_integral_basis_full_logarithmic_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1711:0: 'GMZP0.original_ext_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1712:0: 'GMZP0.original_ext_chart_symm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1713:0: 'GMZP0.original_written_in_chart' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1714:0: 'GMZP0.original_has_mfderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1715:0: 'GMZP0.original_mfderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1716:0: 'GMZP0.coordinate_line_fderiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1717:0: 'GMZP0.rational_polynomial_fderiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1718:0: 'GMZP0.rational_polynomial_array_fderiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1719:0: 'GMZP0.original_left_basis_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1720:0: 'GMZP0.original_left_invariant_basis_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1721:0: 'GMZP0.original_chart_mfderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1722:0: 'GMZP0.original_chart_symm_mfderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1723:0: 'GMZP0.original_chart_lie_bracket' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1724:0: 'GMZP0.original_lie_bracket_rational_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1725:0: 'GMZP0.original_tangent_basis_rational' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1726:0: 'GMZP0.original_full_rational_lie_basis_and_lattice' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1727:0: 'GMZP0.heisenberg_first_second_input_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1728:0: 'GMZP0.original_curve_has_mfderiv_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GMZP0/Audit.lean:1729:0: 'GMZP0.original_curve_lie_tangent' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3645 jobs).

@@ -832,5 +832,37 @@ These labels are separate from the manuscript research phases.
   circle frequencies. No new project axiom or external deep premise is added.
   See ORIGINAL_GLOBAL_LOG_INTERFACE.md.
 
+- F59 (2026-09-23): 1601 checked declarations; nine new theorems close
+  the full original H rational-coordinate and logarithmic lattice assembly.
+  Recursive multivariate arrays represent every power and rational polynomial
+  of the actual observation differential. The original time-one map and its
+  inverse are literal rational arrays in the same full original integer/real
+  bases, with the actual base logarithm substituted into the inverse fiber
+  and every original observation coefficient retained. The actual subgroup
+  time-one identity, both fiber inverse orders and correct origin are kept.
+  One positive denominator supplies both inclusions for the entire original
+  H lattice before every integer vector and every lattice element; the
+  logarithmic image is not assumed additive. Intended rational Lie-basis
+  and standard exponential matching, uniform heights, external quantitative
+  matching, general descents/termination, original-frequency realization and
+  WeightedCapture/P0 remain open. No new project axiom or external deep
+  premise is added. See ORIGINAL_FULL_LOG_LATTICE_INTERFACE.md.
+
+- F60 (2026-09-23): 1620 checked declarations; nineteen new theorems
+  identify the actual original manifold tangent space and Mathlib Lie
+  bracket in the original global chart. Rational second-input derivatives
+  construct actual left-invariant basis fields; their analytic bracket
+  gives rational structure coefficients in the original tangent basis.
+  An exact Heisenberg polynomial obstruction excludes identifying the
+  first- and second-input velocities. The same full original integer/real
+  fiber bases support the smooth Lie structure, rational Lie coefficients,
+  global time-one arrays and both original lattice inclusions. The native
+  curve derivative is equivalent to the original coordinate derivative.
+  Same-witness native Lie-tangent subgroup/time-one assembly, uniform
+  heights, external matching, general descents/termination, original
+  frequency realization and WeightedCapture/P0 remain open. No project
+  axiom or external deep premise is added. See
+  ORIGINAL_RATIONAL_LIE_BASIS_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.

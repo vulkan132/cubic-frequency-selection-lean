@@ -1,5 +1,26 @@
 # Core interface around structural value extraction
 
+Update at F60: the actual tangent-space and manifold-bracket transports
+are proved. The original second-input multiplication derivatives give
+rational left-invariant basis fields and rational coefficients of the
+actual Mathlib Lie bracket. The same full original fiber basis supports
+the smooth Lie structure, time-one arrays and full original lattice
+inclusions. Native Lie-tangent subgroup/time-one assembly, uniform heights,
+external matching, general descents/termination, original-frequency
+realization and P0 remain open. The current frontier is
+ORIGINAL_RATIONAL_LIE_BASIS_INTERFACE.md; earlier updates are historical.
+
+Update at F59: the actual full H time-one map and its inverse have literal
+rational coordinate arrays in the same full original integer/real bases.
+The inverse substitutes the actual base logarithm into the proved fiber
+inverse and preserves every original coefficient. The full original H
+lattice satisfies both denominator inclusions with one positive denominator
+fixed before all lattice points and integer vectors. Intended Lie-basis
+and standard exponential matching, uniform heights and external matching,
+general descents/termination, original-frequency realization and P0 remain
+open. The current frontier is ORIGINAL_FULL_LOG_LATTICE_INTERFACE.md;
+earlier updates are historical.
+
 Update at F58: actual natural powers and exact discrete integration give
 the global rational original base logarithm. Both inverse identities and
 the original base-lattice denominator inclusions are proved. The original

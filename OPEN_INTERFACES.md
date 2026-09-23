@@ -1,6 +1,41 @@
-# Open mathematical interfaces after F58
+# Open mathematical interfaces after F60
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F60 identifies the actual original manifold tangent space and standard
+Mathlib Lie bracket in the original chart. Rational left-invariant basis
+fields and actual rational bracket coefficients are derived from the
+second input of the original multiplication. The same original full
+integer/real fiber basis supports this smooth Lie structure, the rational
+time-one arrays and both full original lattice inclusions. The generic
+coordinate/native curve-derivative equivalence is proved. See
+ORIGINAL_RATIONAL_LIE_BASIS_INTERFACE.md.
+
+Next: assemble all-tangent subgroup existence/uniqueness with the global
+time-one inverse using native Lie tangents, while retaining one set of
+basis and operator witnesses. Separate existential selections cannot be
+silently identified. Uniform heights, adapted Malcev and external
+metric/test/filtration/interval matching, general descents/termination,
+original-frequency realization with full labels, roots, quadratic
+freedom, weights and responses, and final WeightedCapture/P0 remain open.
+Earlier checkpoint paragraphs below are historical.
+
+F59 closes the full H rational-coordinate-array and logarithmic lattice
+assembly left open at F58. Both directions are literal rational arrays in
+the same full original integer/real bases; the inverse fiber uses the actual
+base logarithm. The actual time-one identity and correct origin remain
+explicit. One positive denominator supplies both inclusions for the entire
+original H lattice before all lattice elements and all integer vectors.
+See ORIGINAL_FULL_LOG_LATTICE_INTERFACE.md.
+
+Still open: identify the constructed coordinate tangent basis and maps with
+the intended rational Lie basis and standard exponential/logarithm; derive
+uniform heights, adapted Malcev and external metric/test/filtration/interval
+matching; complete general structural descents and quantitative termination;
+realize the original frequency with all labels, circle roots, quadratic
+freedom, original weights and complete responses. Final WeightedCapture/P0
+remain open. These internal matching tasks are not external deep-theorem
+exemptions. Earlier checkpoint paragraphs below are historical.
 
 F58 constructs the global rational inverse of the actual original base
 time-one map. Exact discrete polynomial integration reconstructs all original

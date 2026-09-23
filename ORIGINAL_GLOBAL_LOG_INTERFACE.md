@@ -1,5 +1,9 @@
 # Original global time-one inverse and rational base logarithm — F58
 
+Historical checkpoint. F59 supplies the full H literal rational arrays
+and both full original lattice denominator inclusions in
+ORIGINAL_FULL_LOG_LATTICE_INTERFACE.md. STATUS.md records current scope.
+
 Checkpoint date: 2026-09-23. F58 adds 25 theorem declarations to F57's
 1567, bringing the project to 1592. P0 and WeightedCapture remain unproved.
 The new work constructs the missing global inverse from actual original

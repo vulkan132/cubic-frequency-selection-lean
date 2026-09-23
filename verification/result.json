@@ -1,6 +1,6 @@
 {
   "build": "passed",
-  "checked_theorems": 1592,
+  "checked_theorems": 1620,
   "transitive_axioms": {
     "GMZP0.cubic_lag_difference": [
       "Quot.sound",
@@ -7900,10 +7900,160 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "GMZP0.differential_matrix_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.iterated_differential_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_endomorphism_polynomial_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.fiber_operator_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_forward_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_inverse_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_integral_basis_rational_log_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_full_logarithmic_lattice_sandwich": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_integral_basis_full_logarithmic_lattice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_ext_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_ext_chart_symm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_written_in_chart": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_has_mfderiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_mfderiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.coordinate_line_fderiv_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_polynomial_fderiv_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_polynomial_array_fderiv_apply": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_left_basis_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_left_invariant_basis_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_chart_mfderiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_chart_symm_mfderiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_chart_lie_bracket": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_lie_bracket_rational_coordinates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_tangent_basis_rational": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_full_rational_lie_basis_and_lattice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.heisenberg_first_second_input_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_curve_has_mfderiv_iff": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_curve_lie_tangent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "main_P0": "NOT_proved",
   "weighted_capture": "NOT_proved",
+  "lie_velocity_convention_obstruction": "checked at F60: for the Heisenberg central polynomial x3+y3+x1*y2, the first-input e1 partial at the identity is the nonzero other-point coordinate y2 while the second-input e1 partial is zero; this is an exact obstruction to identifying right- and left-invariant velocity conventions, not a P0 counterexample",
+  "original_native_chart_differentials": "checked at F60: the original singleton chart and inverse, coordinate-conjugate Frechet differential, actual manifold differential and chart derivative transports are identified on the original space and topology; the actual manifold bracket equals its analytic coordinate bracket",
+  "original_actual_rational_lie_basis": "checked at F60: literal rational second-input derivatives of the original multiplication at its rational identity give every actual left-invariant basis field; analytic partial derivatives then compute rational structure coefficients of the actual Mathlib GroupLieAlgebra bracket in its original tangent basis",
+  "original_full_lie_basis_lattice_assembly": "checked at F60: one constructed full original integer/real fiber basis simultaneously supports the actual smooth Lie structure, rational actual Lie coefficients, global time-one formula and both rational arrays, correct origin and both entire original H lattice denominator inclusions; no separately selected existential bases are identified",
+  "original_native_curve_tangents": "checked at F60: HasMFDerivAt for a curve in the original chart is equivalent to HasFDerivAt of its original coordinates with the same continuous linear map; an original coordinate derivative v gives native manifold differential on scalar tangent one equal to v",
+  "actual_lie_basis_remaining_interface": "OPEN after F60: assemble the existing all-tangent subgroup existence and uniqueness and global time-one inverse using native Lie tangents with one set of original basis and operator witnesses; uniform heights, adapted Malcev and external quantitative matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
+  "original_full_fiber_coordinate_polynomials": "checked at F59: rational multivariate arrays recursively represent every power of the actual differential and every fixed rational operator polynomial on all unrestricted original tangent and observation coefficients; rational scalar restriction and literal coordinate evaluation are proved",
+  "original_full_time_one_rational_arrays": "checked at F59: both directions of the constructed actual H time-one equivalence are literal rational polynomial arrays in the same full original integer/real bases; the inverse substitutes the actual original base logarithm into the same fiber inverse while leaving original observation coordinates unchanged; the actual time-one identity, both fiber inverses and correct origin remain explicit",
+  "actual_full_logarithmic_lattice": "checked at F59: the constructed full H rational arrays and origin identity discharge the denominator theorem for the entire original H lattice; one positive integer denominator precedes every integer vector and every original lattice element in both inclusions, without assuming the logarithmic lattice image is additive or claiming a uniform height over varying presentations",
+  "full_log_lattice_remaining_interface": "PARTLY DISCHARGED at F60: the actual original tangent space, standard Mathlib bracket and rational Lie basis are identified in the same full original coordinates; native Lie-tangent subgroup/time-one assembly, uniform heights, adapted Malcev and external metric/test/filtration/interval matching, general structural descents/termination, original-frequency realization and WeightedCapture/P0 remain open; internal matching obligations are not external deep-theorem exemptions",
   "original_time_one_injectivity": "checked at F58: equal actual base endpoints imply equality of every natural power; the original time coordinates are polynomials, so identity on the entire natural grid gives equality at every real time and hence equality of the actual initial tangents; no finite test or assumed inverse is used",
   "exact_discrete_polynomial_integration": "checked at F58: Bernoulli polynomials provide a rational zero-initial-value primitive whose forward difference is exactly each monomial; coefficientwise integration over any rational algebra preserves the exact polynomial difference identity and every real specialization, retaining all original element-coordinate variables",
   "rational_original_power_paths": "checked at F58: recursively integrating the literal original strict triangular group law constructs one fixed array in rational element-coordinate polynomial coefficients and time; every natural-time value is the actual original element power, with the actual rational identity retained; double infinite-natural-grid polynomial identity extends the original power law to every pair of real times",
@@ -7911,7 +8061,7 @@
   "global_original_base_time_one_equiv": "checked at F58: the constructed actual time-one map and rational logarithm form a global equivalence, with fixed literal rational coordinate arrays in both directions, the correct zero-to-identity value and the same actual subgroup at every rescaled real tangent/time; this is on the original group, not its quotient or the circle frequency space",
   "actual_base_logarithmic_lattice": "checked at F58: the constructed base equivalence and origin identity discharge the F54 coordinate-map premises for the original base lattice; one positive denominator precedes every integer vector and every original lattice element in both inclusions, without assuming the logarithmic lattice image is additive; this is the base G result, not yet the full H coordinate-denominator assembly",
   "original_full_time_one_inverse": "checked at F58: in the same constructed full original integer/real bases, the actual H time-one map is globally equivalent to the full original tangent pair; its inverse is (Log_G(g), Psi(D(Log_G(g)))P), with both fiber inverse orders internally supplied, the actual F57 subgroup time-one formula and the correct zero-to-identity value; no base or fiber inverse is an additional premise",
-  "original_global_log_remaining_interface": "OPEN after F58: package both full H time-one/inverse coordinate maps as literal rational polynomial arrays in the same original basis and derive their full H logarithmic lattice inclusions; match the coordinate tangent basis to the intended rational Lie basis and standard exponential/logarithm; uniform heights, adapted Malcev and external quantitative matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
+  "original_global_log_remaining_interface": "PARTLY DISCHARGED at F59: both full H time-one/inverse maps now have literal rational polynomial arrays in the same original basis and both full original logarithmic lattice inclusions; intended rational Lie-basis and standard exponential matching, uniform heights, adapted Malcev and external quantitative matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
   "exact_polynomial_time_integration": "checked at F57: a coefficientwise primitive over any rational algebra has zero initial value and exact formal derivative; all real coefficient specializations have the corresponding analytic derivative at every real time; coefficients may retain every original tangent as a rational polynomial variable",
   "original_coordinate_velocity": "checked at F57: the derivative of the literal original multiplication in its first input retains all tangent components; actual associativity gives covariance under every original right translate; the original strict triangular law gives prefix dependence in the point coordinates, without asserting prefix dependence in the tangent variables or assuming a coordinate line is a subgroup",
   "rational_all_tangents_base_subgroups": "checked at F57: recursive exact integration constructs one fixed array in rational-tangent-polynomial coefficients and time before all real tangents; its original coordinate interpretation starts at the actual identity, has each prescribed tangent, and satisfies the actual real parameter subgroup law by triangular differential uniqueness; every other actual base subgroup with that tangent agrees at all real times, and rescaling the full tangent exactly rescales time",
