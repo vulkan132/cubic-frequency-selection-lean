@@ -864,5 +864,55 @@ These labels are separate from the manuscript research phases.
   axiom or external deep premise is added. See
   ORIGINAL_RATIONAL_LIE_BASIS_INTERFACE.md.
 
+- F61 (2026-09-23): 1631 checked declarations; eleven new theorems retain the
+  original subgroup family through the actual full time-one inverse and
+  rational coordinate arrays, then identify the native exponential by its
+  unique subgroup for every actual Lie tangent. Real time rescaling gives
+  all-time values Exp(t v), including zero and negative scales. Both the
+  exponential and logarithm are smooth on the original manifold. One
+  selection of original integer/real bases and operators also supports
+  rational Lie coefficients and both entire original lattice inclusions.
+  The exact absolute-value obstruction excludes replacing actual
+  differentiability by an equality of totalized derivative values. The
+  old F58/F59 interfaces remain proved projections. Uniform heights,
+  adapted Malcev and external quantitative matching, general descents and
+  termination, original-frequency realization and WeightedCapture/P0
+  remain open. See ORIGINAL_NATIVE_EXPONENTIAL_INTERFACE.md and the full
+  verification records. No project axiom or external deep premise is added.
+
+- F62 (2026-09-23): 1644 checked declarations; thirteen new theorems
+  construct a common fixed-presentation bound for actual native Lie
+  coefficient heights, both original lattice denominator inclusions,
+  and all degrees and coefficient heights of the actual exponential/log
+  arrays. The same original integer/real basis and all unrestricted real
+  inputs are retained. Reduced numerator/denominator grids prove finite
+  bounded rational coefficient universes, with uniform output bounds for
+  fixed transformations on those finite inputs. Bounded rational covectors
+  in a fixed original real basis produce finitely many actual linear
+  kernels, proper when the covector is nonzero. This does not identify
+  Lie subgroups or control arbitrary descent states. Actual rational
+  filtration subgroup data, adapted Malcev and external matching,
+  controlled descents/termination, original-frequency realization and
+  WeightedCapture/P0 remain open. The external weak-basis definitions
+  and adapted-basis hypotheses were checked against Green--Tao; no
+  external construction proposition or project axiom is added. See
+  ORIGINAL_BOUNDED_WEAK_BASIS_INTERFACE.md.
+
+- F63 (2026-09-23): 1661 checked declarations; seventeen new theorems
+  identify the actual native lower-central Lie ideals with recursively
+  constructed finite rational generator spans in the same original
+  basis. Actual layer bases are selected from the original generators,
+  preserving their rational coordinates and one common height bound for
+  each fixed finite prefix. Actual native Lie regularity is derived from
+  the proved smooth group structure. The full assembly retains one set
+  of original integer/real bases, bounded weak basis, entire original
+  lattice and smooth exponential/logarithm with both rational arrays.
+  Mathlib's zero-based Lie-series convention is kept explicit. Group
+  lower-central integration, subgroup topology and lattice intersections,
+  common adapted Malcev data, external matching, general controlled
+  descents/termination, original-frequency realization and WeightedCapture/P0
+  remain open. No project axiom or external deep premise is added. See
+  ORIGINAL_LIE_FILTRATION_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.

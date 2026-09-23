@@ -1,5 +1,36 @@
 # Core interface around structural value extraction
 
+Update at F63: the actual original native Lie lower-central series has
+exact finite rational generator lists and actual layer bases with a
+common height bound over any fixed finite prefix. One original basis
+selection retains the weak basis, full lattice and smooth exponential/log
+maps. Group lower-central integration, subgroup topology and lattice
+matching, common adapted Malcev data, external matching and the remaining
+descent/frequency obligations are still open. The current frontier is
+ORIGINAL_LIE_FILTRATION_INTERFACE.md; earlier updates are historical.
+
+Update at F62: one fixed original structural presentation constructs a
+common bound on the actual native weak-basis coefficients, original
+lattice denominator and both exponential/logarithm array degrees and
+coefficient heights. Bounded rational coefficient vectors and their
+actual original linear kernels are finite families. Actual rational
+filtration subgroup data, adapted Malcev and external matching, controlled
+general descent states and termination, original-frequency realization
+and P0 remain open. The current frontier is
+ORIGINAL_BOUNDED_WEAK_BASIS_INTERFACE.md; earlier updates are historical.
+
+Update at F61: the original exponential and logarithm are now identified
+by the unique subgroup for each actual native Lie tangent, with the same
+full original integer/real bases used for the rational Lie coefficients,
+time-one arrays and entire lattice inclusions. Every real time value is
+Exp(t v), and both inverse maps are smooth on the original manifold.
+Native tangent conditions retain actual differentiability. This closes
+the qualitative exponential/logarithm assembly, but uniform heights,
+adapted Malcev and external quantitative matching, general descents and
+termination, original-frequency realization and final P0 remain open.
+The current frontier is ORIGINAL_NATIVE_EXPONENTIAL_INTERFACE.md;
+earlier updates are historical.
+
 Update at F60: the actual tangent-space and manifold-bracket transports
 are proved. The original second-input multiplication derivatives give
 rational left-invariant basis fields and rational coefficients of the

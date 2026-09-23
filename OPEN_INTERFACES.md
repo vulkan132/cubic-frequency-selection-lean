@@ -1,6 +1,55 @@
-# Open mathematical interfaces after F60
+# Open mathematical interfaces after F63
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F63 identifies every actual native lower-central Lie ideal with an
+explicit finite rational generator span in the original basis, and
+selects actual layer bases preserving those coordinates. One height
+bound precedes all layers of any fixed finite prefix. The same original
+integer/real basis, weak basis, full lattice and smooth exponential/log
+maps are retained. See ORIGINAL_LIE_FILTRATION_INTERFACE.md.
+
+Next: prove the original group lower-central filtration corresponds to
+the exponential images of these Lie ideals, with correct index shifts,
+subgroup topology and original lattice intersections. Construct the
+required common adapted Malcev data and external metric/test/interval
+matching. Controlled general descent-state families and quantitative
+termination, original full-label frequency realization and final
+WeightedCapture/P0 remain open. Individual rational Lie-layer bases do
+not by themselves close the group-level filtration interface.
+Earlier checkpoints below are historical.
+
+F62 constructs one fixed-presentation bound for the actual native weak
+basis, both entire original lattice denominator inclusions and the degrees
+and all coefficient heights of both actual exponential/logarithm arrays.
+Bounded rational coordinate vectors and their actual linear kernels are
+finite families. See ORIGINAL_BOUNDED_WEAK_BASIS_INTERFACE.md.
+
+Next: derive rational data for the actual filtration subgroups and retain
+the ambient nilpotence/topology/lattice hypotheses for adapted Malcev and
+external metric/test/filtration/interval matching. Prove that all general
+descent states and their coordinate changes form controlled rational
+families, then close quantitative termination and original full-label
+frequency realization. Fixed-presentation bounds and finite bounded-input
+families do not by themselves prove those uniform descent obligations.
+WeightedCapture/P0 remain open. Earlier checkpoints below are historical.
+
+F61 closes the qualitative native exponential/logarithm assembly left at
+F60. The original time-one inverse, rational Lie basis and entire lattice
+now share the same subgroup witnesses. Every actual native Lie tangent
+has the unique subgroup t ↦ Exp(t v) for all real times; the global
+exponential and logarithm are both smooth. Actual differentiability is
+part of the tangent condition, not inferred from totalized derivative values.
+See ORIGINAL_NATIVE_EXPONENTIAL_INTERFACE.md.
+
+Next: derive the required quantitative heights and adapted Malcev data
+from the original structural presentations, and match external metric,
+test, filtration and interval hypotheses with the constructed original H.
+General descents and quantitative termination, original-frequency
+realization with full labels, roots, quadratic freedom, weights and
+responses, and final WeightedCapture/P0 remain open. A rational native
+Lie basis is not yet a quantitatively controlled adapted Malcev basis.
+Earlier checkpoint paragraphs below are historical.
 
 F60 identifies the actual original manifold tangent space and standard
 Mathlib Lie bracket in the original chart. Rational left-invariant basis

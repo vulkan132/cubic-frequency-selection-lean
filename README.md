@@ -2,7 +2,42 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F60: 1620 checked theorem declarations. The actual original
+Checkpoint F63: 1661 checked theorem declarations. Every actual native Lie
+lower-central ideal has an exact finite rational generator list in the
+original basis. Actual bases selected from those generators retain their
+rational coordinates; one height bound controls every layer in a fixed
+finite prefix. These results share the original weak basis, lattice and
+smooth exponential/logarithm witnesses. Group lower-central integration,
+subgroup/lattice matching, common adapted Malcev data, external matching,
+controlled descents/termination and original-frequency realization remain
+open, as do WeightedCapture/P0. See ORIGINAL_LIE_FILTRATION_INTERFACE.md
+and verification/result.json. Earlier checkpoints are historical.
+
+At F62, 1644 theorem declarations were checked. For each fixed original
+structural presentation, one common bound now controls the actual native
+weak basis, both original lattice denominator inclusions and all degrees
+and coefficient heights of the exponential/logarithm arrays. Bounded
+rational coefficient vectors and their actual linear kernels form finite
+families. Rational filtration subgroup data, adapted Malcev and external
+matching, controlled general descents/termination, original-frequency
+realization and final WeightedCapture/P0 remain open. These fixed-data
+bounds do not assert uniformity over arbitrary structural presentations.
+See ORIGINAL_BOUNDED_WEAK_BASIS_INTERFACE.md and verification/result.json.
+Earlier checkpoints are historical.
+
+At F61, 1631 theorem declarations were checked. The full original time-one
+equivalence is now identified by unique subgroups with every actual native
+Lie tangent. Real time rescaling gives the exponential subgroup at every
+real time; both exponential and logarithm are smooth. The same original
+integer/real basis supplies rational Lie coefficients, both rational
+coordinate arrays and both full original lattice inclusions. The tangent
+condition retains actual differentiability. Uniform heights, adapted
+Malcev and external quantitative matching, general descents/termination,
+original-frequency realization and final WeightedCapture/P0 remain open.
+See ORIGINAL_NATIVE_EXPONENTIAL_INTERFACE.md and verification/result.json.
+Earlier checkpoints are historical.
+
+At F60, 1620 theorem declarations were checked. The actual original
 manifold tangent space and Mathlib Lie bracket are identified in the
 original global chart. Differentiating the second multiplication input
 constructs rational left-invariant basis fields and rational structure

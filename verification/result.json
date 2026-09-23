@@ -1,6 +1,6 @@
 {
   "build": "passed",
-  "checked_theorems": 1620,
+  "checked_theorems": 1661,
   "transitive_axioms": {
     "GMZP0.cubic_lag_difference": [
       "Quot.sound",
@@ -8040,16 +8040,234 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "GMZP0.original_coordinate_derivative_iff_native": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_coordinate_subgroup_native_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_native_subgroup_rescale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_native_time_one_all_times": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_native_time_one_canonical_subgroup": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_integral_basis_time_one_equiv_with_subgroups": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_integral_basis_rational_log_coordinates_with_subgroups": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_rational_equiv_smooth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_native_time_one_characterization": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_full_native_exponential_and_lattice": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.totalized_derivative_tangent_obstruction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_height_le_iff": [
+      "propext"
+    ],
+    "GMZP0.rational_array_height_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.bounded_rational_height_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.bounded_rational_vectors_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.bounded_rational_outputs_uniform": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_polynomial_height_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_polynomial_array_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_from_native_data": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_bound_mono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_full_bounded_weak_basis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_basis_functional_basis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_basis_kernel_proper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.bounded_rational_kernel_family_finite": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lie_basis_bracket_mem_span": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.lie_ideal_basis_bracket_span": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_basis_bracket_vector": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_basis_bracket_step_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_lie_ideal_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_span_selected_basis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_span_bounded_basis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_basis_vector_single": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_lower_central_zero_image": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_lower_central_span": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_lower_central_in_basis": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_lower_central_generator_heights": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_lower_central_bounded_bases": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_real_lie_native_smoothness": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_lower_central_rational": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_weak_basis_lower_central_bases": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_full_bounded_lie_filtration": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "main_P0": "NOT_proved",
   "weighted_capture": "NOT_proved",
+  "actual_lie_basis_bracket_spans": "checked at F63: the actual Lie-ideal bracket with the whole original Lie algebra equals the real span of brackets of the fixed original basis with an actual spanning family; rational coordinate contraction computes the original bracket using its actual structure constants",
+  "actual_rational_lower_central_generators": "checked at F63: recursive finite rational coordinate lists span exactly every Mathlib lowerCentralSeries ideal in the same original real basis; index zero is the whole Lie algebra and index one is the commutator ideal",
+  "selected_rational_lower_central_bases": "checked at F63: actual subspace bases are selected from finite original rational generators and preserve their coordinates; for each fixed finite depth one height bound precedes every layer, selected basis vector and coordinate, including zero-dimensional layers",
+  "original_native_lie_filtration_assembly": "checked at F63: the actual GroupLieAlgebra lower-central rationality and bounded layer bases are assembled with one original integer/real basis selection, full original lattice, bounded native weak basis, actual smooth exponential/logarithm and both rational arrays; required native Lie regularity is derived from the proved smooth LieGroup structure",
+  "lie_filtration_remaining_interface": "OPEN after F63: identify the actual group lower-central filtration with the exponential images of these native Lie ideals, retain subgroup topology and original lattice intersections, and construct the required common adapted Malcev data with external metric/test/interval matching; general controlled descent states, quantitative termination and original full-label frequency realization remain open, as do WeightedCapture/P0",
+  "fixed_native_weak_basis_bound": "checked at F62: the original structural presentation constructs one Q greater than two bounding reduced rational heights of actual native Lie coefficients and a positive denominator for both entire original H lattice inclusions; native exponential coordinates and the full original integer/real basis are retained",
+  "fixed_rational_exponential_array_bounds": "checked at F62: the same Q bounds actual total degrees and every reduced coefficient height of both original exponential/logarithm arrays, including zero coefficients; Q precedes every unrestricted real input and original lattice point",
+  "bounded_rational_coefficient_universes": "checked at F62: reduced numerator/denominator grids prove finiteness of all bounded-height rationals and vectors; a fixed transformation on that finite input family has a uniform output-height bound, with no asserted polynomial growth rate or unrestricted-presentation uniformity",
+  "bounded_original_linear_kernel_families": "checked at F62: rational covectors are evaluated in the actual fixed real basis, recover their original coefficients on basis vectors and have proper kernels when nonzero; all bounded-height covectors yield finitely many actual linear kernels, without asserting these kernels are Lie subgroups",
+  "bounded_weak_basis_remaining_interface": "PARTLY DISCHARGED at F63: actual native Lie lower-central ideals now have exact rational generators and uniformly bounded bases over every fixed finite prefix in the same original basis; actual group-filtration integration and matching, adapted Malcev data, external matching, controlled descent states and termination, original-frequency realization and WeightedCapture/P0 remain open",
+  "native_tangent_differentiability_obstruction": "checked at F61: absolute value has totalized derivative zero at zero but no actual zero derivative there; native subgroup tangents retain MDifferentiableAt and the actual manifold differential on scalar tangent one",
+  "original_same_witness_subgroup_interfaces": "checked at F61: strengthened F58 and F59 interfaces retain all original coordinate subgroup existence and uniqueness together with the same full integer/real bases, operators, time-one global inverse and rational arrays; old interfaces are proved projections",
+  "original_native_exponential_universal_property": "checked at F61: every actual original GroupLieAlgebra tangent has the unique original subgroup t maps to logCoord.symm(t times v), for all real times including zero and negative scalings; the original coordinate derivative and native differentiability plus differential conditions are equivalent",
+  "original_native_smooth_exponential_logarithm": "checked at F61: both directions of the actual original global time-one equivalence are smooth on the original manifold by the proved rational coordinate arrays; the same original basis also supports the native rational Lie coefficients and both entire original lattice denominator inclusions",
+  "native_exponential_remaining_interface": "PARTLY DISCHARGED at F62: a common fixed-presentation height/degree/denominator bound now controls the actual native weak basis and both rational arrays; rational filtration subgroup data, adapted Malcev and external matching, controlled descent-state families and quantitative termination, original full-label frequency realization and final WeightedCapture/P0 remain open",
   "lie_velocity_convention_obstruction": "checked at F60: for the Heisenberg central polynomial x3+y3+x1*y2, the first-input e1 partial at the identity is the nonzero other-point coordinate y2 while the second-input e1 partial is zero; this is an exact obstruction to identifying right- and left-invariant velocity conventions, not a P0 counterexample",
   "original_native_chart_differentials": "checked at F60: the original singleton chart and inverse, coordinate-conjugate Frechet differential, actual manifold differential and chart derivative transports are identified on the original space and topology; the actual manifold bracket equals its analytic coordinate bracket",
   "original_actual_rational_lie_basis": "checked at F60: literal rational second-input derivatives of the original multiplication at its rational identity give every actual left-invariant basis field; analytic partial derivatives then compute rational structure coefficients of the actual Mathlib GroupLieAlgebra bracket in its original tangent basis",
   "original_full_lie_basis_lattice_assembly": "checked at F60: one constructed full original integer/real fiber basis simultaneously supports the actual smooth Lie structure, rational actual Lie coefficients, global time-one formula and both rational arrays, correct origin and both entire original H lattice denominator inclusions; no separately selected existential bases are identified",
   "original_native_curve_tangents": "checked at F60: HasMFDerivAt for a curve in the original chart is equivalent to HasFDerivAt of its original coordinates with the same continuous linear map; an original coordinate derivative v gives native manifold differential on scalar tangent one equal to v",
-  "actual_lie_basis_remaining_interface": "OPEN after F60: assemble the existing all-tangent subgroup existence and uniqueness and global time-one inverse using native Lie tangents with one set of original basis and operator witnesses; uniform heights, adapted Malcev and external quantitative matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
+  "actual_lie_basis_remaining_interface": "PARTLY DISCHARGED at F61: native all-tangent subgroup existence and uniqueness, the all-real-time exponential line and smooth global inverse now share one original basis and operator selection; uniform heights, adapted Malcev and external quantitative matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
   "original_full_fiber_coordinate_polynomials": "checked at F59: rational multivariate arrays recursively represent every power of the actual differential and every fixed rational operator polynomial on all unrestricted original tangent and observation coefficients; rational scalar restriction and literal coordinate evaluation are proved",
   "original_full_time_one_rational_arrays": "checked at F59: both directions of the constructed actual H time-one equivalence are literal rational polynomial arrays in the same full original integer/real bases; the inverse substitutes the actual original base logarithm into the same fiber inverse while leaving original observation coordinates unchanged; the actual time-one identity, both fiber inverses and correct origin remain explicit",
   "actual_full_logarithmic_lattice": "checked at F59: the constructed full H rational arrays and origin identity discharge the denominator theorem for the entire original H lattice; one positive integer denominator precedes every integer vector and every original lattice element in both inclusions, without assuming the logarithmic lattice image is additive or claiming a uniform height over varying presentations",

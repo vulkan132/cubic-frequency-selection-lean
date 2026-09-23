@@ -1,5 +1,8 @@
 # Original tangent space, rational Lie basis and full H lattice — F60
 
+Historical checkpoint. F61 closes the native exponential/logarithm
+assembly described here; see ORIGINAL_NATIVE_EXPONENTIAL_INTERFACE.md.
+
 Checkpoint date: 2026-09-23. F60 adds 19 theorem declarations to F59's
 1601. P0 and WeightedCapture remain unproved. The complete audit is
 recorded in verification/result.json, build.log and axioms.log.

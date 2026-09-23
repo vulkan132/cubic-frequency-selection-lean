@@ -375,5 +375,20 @@ import GMZP0.OriginalRationalLieBracket
 import GMZP0.OriginalFullRationalLieBasis
 import GMZP0.LieConventionObstruction
 import GMZP0.OriginalCurveLieTangent
+import GMZP0.OriginalSubgroupTangent
+import GMZP0.OriginalRationalSmoothEquiv
+import GMZP0.OriginalNativeExponential
+import GMZP0.NativeTangentObstruction
+import GMZP0.RationalHeightFinite
+import GMZP0.RationalPolynomialHeight
+import GMZP0.OriginalWeakBasis
+import GMZP0.OriginalBoundedWeakBasis
+import GMZP0.RationalKernelFamily
+import GMZP0.LieBasisBracketSpan
+import GMZP0.RationalLieBracket
+import GMZP0.RationalSpanBasis
+import GMZP0.RationalLowerCentral
+import GMZP0.OriginalRationalLowerCentral
+import GMZP0.OriginalFullLieFiltration
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/
