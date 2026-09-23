@@ -1,5 +1,8 @@
 # Original rational observation presentation — F53
 
+Historical checkpoint. F54 continues this work in
+RATIONAL_INVERSE_LIE_INTERFACE.md; STATUS.md records the current scope.
+
 P0 and WeightedCapture remain unproved. F53 adds 19 theorem declarations
 to F52's 1458. It derives rational observation translation and multiplication
 polynomials from the original rational base law and function basis, constructs

@@ -329,5 +329,12 @@ import GMZP0.ObservationIntegerRationalBasis
 import GMZP0.RationalOriginalOrbit
 import GMZP0.RationalRecoveryHeightObstruction
 import GMZP0.RationalObservationLatticeCoordinates
+import GMZP0.RationalTriangularInverse
+import GMZP0.RationalObservationInverse
+import GMZP0.RationalObservationOperations
+import GMZP0.RationalPolynomialDenominators
+import GMZP0.RationalLatticeSandwich
+import GMZP0.RationalLatticeObstructions
+import GMZP0.RationalCoordinateLieGroup
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/

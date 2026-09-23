@@ -1,5 +1,18 @@
 # Core interface around structural value extraction
 
+Update at F54: original rational multiplication and strict triangular data
+derive the actual inverse polynomials. The same compatible original basis
+has rational group operations and the full integer grid as its lattice.
+A smooth LieGroup is constructed in the original global chart, with the
+same multiplication and topology. Fixed rational coordinate formulas with
+the correct origin give both lattice inclusions for one denominator before
+all integer points, without additive closure. The actual tangent operators
+and Lie exponential/logarithm still need identification with those formulas;
+uniform heights, adapted Malcev and external quantitative matching, general
+descents and termination, original-frequency realization and final
+WeightedCapture/P0 remain open. The current frontier is
+RATIONAL_INVERSE_LIE_INTERFACE.md; earlier updates are historical.
+
 Update at F53: actual original integer evaluations give a rational recovery
 matrix for all real observations. Original rational base/basis data then
 derive the rational translation matrix, rational W and the actual rational

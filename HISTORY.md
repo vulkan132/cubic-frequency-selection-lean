@@ -731,5 +731,24 @@ These labels are separate from the manuscript research phases.
   WeightedCapture/P0 remain open. No project axiom or new external deep
   premise is added. See RATIONAL_OBSERVATION_PRESENTATION_INTERFACE.md.
 
+- F54 (2026-09-23): 1494 checked theorem declarations. Adds 17 results.
+  The original rational joint law, strictly triangular corrections and
+  integer identity coordinates derive actual base inverse polynomials.
+  Substitution into the original translation matrix derives the H inverse,
+  preserving composition order and unrestricted real coefficients. One
+  compatible basis gives rational multiplication and inverse and the exact
+  full original integer lattice. Polynomial smoothness and the original
+  global chart construct a smooth LieGroup with the same group law and
+  topology; the original space is also proved contractible. Fixed rational
+  forward/inverse maps with the correct origin yield both lattice
+  inclusions with one positive denominator preceding every integer point,
+  without using additive closure of the nonlinear lattice image. Exact
+  affine-origin and nonlinear-additivity obstructions protect this scope.
+  Actual tangent operators and Lie exponential/logarithm identification,
+  uniform heights, adapted Malcev and external quantitative matching,
+  general descents and termination, original-frequency realization and
+  final WeightedCapture/P0 remain open. No new project axiom or external
+  deep premise is added. See RATIONAL_INVERSE_LIE_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.

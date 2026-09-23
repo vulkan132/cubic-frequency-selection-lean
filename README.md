@@ -2,7 +2,22 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F53: 1477 checked theorem declarations. Original rational basis
+Checkpoint F54: 1494 checked theorem declarations. The original rational
+joint law, strict triangular law and integer identity coordinates derive
+actual inverse polynomials. One compatible basis now gives both rational
+H operations and the full original lattice as the exact integer grid.
+The original global chart constructs a smooth LieGroup on the same group
+and topology, and proves contractibility. Fixed rational coordinate maps
+with the correct origin give both lattice inclusions with one positive
+denominator preceding all integer points, without assuming additive closure
+of the image. Two exact obstructions protect these scope conditions.
+Identifying the actual tangent operators and Lie exponential/logarithm,
+uniform heights, adapted Malcev and external quantitative matching, general
+descents and termination, original-frequency realization and final
+WeightedCapture/P0 remain open. See RATIONAL_INVERSE_LIE_INTERFACE.md.
+Earlier checkpoints are historical.
+
+At F53, 1477 theorem declarations were checked. Original rational basis
 functions and the full integer grid give a rational coefficient-recovery
 matrix at actual original subgroup points, valid for every unrestricted
 real observation. The original rational base law then derives rational

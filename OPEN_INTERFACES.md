@@ -1,6 +1,28 @@
-# Open mathematical interfaces after F53
+# Open mathematical interfaces after F54
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F54 derives the actual rational inverse from the original rational joint
+law, strict triangular law and integer identity coordinates. One compatible
+basis gives rational multiplication, rational inverse and the full original
+integer lattice. The original global chart constructs a smooth LieGroup
+with the unchanged group law and topology and proves contractibility.
+Clearing fixed rational forward/inverse coordinate formulas, with the
+correct origin, gives both lattice inclusions using one denominator before
+all integer points. No additive closure of a nonlinear lattice image is
+assumed. See RATIONAL_INVERSE_LIE_INTERFACE.md.
+
+Still open: identify the actual tangent translation operators and actual
+Lie exponential/logarithm with the intended rational formulas in these
+coordinates; prove the needed structural height bounds and adapted Malcev
+compatibility; match metrics, tests, filtrations and original interval
+smoothness norms to the permitted external theorem. The denominator result
+has explicit coordinate-map premises and is not the whole weak-basis or
+quantitative theorem package. General descents and quantitative termination,
+original-frequency realization with full labels, all roots, original
+weights and responses, and final WeightedCapture/P0 remain open. Internal
+obligations have not been renamed external deep theorems. Earlier checkpoint
+paragraphs below are historical.
 
 F53 derives the rational translation matrix and H joint polynomial law
 from the literal original rational base law and polynomial basis. Actual
