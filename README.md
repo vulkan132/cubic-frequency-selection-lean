@@ -2,7 +2,36 @@
 
 Status: in progress; the complete P0 theorem has NOT been formally verified.
 
-Checkpoint F56: 1542 checked theorem declarations. Along every supplied
+Checkpoint F58: 1592 checked theorem declarations. The actual original base
+time-one map is globally bijective with a constructed rational logarithm.
+Exact discrete integration reconstructs every original natural power;
+polynomial identity on the entire natural grid proves the real subgroup law.
+Its initial derivative gives the logarithm, and both inverse identities hold
+for all original group points and unrestricted tangents. The actual base
+lattice satisfies both denominator inclusions. In the same full original
+integer/real bases, the full H time-one map has an explicit global inverse
+using this base logarithm and the proved rational fiber inverse, with the
+correct origin. Full H rational coordinate-array/denominator assembly,
+intended rational Lie-basis matching, uniform heights, quantitative matching,
+general descents/termination, original-frequency realization and final
+WeightedCapture/P0 remain open. See ORIGINAL_GLOBAL_LOG_INTERFACE.md.
+Earlier checkpoints are historical.
+
+At F57, 1567 theorem declarations were checked. Every original coordinate
+tangent now has a constructed unique actual base subgroup. One fixed rational
+polynomial array in all tangent variables and time is integrated recursively
+using the original strict triangular law. Actual associativity and differential
+uniqueness prove the group law and time rescaling; no base-path existence is
+supplied. The full original observation group has a constructed unique subgroup
+for each full coordinate tangent, without assuming the same entire base path.
+The original integer lattice, original observations and rational fiber inverse
+are retained. The base time-one coordinates are fixed rational polynomials.
+Intended Lie-basis identification, global bijectivity and rational logarithmic
+inverse, uniform heights, quantitative matching, general descents/termination,
+original-frequency realization and final WeightedCapture/P0 remain open.
+See ORIGINAL_ALL_TANGENTS_INTERFACE.md. Earlier checkpoints are historical.
+
+At F56, 1542 theorem declarations were checked. Along every supplied
 base path with its actual real parameter group law and original coordinate
 tangent, the entire original translation operator equals its finite
 nilpotent exponential series. The integrated fiber satisfies the actual

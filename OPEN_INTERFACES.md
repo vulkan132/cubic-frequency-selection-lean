@@ -1,6 +1,49 @@
-# Open mathematical interfaces after F56
+# Open mathematical interfaces after F58
 
 Full P0 formalization is still unfinished. No item below is a project axiom.
+
+F58 constructs the global rational inverse of the actual original base
+time-one map. Exact discrete polynomial integration reconstructs all original
+natural powers; identity on the entire natural grid extends their law to
+every real parameter pair. The actual initial derivative gives the rational
+logarithm, and both inverse identities, the correct origin and both original
+base-lattice denominator inclusions are checked. The full original H time-one
+map is now a global equivalence with explicit inverse using that same base
+logarithm and the previously proved rational fiber inverse, in the same full
+original integer/real bases. See ORIGINAL_GLOBAL_LOG_INTERFACE.md.
+
+Still open: write both full H time-one/inverse coordinate maps as literal
+rational polynomial arrays in the same original basis and apply the full H
+logarithmic lattice theorem. Match the coordinate tangent basis and constructed
+maps to the intended rational Lie basis and standard exponential/logarithm.
+Derive uniform heights, adapted Malcev and external metric/test/filtration/
+interval matching, general descents and quantitative termination, and
+original-frequency realization with all labels, roots, quadratic freedom,
+original weights and responses. Final WeightedCapture/P0 remain open. The
+constructed logarithm is on G and H, not a quotient logarithm or a choice of
+circle-frequency roots. Earlier checkpoint paragraphs are historical.
+
+F57 constructs the unique actual original base subgroup for every coordinate
+tangent, using one fixed rational polynomial array in all tangents and time.
+The original strict triangular law gives its differential equation; original
+associativity and global triangular uniqueness prove the actual subgroup law.
+All real time scalings are retained. The fixed time-one coordinates are rational
+polynomials. The original full H subgroup is now constructed uniquely for every
+full coordinate tangent, without a supplied base path or assumed agreement of
+entire base paths. Original integer/real bases, observations, the common
+nilpotency exponent and rational fiber inverse are retained. See
+ORIGINAL_ALL_TANGENTS_INTERFACE.md.
+
+Still open: identify the coordinate tangent basis and constructed time-one map
+with the intended rational Lie basis and exponential; prove global bijectivity
+and a literal rational logarithmic inverse, with both inverse identities. A
+unique subgroup for every tangent is not by itself the global logarithm theorem.
+Only after those identities and origin matching can F54's lattice inclusions
+serve as the intended logarithmic statement. Uniform heights, adapted Malcev
+and external metric/test/filtration/interval matching, general descents and
+quantitative termination, original-frequency realization with full labels,
+all circle roots, quadratic freedom, original weights and responses, and final
+WeightedCapture/P0 remain open. Earlier checkpoint paragraphs are historical.
 
 F56 proves the original translation finite exponential and the integrated
 fiber cocycle along every actual base path with its real parameter group

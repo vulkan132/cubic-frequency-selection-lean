@@ -1,6 +1,6 @@
 {
   "build": "passed",
-  "checked_theorems": 1542,
+  "checked_theorems": 1592,
   "transitive_axioms": {
     "GMZP0.cubic_lag_difference": [
       "Quot.sound",
@@ -7650,17 +7650,282 @@
       "Classical.choice",
       "Quot.sound",
       "propext"
+    ],
+    "GMZP0.polynomial_time_primitive_derivative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.polynomial_time_primitive_eval_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.polynomial_time_primitive_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.triangular_differential_solution_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_right_translate_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_coordinate_tangent_line": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_coordinate_velocity_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_coordinate_velocity_right_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_coordinate_velocity_prefix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_velocity_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_time_substitution": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_triangular_flow_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_triangular_flow_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_triangular_flow_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_one_parameter_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_velocity_polynomial_prefix": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_one_parameter_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_one_parameter_tangent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_one_parameter_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_subgroup_hasDerivAt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_one_parameter_unique": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_one_parameter_smul": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_one_parameter_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.observation_full_coordinate_tangent_components": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_integral_basis_full_one_parameter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.polynomial_eq_of_nat_evaluations": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.one_parameter_nat": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_time_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_time_one_injective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_discrete_monomial_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_discrete_monomial_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.polynomial_discrete_primitive_eval_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.polynomial_discrete_primitive_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.polynomial_discrete_primitive_eval_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_polynomial_substitution_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.polynomial_curve_subgroup_of_nat_powers": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_power_coordinates_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_power_coordinates_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.rational_power_coordinates_nat": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_power_path_nat": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_power_path_polynomial_eval": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_power_path_tangent": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_power_path_add": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_time_one_logarithm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_logarithm_time_one": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_time_one_bijective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_time_one_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_rational_base_time_one_equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_base_logarithmic_lattice_sandwich": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "GMZP0.original_integral_basis_time_one_equiv": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
     ]
   },
   "main_P0": "NOT_proved",
   "weighted_capture": "NOT_proved",
+  "original_time_one_injectivity": "checked at F58: equal actual base endpoints imply equality of every natural power; the original time coordinates are polynomials, so identity on the entire natural grid gives equality at every real time and hence equality of the actual initial tangents; no finite test or assumed inverse is used",
+  "exact_discrete_polynomial_integration": "checked at F58: Bernoulli polynomials provide a rational zero-initial-value primitive whose forward difference is exactly each monomial; coefficientwise integration over any rational algebra preserves the exact polynomial difference identity and every real specialization, retaining all original element-coordinate variables",
+  "rational_original_power_paths": "checked at F58: recursively integrating the literal original strict triangular group law constructs one fixed array in rational element-coordinate polynomial coefficients and time; every natural-time value is the actual original element power, with the actual rational identity retained; double infinite-natural-grid polynomial identity extends the original power law to every pair of real times",
+  "constructed_original_base_logarithm": "checked at F58: the time-linear coefficient of the same original power path is its actual initial coordinate derivative and a fixed rational polynomial in all original element coordinates; F57 subgroup uniqueness proves time-one(Log(g))=g, and proved endpoint injectivity proves Log(time-one(v))=v for all original points and all real tangents",
+  "global_original_base_time_one_equiv": "checked at F58: the constructed actual time-one map and rational logarithm form a global equivalence, with fixed literal rational coordinate arrays in both directions, the correct zero-to-identity value and the same actual subgroup at every rescaled real tangent/time; this is on the original group, not its quotient or the circle frequency space",
+  "actual_base_logarithmic_lattice": "checked at F58: the constructed base equivalence and origin identity discharge the F54 coordinate-map premises for the original base lattice; one positive denominator precedes every integer vector and every original lattice element in both inclusions, without assuming the logarithmic lattice image is additive; this is the base G result, not yet the full H coordinate-denominator assembly",
+  "original_full_time_one_inverse": "checked at F58: in the same constructed full original integer/real bases, the actual H time-one map is globally equivalent to the full original tangent pair; its inverse is (Log_G(g), Psi(D(Log_G(g)))P), with both fiber inverse orders internally supplied, the actual F57 subgroup time-one formula and the correct zero-to-identity value; no base or fiber inverse is an additional premise",
+  "original_global_log_remaining_interface": "OPEN after F58: package both full H time-one/inverse coordinate maps as literal rational polynomial arrays in the same original basis and derive their full H logarithmic lattice inclusions; match the coordinate tangent basis to the intended rational Lie basis and standard exponential/logarithm; uniform heights, adapted Malcev and external quantitative matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
+  "exact_polynomial_time_integration": "checked at F57: a coefficientwise primitive over any rational algebra has zero initial value and exact formal derivative; all real coefficient specializations have the corresponding analytic derivative at every real time; coefficients may retain every original tangent as a rational polynomial variable",
+  "original_coordinate_velocity": "checked at F57: the derivative of the literal original multiplication in its first input retains all tangent components; actual associativity gives covariance under every original right translate; the original strict triangular law gives prefix dependence in the point coordinates, without asserting prefix dependence in the tangent variables or assuming a coordinate line is a subgroup",
+  "rational_all_tangents_base_subgroups": "checked at F57: recursive exact integration constructs one fixed array in rational-tangent-polynomial coefficients and time before all real tangents; its original coordinate interpretation starts at the actual identity, has each prescribed tangent, and satisfies the actual real parameter subgroup law by triangular differential uniqueness; every other actual base subgroup with that tangent agrees at all real times, and rescaling the full tangent exactly rescales time",
+  "actual_base_subgroup_rational_time_one": "checked at F57: setting time to one in the same fixed polynomial array gives rational polynomials in every original real tangent coordinate; this is an actual original subgroup value, not a supplied formula or a claim of global bijectivity or a logarithmic inverse",
+  "original_full_tangent_subgroups": "checked at F57: a full original coordinate derivative supplies the actual base derivative and every unchanged original fiber value derivative; the F56 lift is assembled over the newly constructed base path for every tangent and original Q, with actual H law, full initial tangent, translation series, rational time-one fiber and uniqueness among all H subgroups with the same full tangent, without supplying the entire base path",
+  "original_all_tangents_integral_assembly": "checked at F57: the original identity coordinate, full integer/real compatible bases, rational representatives, differential tensor, common positive K and rational fiber polynomial/inverse precede every base tangent and unrestricted original observation; no base-path existence, velocity, differential nilpotence or subgroup formula is an extra input",
+  "original_subgroup_remaining_global_interface": "PARTLY DISCHARGED at F58: the original base time-one map now has global bijectivity, literal rational inverse and actual base-lattice inclusions; the original H time-one map has a global explicit inverse and correct origin; full H rational coordinate-array/denominator assembly, intended rational Lie-basis matching, uniform heights, external matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
   "one_parameter_fiber_scope_obstruction": "checked at F56: for Q(u)=u under real translation, the naive fiber t*Q fails the original right semidirect law at s=t=1,u=0; the corrected fiber t*u+t^2/2 satisfies that law identically; this is an exact obstruction to omitting higher fiber terms, not a P0 counterexample",
   "exact_finite_derivative_tower": "checked at F56: a real derivative tower vanishing at level K equals its finite factorial Taylor sum at every real time, with all original initial values retained; the proof uses actual derivatives and initial-value uniqueness, with no remainder estimate or finite testing",
   "actual_one_parameter_translation_series": "checked at F56: for every actual original base path satisfying gamma(s+t)=gamma(s)*gamma(t), its identity at zero is derived; the original derivative at zero propagates in the unchanged pullback order, and the uniform nilpotency exponent gives T_gamma(t)=sum_{j<K} t^j*D^j/j! as an equality on the entire original observation space for every real t",
   "actual_one_parameter_fiber_cocycle": "checked at F56: S(t)=sum_{j<K} t^(j+1)*D^j/(j+1)! starts at zero and has actual pointwise derivative T_gamma(t); actual derivative and initial-value uniqueness proves S(s+t)Q=T_gamma(t)(S(s)Q)+S(t)Q in the original function space, yielding the original right semidirect group law",
   "actual_observation_one_parameter_lift": "checked at F56: the explicit path eta(t)=(gamma(t),S(t)Q) has the original H identity and group law, the unchanged pointwise vertical tangent Q, and full original coordinate derivative (v,basisCoordinates(Q)); it is unique among all H subgroup paths over the same entire original base path with that vertical tangent; its time-one fiber is exactly the F55 factorial polynomial",
   "original_integral_one_parameter_assembly": "checked conditionally at F56: the full original integer/real bases, rational differential tensor, common positive K and the same rational fiber polynomial/inverse are constructed before every base path, tangent and unrestricted original Q; for every base path with the actual subgroup law and specified original coordinate derivative, all translation-series, lift-law, full-tangent, time-one and uniqueness statements follow internally; no differential, nilpotence, lift or exponential formula is supplied",
-  "one_parameter_remaining_base_interface": "OPEN after F56: the quantified result is for every given base path satisfying its law and coordinate tangent, not an existence theorem for such a path for every tangent; constructing and identifying the actual base exponential, its intended rational Lie-basis correspondence, global rational exp/log and inverse identities remains necessary before F54 logarithmic lattice use; uniform heights, quantitative matching, general descents and termination, original-frequency realization and WeightedCapture/P0 remain open",
+  "one_parameter_remaining_base_interface": "DISCHARGED for actual original base existence, uniqueness, global time-one bijectivity and rational logarithm through F57-F58; the original full H lift and global inverse are constructed in the original basis; intended Lie-basis identification, full H rational coordinate and denominator assembly, uniform heights, quantitative matching, general descents/termination, original-frequency realization and WeightedCapture/P0 remain open",
   "original_presentation_uniform_degrees": "checked at F55: substitution bounds and surjective original coordinates identify each actual triangular correction with the fixed joint law specialized in its first vector, yielding one degree bound before every translating point; a fixed rational function basis supplies one degree bound before every unrestricted real observation; neither a coefficient bound nor an additional uniform-degree premise is assumed",
   "constructed_original_finite_flag": "checked at F55: the original rational joint law, strict triangular law and function basis internally construct a common finite lowering flag; the positive height is R*(D+1)^m+1 for the derived degrees; with the manuscript original base nilpotence and full integer coordinates, the actual H is a nilpotent smooth Lie group with original topology, a finite nilpotency bound and contractible underlying space",
   "actual_original_translation_differential": "checked at F55: formal rational partial derivatives are identified with analytic derivatives along every differentiable original coordinate curve; at the original rational identity coordinate, one fixed rational tensor defines the actual original observation endomorphism, additive and homogeneous in every real tangent; all basis coefficients and every original pointwise value have the proved derivative, with unrestricted real observation coefficients",

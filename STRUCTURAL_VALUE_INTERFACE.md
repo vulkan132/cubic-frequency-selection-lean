@@ -1,5 +1,29 @@
 # Core interface around structural value extraction
 
+Update at F58: actual natural powers and exact discrete integration give
+the global rational original base logarithm. Both inverse identities and
+the original base-lattice denominator inclusions are proved. The original
+full H time-one map is globally equivalent to its full original tangent
+pair, with explicit inverse (Log_G(g),Psi(D(Log_G(g)))P) and correct origin,
+in the same constructed integer/real bases. The full H literal rational
+coordinate arrays and their denominator assembly, intended rational Lie-basis
+matching, uniform heights and external matching, general descents/termination,
+original-frequency realization and WeightedCapture/P0 remain open. The current
+frontier is ORIGINAL_GLOBAL_LOG_INTERFACE.md; earlier updates are historical.
+
+Update at F57: one fixed rational polynomial array constructs an actual
+base subgroup for every original coordinate tangent. Original associativity
+and strict triangular differential uniqueness prove the full real parameter
+group law, uniqueness and time rescaling. Its time-one coordinates are
+rational polynomials. The original H lift is now unique among all actual
+H subgroups with the same full original coordinate tangent, without assuming
+the same entire base path. Full original integer/real bases and unrestricted
+observations are retained. Intended Lie-basis identification, global
+bijectivity and rational logarithmic inverse, uniform heights and external
+matching, general descents/termination, original-frequency realization and
+final WeightedCapture/P0 remain open. The current frontier is
+ORIGINAL_ALL_TANGENTS_INTERFACE.md; all earlier updates are historical.
+
 Update at F56: every actual base subgroup path with the prescribed
 coordinate tangent has the exact finite original translation series.
 The integrated fiber satisfies the original right semidirect cocycle,

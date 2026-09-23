@@ -1,5 +1,9 @@
 # Original one-parameter translation and observation lift — F56
 
+Historical checkpoint. F57 constructs base subgroups for every coordinate
+tangent and proves uniqueness of the full H subgroup from its full initial
+tangent in ORIGINAL_ALL_TANGENTS_INTERFACE.md. STATUS.md records current scope.
+
 Checkpoint date: 2026-09-23. F56 adds 24 theorem declarations to F55's
 1518, bringing the project to 1542. P0 and WeightedCapture remain unproved.
 The work connects F55's actual differential and finite fiber polynomial

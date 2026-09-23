@@ -349,5 +349,19 @@ import GMZP0.OneParameterTranslation
 import GMZP0.OneParameterFiber
 import GMZP0.ObservationOneParameter
 import GMZP0.OriginalOneParameterLift
+import GMZP0.PolynomialTimePrimitive
+import GMZP0.TriangularDifferentialUniqueness
+import GMZP0.OriginalCoordinateVelocity
+import GMZP0.RationalTriangularFlow
+import GMZP0.OriginalBaseOneParameter
+import GMZP0.OriginalFullOneParameter
+import GMZP0.PolynomialNaturalIdentity
+import GMZP0.OriginalBaseEndpoint
+import GMZP0.PolynomialDiscretePrimitive
+import GMZP0.PolynomialSubgroupExtension
+import GMZP0.RationalOriginalPowers
+import GMZP0.OriginalBaseLogarithm
+import GMZP0.OriginalBaseLogLattice
+import GMZP0.ObservationTimeOneInverse
 
 /-! Components of the P0 manuscript. This is not yet a proof of P0. -/

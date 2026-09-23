@@ -791,5 +791,46 @@ These labels are separate from the manuscript research phases.
   WeightedCapture/P0 remain open. No new project axiom or external deep
   premise is added. See ORIGINAL_ONE_PARAMETER_INTERFACE.md.
 
+- F57 (2026-09-23): 1567 checked theorem declarations. Adds 25 results.
+  Exact polynomial time integration over rational algebras preserves all
+  rational tangent variables and the original initial coordinates. The
+  original multiplication derivative keeps every tangent component;
+  actual associativity gives right-translation covariance, while the
+  original strict triangular law gives prefix dependence in point variables.
+  Recursive integration constructs one rational polynomial family before
+  all real tangents and times. Global triangular differential uniqueness
+  proves its actual original subgroup law, uniqueness for every tangent
+  and exact time rescaling. Time-one base coordinates are fixed rational
+  polynomials. The F56 observation lift is assembled for every full original
+  coordinate tangent and is unique among all actual H subgroups with that
+  tangent, without supplying or assuming agreement of the base paths.
+  Full original integer/real bases, observations, uniform nilpotency and
+  the rational fiber inverse are retained. Intended Lie-basis and exponential
+  identification, global bijectivity and rational logarithmic inverse,
+  uniform heights, external matching, general descents/termination,
+  original-frequency realization and final WeightedCapture/P0 remain open.
+  No new project axiom or external deep premise is added. See
+  ORIGINAL_ALL_TANGENTS_INTERFACE.md.
+
+- F58 (2026-09-23): 1592 checked theorem declarations. Adds 25 results.
+  Actual subgroup natural times are powers of the same original endpoint;
+  polynomial identity on the entire natural grid proves time-one injectivity.
+  Rational discrete polynomial integration constructs a single original
+  power-coordinate array before all elements and real times. Natural-time
+  values are the actual original powers; double natural-grid extension
+  proves the full real parameter group law. The actual initial derivative
+  gives a fixed rational logarithm, and both inverse identities are proved.
+  The global base equivalence preserves the correct origin and actual
+  time-rescaled subgroups. Applying F54 to these actual maps gives both
+  original base-lattice denominator inclusions. The actual full H time-one
+  map is a global equivalence in the same constructed integer/real bases,
+  with explicit base-logarithm/fiber-polynomial inverse and correct origin.
+  Full H literal rational coordinate arrays and denominator assembly,
+  intended Lie-basis matching, uniform heights, external matching, general
+  descents/termination, original-frequency realization and WeightedCapture/P0
+  remain open. The logarithm is on original groups, not their quotients or
+  circle frequencies. No new project axiom or external deep premise is added.
+  See ORIGINAL_GLOBAL_LOG_INTERFACE.md.
+
 The historical twelve incorrect three-dimensional composite applications are
 unused throughout. No change to the scope or status of U0 is asserted.
